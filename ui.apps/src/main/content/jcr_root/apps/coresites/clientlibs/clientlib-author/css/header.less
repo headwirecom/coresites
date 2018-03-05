@@ -1,0 +1,17 @@
+
+/* In Author Mode change header position from fixed to static */
+
+
+@import (reference) "/apps/coresites/clientlibs/clientlib-site/site/css/variables.less";
+
+ .coresites-header {
+	position: static;
+}
+
+body.page {
+    margin-top: 0px;
+    
+     @media (max-width: @grid-float-breakpoint) {
+        margin-top:0px;     
+    }
+}

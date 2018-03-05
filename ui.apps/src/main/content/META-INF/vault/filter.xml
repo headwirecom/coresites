@@ -6,6 +6,7 @@
 
 
     <filter root="/conf/coresites" mode="merge"/>
+    <filter root="/content/coresites" mode="merge"/>
 
 
     <filter root="/etc/clientlibs/coresites"/>
