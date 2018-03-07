@@ -1,0 +1,12 @@
+<div data-sly-use.card="com.headwire.coresites.core.models.Card" class="${!wcmmode.disabled ? ' cq-dd-image' : ''}">
+    <div class="cmp cmp-image" data-sly-resource="${ @ resourceType='coresites/components/content/image'}">
+
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">${properties.title}</h5>
+        <sly data-sly-resource="${'text' @ resourceType='coresites/components/content/text'}"/>
+    </div>
+    <div class="text-center">
+        <a data-sly-test="${card.buttonLinkTo}" href="${card.buttonLinkTo @ extension = 'html'}" class="btn">${card.buttonLabel}</a>
+    </div>
+</div>
