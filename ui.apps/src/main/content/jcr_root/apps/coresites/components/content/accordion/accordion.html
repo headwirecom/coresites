@@ -1,0 +1,26 @@
+<div data-sly-use.accordion="com.headwire.coresites.core.models.Accordion"
+    data-sly-test.hasItems="${accordion.items}"
+    id="${accordion.id}"
+    data-sly-list="${accordion.items}"
+    class="p-0 border-0">
+    <div class="item card bg-transparent border-0">
+        <a aria-expanded="false"
+           class="d-flex justify-content-between align-items-center card-header border-0 bg-transparent px-3"
+           ref="collapsible"
+           data-toggle="collapse"
+           data-parent="#${accordion.id}"
+           href="#${accordion.id}${itemList.index}"
+           aria-controls="#${accordion.id}${itemList.index}">
+            <h4>${item.title}</h4>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+        <div class="collapse" role="tabpanel" id="${accordion.id}${itemList.index}">
+            <div class="card-body p-0 px-3 bg-transparent border-0">
+                ${item.text @ context='html'}
+            </div>
+        </div>
+    </div>
+</div>
+<div data-sly-test="${!hasItems && !wcmmode.disabled}">
+    Add items through the component dialog
+</div>
