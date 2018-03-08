@@ -1,0 +1,16 @@
+<div data-sly-test="${!wcmmode.disabled}" class="cq-dd-video">
+    <div data-sly-use.video="com.headwire.coresites.core.models.Video"
+         data-sly-test.hasSource="${video.source}">
+        <div data-sly-test.external="${video.external}" class="embed-responsive embed-responsive-16by9">
+            <iframe  src="${video.source}" frameborder="0" allowfullscren>
+            </iframe>
+        </div>
+        <video data-sly-test="${!external}" controls>
+            <source src="${video.source}"/>
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div data-sly-test="${!hasSource}">
+        Configure a source for the video
+    </div>
+</div>
