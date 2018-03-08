@@ -13,13 +13,13 @@
                     jcr:primaryType="nt:unstructured">
                     <cq:styles jcr:primaryType="nt:unstructured">
                         <item0
-                            cq:styleClasses="bg-inverse text-white"
-                            cq:styleId="1520449992818"
+                            cq:styleClasses="bg-dark text-light"
+                            cq:styleId="pagethemedark"
                             cq:styleLabel="Dark"
                             jcr:primaryType="nt:unstructured"/>
                         <item1
-                            cq:styleClasses="bg-gray-dark text-warning"
-                            cq:styleId="1520450005945"
+                            cq:styleClasses="bg-light text-dark"
+                            cq:styleId="pagethemelight"
                             cq:styleLabel="Light"
                             jcr:primaryType="nt:unstructured"/>
                     </cq:styles>
