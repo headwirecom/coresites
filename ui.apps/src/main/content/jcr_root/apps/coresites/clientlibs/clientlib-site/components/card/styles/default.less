@@ -1,0 +1,35 @@
+/* Coresites Card Default style */
+.cmp-card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .cmp-image {
+    border-radius: 3px 3px 0px 0px;
+    overflow: hidden;
+  }
+
+  .cmp-card-body {
+    background: @gray-lighter;
+    color: @gray-dark;
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border-radius: 0px 0px 3px 3px;
+
+    .cmp-card-button {
+      padding: 5px;
+      margin: 0 auto;
+      border-radius: 3px;
+      color: white;
+      background: @brand-success;
+      &:hover {
+        text-decoration: none;
+        background: darken(@brand-success, 20%);
+      }
+    }
+  }
+}
