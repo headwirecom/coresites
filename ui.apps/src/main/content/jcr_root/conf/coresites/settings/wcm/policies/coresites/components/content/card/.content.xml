@@ -1,0 +1,22 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured"/>
+    <policy_1520630683778
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Theme styles"
+        sling:resourceType="wcm/core/components/policy/policy">
+        <jcr:content jcr:primaryType="nt:unstructured"/>
+        <cq:styleGroups jcr:primaryType="nt:unstructured">
+            <item0
+                cq:styleGroupLabel="Card Style"
+                jcr:primaryType="nt:unstructured">
+                <cq:styles jcr:primaryType="nt:unstructured">
+                    <item0
+                        cq:styleClasses="cmp-card--no-background"
+                        cq:styleId="1520630696440"
+                        cq:styleLabel="No Background"
+                        jcr:primaryType="nt:unstructured"/>
+                </cq:styles>
+            </item0>
+        </cq:styleGroups>
+    </policy_1520630683778>
+</jcr:root>
