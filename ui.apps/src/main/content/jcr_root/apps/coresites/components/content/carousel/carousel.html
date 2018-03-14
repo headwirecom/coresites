@@ -1,0 +1,40 @@
+<div data-sly-use.carousel="com.headwire.coresites.core.models.Carousel"
+     data-sly-test.hasItems="${carousel.listItems}"
+     id="${resource.name}"
+     class="carousel slide w-100 text-light">
+    <style>
+        .cc-no-image
+        {
+            position: static;
+            background-color: #212529;
+        }
+    </style>
+    <ol data-sly-list="${carousel.listItems}" class="carousel-indicators">
+        <li data-target="${resource.name}" data-slide-to="${itemList.index}" class="${itemList.first ? 'active' : ''}"></li>
+    </ol>
+
+    <div data-sly-list="${carousel.listItems}" role="listbox" class="carousel-inner">
+        <div class="carousel-item ${itemList.first ? 'active' : ''}">
+            <img  data-sly-test.hasImage="${item.imageSrc}" class="d-block w-100" src="${item.imageSrc}"/>
+            <div class="carousel-caption ${!hasImage ? 'cc-no-image' : ''}">
+                <!-- To-do: come up with a better way of handling missing images -->
+                <h5>${item.title}</h5>
+                ${item.description @ context='html'}
+            </div>
+        </div>
+    </div>
+
+    <a href="#${resource.name}" role="button" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
+    <a href="#${resource.name}" role="button" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
+</div>
+<div data-sly-test="${!hasItems && !wcmmode.disabled}">
+    Configure the carousel through the component dialog
+</div>
