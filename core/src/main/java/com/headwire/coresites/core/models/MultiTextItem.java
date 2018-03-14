@@ -12,7 +12,7 @@ import javax.inject.Inject;
 
 @Model(adaptables = Resource.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class AccordionItem {
+public class MultiTextItem {
 
     @Inject
     private String title;

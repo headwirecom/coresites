@@ -5,5 +5,5 @@
     jcr:primaryType="cq:Component"
     sling:resourceSuperType="coresites/components/content/multiTextContainer"
     componentGroup="Coresites.Content"
-    jcr:description="Accordion container"
-    jcr:title="Accordion"/>
+    jcr:description="Tabs container"
+    jcr:title="Tabs"/>

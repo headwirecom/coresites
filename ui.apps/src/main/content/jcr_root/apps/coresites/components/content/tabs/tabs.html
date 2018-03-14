@@ -1,0 +1,32 @@
+<ul data-sly-use.tabs="com.headwire.coresites.core.models.MultiTextContainer"
+    data-sly-test.hasItems="${tabs.items}"
+    id="${tabs.id}"
+    data-sly-list="${tabs.items}"
+    class="nav nav-tabs"
+    role="tablist">
+    <li class="nav-item">
+        <a class="nav-link ${itemList.first ? 'active' : ''}"
+           id="${tabs.id}-${itemList.index}-tab"
+           data-toggle="tab"
+           href="#${tabs.id}-${itemList.index}-content"
+           role="tab"
+           aria-controls="${item.title}"
+           aria-selected="${itemList.first ? 'true' : false}">
+            ${item.title}
+        </a>
+    </li>
+</ul>
+<div data-sly-test="${hasItems}"
+     data-sly-list="${tabs.items}"
+    class="tab-content"
+    id="${tabs.id}-content">
+    <div class="tab-pane fade ${itemList.first ? 'show active' : ''}"
+        id="${tabs.id}-${itemList.index}-content"
+        role="tabpanel"
+        aria-labelledby="${tabs.id}-${itemList.index}-tab">
+        ${item.text @ context='html'}
+    </div>
+</div>
+<div data-sly-test="${!hasItems && !wcmmode.disabled}">
+    Add items through the component dialog
+</div>
