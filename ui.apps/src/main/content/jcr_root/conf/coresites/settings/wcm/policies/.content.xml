@@ -1,4 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
-    jcr:primaryType="cq:Page"/>
+    jcr:primaryType="cq:Page">
+    <coresites jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <card jcr:primaryType="nt:unstructured"/>
+            </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1520449984995
+                        jcr:lastModified="{Date}2018-03-07T11:13:50.094-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Theme styles"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Theme"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="bg-dark text-light"
+                                        cq:styleId="pagethemedark"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="bg-light text-dark"
+                                        cq:styleId="pagethemelight"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1520449984995>
+                </page>
+            </structure>
+        </components>
+    </coresites>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1520289293027
+                        jcr:lastModified="{Date}2018-03-15T17:54:34.303-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Coresites Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Article,group:Coresites.Content,group:Coresites.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1520289293027>
+                    <policy_1568462218782546
+                        jcr:lastModified="{Date}2018-03-15T17:30:57.368-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Coresites Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1568462218782546>
+                    <policy_1521160232527
+                        jcr:description="Coresites components for authoring article pages"
+                        jcr:lastModified="{Date}2018-03-15T17:59:32.231-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Coresites Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Article,group:Coresites.Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1521162017016
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/.*"
+                                    droptarget="image"
+                                    resourceType="coresites/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_1521160232527>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>
