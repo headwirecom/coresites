@@ -2,9 +2,25 @@
 
 */-->
 
-<header class="coresites-header">
-    <div class="container">
-        <a class="coresites-header-logo" href="#">Coresites</a>
-        <h1>${currentPage.title ? currentPage.title : 'header'}</h1>
+<nav class="navbar align-items-center navbar-light w-100">
+    <!--/* TODO: replace the hardcoded width (it's needed to make the drop target work)*/-->
+    <span class="navbar-logo" style="width: 50px;">
+        <a href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">
+            <div data-sly-resource="${'logo' @ resourceType='coresites/components/content/image'}">
+
+            </div>
+        </a>
+    </span>
+
+    <!-- Hamburger toggle button -->
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"
+            aria-controls="collapseExample">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Menu -->
+    <div class="collapse navbar-collapse justify-content-end"
+         id="navbarSupportedContent"
+         data-sly-resource="${'navigation' @ resourceType='coresites/components/structure/navigation'}">
     </div>
-</header>
+</nav>
