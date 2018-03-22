@@ -1,6 +1,6 @@
 <div data-sly-use.teaser="com.headwire.coresites.core.models.Teaser"
-     class="d-flex flex-column col-12 col-md-10 justify-content-between align-items-center">
-    <div class="${teaser.alignContent}">
+     class="cmp-teaser justify-content-between">
+    <div class="cmp-teaser__text">
         <div data-sly-test.showTitle="${!teaser.hideTitle}"
              data-sly-resource="${'title' @ resourceType='coresites/components/content/title'}">
         </div>
@@ -12,7 +12,7 @@
         </div>
     </div>
     <div data-sly-test.showButtons="${!teaser.hideButtons && teaser.buttons}"
-         class="d-flex flex-wrap ${teaser.alignButtons}"
+         class="cmp-teaser__buttons d-flex flex-wrap"
          data-sly-list="${teaser.buttons}">
         <a class="btn m-2 ${teaser.buttonSize} ${item.color}"
             href="${item.link}">
