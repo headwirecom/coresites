@@ -2,9 +2,15 @@
 
 */-->
 
-<nav class="navbar align-items-center navbar-light w-100">
+<nav class="navbar align-items-center navbar-light navbar-expand-lg w-100">
     <!--/* TODO: replace the hardcoded width (it's needed to make the drop target work)*/-->
-    <span class="navbar-logo" style="width: 50px;">
+    <style>
+        .placeholder-width
+        {
+            width: 50px;
+        }
+    </style>
+    <span class="navbar-logo ${!wcmmode.disabled ? 'placeholder-width' : ''}">
         <a href="${properties.rootPath || currentStyle.rootPath @ extension='html'}">
             <div data-sly-resource="${'logo' @ resourceType='coresites/components/content/image'}">
 
@@ -19,7 +25,7 @@
     </button>
 
     <!-- Collapsible Menu -->
-    <div class="collapse navbar-collapse justify-content-end"
+    <div class="collapse navbar-collapse justify-content-end ${!wcmmode.disabled ? 'placeholder-width' : ''}"
          id="navbarSupportedContent"
          data-sly-resource="${'navigation' @ resourceType='coresites/components/structure/navigation'}">
     </div>

@@ -73,7 +73,7 @@ public class CarouselSlide implements ListItem{
         }
 
         String superType = resource.getResourceResolver().getParentResourceType(resource);
-        LOG.debug("SuperType of '{}': {}", resource.getPath(), superType);
+        LOG.trace("SuperType of '{}': {}", resource.getPath(), superType);
 
         if(superType != null && superType.contains("image"))
         {

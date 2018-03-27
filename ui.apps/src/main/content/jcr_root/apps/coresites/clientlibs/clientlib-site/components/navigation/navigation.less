@@ -1,0 +1,24 @@
+.cmp-navigation {
+	.cmp-navigation__group {
+		@media (min-width: 992px)
+		{
+			-ms-flex-direction: row;
+            flex-direction: row;
+		}
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		.cmp-navigation__item {
+			.cmp-navigation__item-link
+			{
+				display: block;
+				padding: .5rem 1rem;
+				font-size: 18px;
+			}
+		}
+	}
+}
