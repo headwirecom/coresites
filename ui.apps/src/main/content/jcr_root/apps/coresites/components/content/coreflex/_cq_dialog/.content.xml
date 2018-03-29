@@ -26,25 +26,6 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/container">
                                         <items jcr:primaryType="nt:unstructured">
-                                            <source
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                                fieldLabel="Background Image Path"
-                                                name="./backgroundImagePath"
-                                                rootPath="/content/dam"/>
-                                            <width
-                                                jcr:primaryType="nt:unstructured"
-                                                fieldLabel="Background Image Path"
-                                                name="./backgroundImagePath"
-                                                rootPath="/content/dam"/>
-                                            <toggle
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                                                fieldDescription="Toggle between full width and container blocks"
-                                                name="./fullWidth"
-                                                text="Full Width"
-                                                uncheckedValue="false"
-                                                value="true"/>
                                         </items>
                                     </column>
                                 </items>
