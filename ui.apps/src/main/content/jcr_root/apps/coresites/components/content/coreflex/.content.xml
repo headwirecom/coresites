@@ -3,5 +3,6 @@
     cq:isContainer="true"
     jcr:description="Include components in a responsive grid."
     jcr:primaryType="cq:Component"
-    jcr:title="Core Layout Container"
+    jcr:title="Core Flex Container"
+    sling:resourceSuperType="wcm/foundation/components/parsys"
     componentGroup="Coresites.Content"/>
