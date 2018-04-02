@@ -4,7 +4,8 @@
     </div>
     <div class="cmp-card-body">
         <h5 class="cmp-card-title">${properties.title}</h5>
-        <sly data-sly-resource="${'text' @ resourceType='coresites/components/content/text'}"/>
+        <div data-sly-resource="${'text' @ resourceType='coresites/components/content/text'}">
+        </div>
         <a data-sly-test="${card.buttonLinkTo}" href="${card.buttonLinkTo @ extension = 'html'}" class="cmp-card-button">${card.buttonLabel}</a>
     </div>
 </div>

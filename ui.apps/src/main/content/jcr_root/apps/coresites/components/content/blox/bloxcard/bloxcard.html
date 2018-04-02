@@ -1,0 +1,6 @@
+<sly data-sly-use.block="com.headwire.coresites.core.models.Block"/>
+
+<div class="${block.fullWidth ? 'container-fluid' : ''}" style="${block.styleString @ context = 'attribute'}">
+    <div data-sly-resource="${'card' @ resourceType='coresites/components/content/card'}">
+    </div>
+</div>
