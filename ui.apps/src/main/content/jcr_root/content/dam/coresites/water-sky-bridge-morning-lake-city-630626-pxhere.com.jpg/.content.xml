@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d367be01-c7c9-4498-b9bc-c9acab514591">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/water-sky-bridge-morning-lake-city-630626-pxhere.com.jpg"
+        jcr:lastModified="{Date}2018-04-02T12:01:00.577-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-04-02T12:00:59.555-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}4.800000190734863"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}7.5933332443237305"
+            dam:Progressive="no"
+            dam:sha1="055863b136ec29e88ef43801fbeb075279d452f7"
+            dam:size="{Long}994115"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1440"
+            tiff:ImageWidth="{Long}2278"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="32e9b5b8-6203-4f8c-a248-5009b0ce86fd">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/Flarelogo.svg"
+        jcr:lastModified="{Date}2018-04-02T12:01:04.999-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-04-02T12:01:04.076-07:00"
+            dam:sha1="ab2162b04cd7fe99af4f77b2f8e88008bb001fd8"
+            dam:size="{Long}5642"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

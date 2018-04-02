@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a70ec309-9a27-4b9a-be06-bf71d09d76d4">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/background2.jpg"
+        jcr:lastModified="{Date}2018-04-02T12:01:02.397-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="GoodFon.ru&#xa;"
+            dam:extracted="{Date}2018-04-02T12:01:01.926-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}12.5"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}20.0"
+            dam:Progressive="no"
+            dam:sha1="73d716e4aea33e759a0147c7160aa57b07cb7db7"
+            dam:size="{Long}1046591"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1200"
+            tiff:ImageWidth="{Long}1920"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

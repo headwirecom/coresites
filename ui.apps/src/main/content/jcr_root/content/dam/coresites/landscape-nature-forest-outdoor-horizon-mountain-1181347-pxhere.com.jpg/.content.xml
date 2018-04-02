@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3859f6b2-73ae-4862-812f-93835ce5e04d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/landscape-nature-forest-outdoor-horizon-mountain-1181347-pxhere.com.jpg"
+        jcr:lastModified="{Date}2018-04-02T12:00:58.352-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-04-02T12:00:57.246-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}4.800000190734863"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}7.199999809265137"
+            dam:Progressive="no"
+            dam:sha1="554dbc87bfa3fb54c217d74a6f75ad02929e7d61"
+            dam:size="{Long}700543"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1440"
+            tiff:ImageWidth="{Long}2160"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

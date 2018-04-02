@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0e804d84-c330-4520-8e12-4efc13ae522f">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/meeting_room.jpg"
+        jcr:lastModified="{Date}2018-04-02T12:00:59.376-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 90&#xa;&#xa;"
+            dam:extracted="{Date}2018-04-02T12:00:58.615-07:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}96"
+            dam:Physicalheightininches="{Decimal}8.354166984558105"
+            dam:Physicalwidthindpi="{Long}96"
+            dam:Physicalwidthininches="{Decimal}12.5"
+            dam:Progressive="no"
+            dam:sha1="b6a8e65736dc8ea3ad7872629e3708fd8c327cea"
+            dam:size="{Long}214122"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}802"
+            tiff:ImageWidth="{Long}1200"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

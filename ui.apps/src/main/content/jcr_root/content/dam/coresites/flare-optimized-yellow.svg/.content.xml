@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9901255a-d545-4e96-ab93-d2ac37047377">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/flare-optimized-yellow.svg"
+        jcr:lastModified="{Date}2018-04-02T12:00:57.222-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-04-02T12:00:53.144-07:00"
+            dam:sha1="4fcd1902bca965c1c1e3b522c714fdd0cb49f873"
+            dam:size="{Long}7360"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-04-02T12:12:45.120-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

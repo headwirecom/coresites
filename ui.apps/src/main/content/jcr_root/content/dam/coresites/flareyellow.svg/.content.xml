@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6b8ea8ce-b7e7-43a7-ae8f-5a47dad92ab3">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/flareyellow.svg"
+        jcr:lastModified="{Date}2018-04-02T12:00:57.141-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-04-02T12:00:53.144-07:00"
+            dam:sha1="fa0448092e740cf1c0139692e0b42444871e85b6"
+            dam:size="{Long}3387"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}4"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}4"
+                lastUsed="{Date}2018-04-02T13:17:54.993-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
