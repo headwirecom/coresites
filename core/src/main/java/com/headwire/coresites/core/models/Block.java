@@ -46,7 +46,7 @@ public class Block {
 
         if(backgroundType.equals("image"))
         {
-            return "background: url('" + backgroundImagePath + "');";
+            return "background: url('" + backgroundImagePath + "') center;";
         }
 
         return "background-color: transparent;";
