@@ -1,0 +1,6 @@
+<div data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-sly-test="${properties.fileReference}"
+     class="cmp-image${!wcmmode.disabled ? ' cq-dd-image' : ''}">
+    <img src="${properties.fileReference}"/>
+</div>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !properties.fileReference, classAppend = 'cmp-image cq-dd-image'}"></sly>
