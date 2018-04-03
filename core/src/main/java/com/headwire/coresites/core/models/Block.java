@@ -46,9 +46,9 @@ public class Block {
     {
         if(minHeight == null || minHeight.isEmpty())
         {
-            return "min-height: 10px;";
+            return "min-height: 100px;";
         }
-        return "min-height: " + minHeight + "px;";
+        return "height: " + minHeight + "px;";
     }
 
     private String generateBackgroundStyle()
@@ -70,7 +70,7 @@ public class Block {
 
         if(backgroundType.equals("image"))
         {
-            return "background: url('" + backgroundImagePath + "') center;";
+            return "background: url('" + backgroundImagePath + "') center; background-size: cover;";
         }
 
         return "background-color: transparent;";
