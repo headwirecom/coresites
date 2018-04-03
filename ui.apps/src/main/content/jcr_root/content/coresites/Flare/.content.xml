@@ -2,11 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-02T14:30:57.511-07:00"
+        cq:lastModified="{Date}2018-04-03T14:30:53.148-07:00"
         cq:lastModifiedBy="admin"
-        cq:styleIds="[1520449992818]"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
-        jcr:lastModified="{Date}2018-04-02T14:25:38.801-07:00"
+        jcr:lastModified="{Date}2018-04-03T09:52:05.466-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="Flare"
@@ -19,50 +18,506 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <block2
+                cq:styleIds="[1522775960576]"
                 jcr:created="{Date}2018-04-02T14:26:00.516-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-02T14:28:57.977-07:00"
+                jcr:lastModified="{Date}2018-04-03T11:21:35.125-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/block2"
+                sling:resourceType="coresites/components/content/coreblock"
                 backgroundImagePath="/content/dam/coresites/landscape-nature-forest-outdoor-horizon-mountain-1181347-pxhere.com.jpg"
                 backgroundType="image"
-                fullWidth="false">
+                bottomPadding="250"
+                fullWidth="false"
+                topPadding="250">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <vectorgraphic
+                        jcr:created="{Date}2018-04-03T13:23:57.499-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T13:58:02.748-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/vectorGraphic"
+                        displayPopupTitle="false"
+                        fileName="flareyellow.svg"
+                        isDecorative="true">
+                        <file/>
+                    </vectorgraphic>
+                    <coreflex
+                        jcr:created="{Date}2018-04-03T09:04:13.005-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:04:13.005-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/coreflex">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <title
+                            cq:styleIds="[1522779776111]"
+                            jcr:created="{Date}2018-04-03T11:24:25.671-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T11:24:44.638-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Flare"
+                            sling:resourceType="coresites/components/content/title"
+                            type="[h1,h1]"/>
+                        <text
+                            cq:styleIds="[1522779812077]"
+                            jcr:created="{Date}2018-04-03T09:03:51.776-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T11:24:14.819-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>Making The World Look Small&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </coreflex>
+                </grid>
+            </block2>
+            <block2_2038094251
+                cq:styleIds="[1522775960576,1522776022399,1522790387505]"
+                jcr:created="{Date}2018-04-03T09:28:53.599-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T14:30:21.253-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                fullWidth="false"
+                minHeight="50">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <header
+                        jcr:created="{Date}2018-04-03T09:29:02.809-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:30:39.700-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/structure/header"
+                        rootPath="/content/coresites">
+                        <logo
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"/>
+                        <navigation
+                            jcr:lastModified="{Date}2018-04-03T09:30:04.479-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/structure/navigation"
+                            collectAllPages="true"
+                            navigationRoot="/content/coresites"
+                            skipNavigationRoot="true"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </header>
+                </grid>
+            </block2_2038094251>
+            <block2_972069599
+                jcr:created="{Date}2018-04-03T09:32:34.094-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T10:57:16.212-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
                 <grid
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
-                        jcr:created="{Date}2018-04-02T14:29:10.916-07:00"
+                        jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-02T14:29:10.916-07:00"
+                        jcr:lastModified="{Date}2018-04-03T09:42:32.897-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/title"/>
+                        jcr:title="Ihre Chance"
+                        sling:resourceType="coresites/components/content/title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
                     <text
-                        jcr:created="{Date}2018-04-02T14:29:14.086-07:00"
+                        jcr:created="{Date}2018-04-03T09:33:16.222-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-02T14:29:41.020-07:00"
+                        jcr:lastModified="{Date}2018-04-03T09:42:58.943-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Making The World Look Small&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
+                        text="&lt;p>Der&amp;nbsp;amerikanische&amp;nbsp;Absatzmarkt mit über&amp;nbsp;270 Millionen Konsumenten&amp;nbsp;bietet eine Chance für jedes Unternehmen. Dies nicht nur Dank der vorhandenen&amp;nbsp;economy of scale,&amp;nbsp;sondern auch zur Knüpfung von neuen Kontakten und weltweiten Allianzen.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                    <text_1128410048
+                        jcr:created="{Date}2018-04-03T09:43:15.533-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:43:19.519-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Mit einer Währung, einem Wirtschaftsraum, einer Sprache, einem Absatzmarkt und einem sehr fördernden Klima für KMU, besitzt die USA beinahe ideale betriebswirtschaftliche Voraussetzungen.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text_1128410048>
+                    <image
+                        jcr:created="{Date}2018-04-03T09:43:26.325-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:44:21.396-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/image"
+                        fileReference="/content/dam/coresites/golden-gate-bridge-388917_150.jpg">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                    <text_1765545310
+                        jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:44:37.796-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Es gilt, die Gelegenheit zu nutzen und sich gemäss den eigenen Stärken richtig im amerikanischen Markt zu positionieren. Mit&amp;nbsp;modernen technologischen Mitteln&amp;nbsp;lassen sich vorteilhafte Konstrukte schaffen, mit welchen sich der Einstieg in den amerikanischen Markt auch&amp;nbsp;für kleinere Firmen&amp;nbsp;mit einem gut&amp;nbsp;abschätzbaren finanziellen Risiko&amp;nbsp;bewerkstelligen lässt.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_1765545310>
                 </grid>
-            </block2>
-            <header
-                jcr:created="{Date}2018-04-02T14:30:57.509-07:00"
+            </block2_972069599>
+            <block2_972069599_cop
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-03T09:32:34.094-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-02T14:30:57.509-07:00"
+                jcr:lastModified="{Date}2018-04-03T10:57:24.875-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/structure/header">
-                <logo
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
+                <grid
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="coresites/components/content/image"/>
-                <navigation
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <title
+                        jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:55:22.954-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Unser Angebot"
+                        sling:resourceType="coresites/components/content/title">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
+                    <text
+                        jcr:created="{Date}2018-04-03T09:33:16.222-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T09:54:52.242-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Wir sehen uns nicht als Berater, Distributor oder Agent für Ihr Unternehmen, sondern als&amp;nbsp;&amp;quot;Facilitator&amp;quot;.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;In dieser Funktion wollen wir&amp;nbsp;gemeinsam mit Ihnen&amp;nbsp;eine Basis schaffen, welche ein langfristiges Wachstum ihres Unternehmens sichert. Dabei spezialisieren wir uns auf die Betreuung von&amp;nbsp;ausschliesslich kleinen und mittelgrossen Unternehmen, deren Bedürfnisse von den grossen Beraterfirmen oft nur ungenügend erkannt werden.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;Wir bieten Ihnen Produkte, die konkrete Ziele verfolgen.&amp;nbsp;&lt;br>&#xa;&lt;br>&#xa;Wir helfen Ihnen die Türe nach den USA aufzustossen. Wir stellen Ihnen &amp;quot;den Schuh&amp;quot; bereit und unterstützen Sie bei ihren ersten Gehversuchen. Sie kennen Ihr Produkt und Ihr Segment, wir kennen den amerikanischen Kunden und die lokalen Gegebenheiten. Den&amp;nbsp;Schritt in die neue Welt&amp;nbsp;können wir so gemeinsam tun.&amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                </grid>
+            </block2_972069599_cop>
+            <block2_111988501
+                jcr:created="{Date}2018-04-03T09:54:03.472-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T11:27:26.781-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundImagePath="/content/dam/coresites/water-sky-bridge-morning-lake-city-630626-pxhere.com.jpg"
+                backgroundType="image"
+                bottomPadding="250"
+                fullWidth="false"
+                topPadding="250"/>
+            <block2_972069599_cop_127798301
+                jcr:created="{Date}2018-04-03T09:32:34.094-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T10:57:35.060-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
+                <grid
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="coresites/components/structure/navigation"/>
-            </header>
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <title
+                        jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:05:14.072-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Unsere Mitarbeit"
+                        sling:resourceType="coresites/components/content/title"
+                        type="h1">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
+                    <text
+                        jcr:created="{Date}2018-04-03T09:33:16.222-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:05:23.952-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Im Sinne eines Coaching betreuen wir Sie beim&amp;nbsp;Markteintrittund bei der&amp;nbsp;Führung ihres US-Tochterunternehmens.&amp;nbsp;&lt;br>&#xa;Der erfolgreiche Markteintritt bedingt:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Die Prüfung der Eintrittsvoraussetzungen;&lt;/li>&#xa;&lt;li>Eine Konkurrenz- und Marktanalyse;&lt;/li>&#xa;&lt;li>Die Bestimmung des Zielmarktsegmentes;&lt;/li>&#xa;&lt;li>Eine solide Eintrittsstrategie;&lt;/li>&#xa;&lt;li>Sowie eine Kostenabschätzung und Finanzplanung;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text>
+                    <text_1765545310
+                        jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:05:35.118-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Bei der Führung von US-Tochtergesellschaften werden zudem Kenntnisse über die Grundzüge des amerikanischen Geschäftslebens benötigt. Unsere Mitarbeiter verfügen nicht nur über die notwendigen Kenntnisse des amerikanischen Charakters, Geschäftsetikette und Verhandlungsstils, sondern auch über ein&amp;nbsp;Netzwerk von ausgewählten Fachkräften vor Ort.&lt;/p>&#xa;&lt;p>&lt;a>&amp;nbsp;&lt;/a>&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </text_1765545310>
+                    <image
+                        jcr:created="{Date}2018-04-03T09:43:26.325-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:07:49.006-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/image"
+                        fileReference="/content/dam/coresites/matterhorn-918442_150.jpg">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                </grid>
+            </block2_972069599_cop_127798301>
+            <block2_972069599_cop_1007748406
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-03T09:32:34.094-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T10:57:41.310-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <title
+                        jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:04:55.261-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Unsere Konzept"
+                        sling:resourceType="coresites/components/content/title"
+                        type="h1">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </title>
+                    <text_1128410048
+                        jcr:created="{Date}2018-04-03T09:43:15.533-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:04:43.070-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Mit unserem&amp;nbsp;EFFP-Phasenplan&amp;nbsp;bieten wir eine Vielzahl von Bestandteilen zur&amp;nbsp;Evaluation, Formation, Foundation und Penetration&amp;nbsp;des neuen Marktes.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Erste Marktabklärungen und Analysen&lt;/li>&#xa;&lt;li>Gründung von Tochterfirmen und Niederlassungen&lt;/li>&#xa;&lt;li>Gemeinsame Erstellung von Businessplan&lt;/li>&#xa;&lt;li>Erarbeitung von Finanzierungskonzepten&lt;/li>&#xa;&lt;li>Errichtung einer Geschäftsadresse&lt;/li>&#xa;&lt;li>Bereitstellung der nötigen Infrastruktur und Personals während der Aufbauphase&lt;/li>&#xa;&lt;li>Administrative Führung und Operation der Unternehmung&lt;/li>&#xa;&lt;li>Führung von Vertragsverhandlungen und Beratung beim Abschluss von Geschäfts- und Kooperationsverträgen&lt;/li>&#xa;&lt;li>Erstellung der Jahresabschlüsse, Steuererklärungen und Buchprüfungen nach den GAAP und des DBA&lt;/li>&#xa;&lt;li>Netzwerk von Kontakten zu bewährten Businessprofessionals, wie Treuhänder, Steuerberatern, Anwälten, Einwanderungsexperten, Marktforschungsinstituten oder Übersetzungsservice.&amp;nbsp;&amp;nbsp;&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                    </text_1128410048>
+                </grid>
+            </block2_972069599_cop_1007748406>
+            <block2_896081764
+                jcr:created="{Date}2018-04-03T09:57:50.169-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T11:27:17.222-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundImagePath="/content/dam/coresites/ocean-horizon-architecture-sky-sun-sunset-744301-pxhere.com.jpg"
+                backgroundType="image"
+                bottomPadding="250"
+                fullWidth="false"
+                topPadding="250"/>
+            <block2_2125998065
+                cq:styleIds="[1522775960576]"
+                jcr:created="{Date}2018-04-03T09:57:56.435-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-03T10:58:07.527-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="20"
+                fullWidth="false"
+                topPadding="20">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <text
+                        jcr:created="{Date}2018-04-03T09:58:55.922-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T14:30:53.127-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h5>Flare International (AG)&lt;/h5>&#xa;&lt;p>Wolfetslohstrasse 2&lt;br>&#xa;CH-8907 Wettswil&lt;br>&#xa;Switzerland&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="3"/>
+                        </cq:responsive>
+                    </text>
+                    <text_1703993047
+                        jcr:created="{Date}2018-04-03T09:58:59.294-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:02:24.414-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>T +41 (044) 586 98 56&lt;br>&#xa;&lt;a href=&quot;mailto:info@flare.ch&quot;>info@flare.ch&lt;/a>&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="3"/>
+                        </cq:responsive>
+                    </text_1703993047>
+                    <text_508751232
+                        jcr:created="{Date}2018-04-03T09:59:03.035-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:02:33.078-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h5>Flare International (USA)&lt;/h5>&#xa;&lt;p>8001 Irvine Center Drive&lt;br>&#xa;Suite #400&lt;br>&#xa;Irvine, Ca 92618, USA&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="3"/>
+                        </cq:responsive>
+                    </text_508751232>
+                    <text_1826340220
+                        jcr:created="{Date}2018-04-03T09:59:05.455-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:02:42.109-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>T +1 (949) 754 3133&lt;br>&#xa;F +1 (949) 362 9663&lt;br>&#xa;&lt;a href=&quot;mailto:info@flareusa.com&quot;>info@flareusa.com&lt;/a>&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="3"/>
+                        </cq:responsive>
+                    </text_1826340220>
+                    <coreflex
+                        cq:styleIds="[1522264028803,1522344078058]"
+                        jcr:created="{Date}2018-04-03T10:00:42.230-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-03T10:01:17.545-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/coreflex">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text
+                            jcr:created="{Date}2018-04-03T10:00:52.958-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T10:01:40.042-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>© 2017 Flare International&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.facebook.com/&quot;>&amp;nbsp;&lt;/a>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <navigation
+                            jcr:created="{Date}2018-04-03T10:01:04.771-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T10:01:52.742-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/structure/navigation"
+                            collectAllPages="true"
+                            navigationRoot="/content/coresites"
+                            skipNavigationRoot="true"/>
+                    </coreflex>
+                </grid>
+            </block2_2125998065>
         </root>
     </jcr:content>
 </jcr:root>
