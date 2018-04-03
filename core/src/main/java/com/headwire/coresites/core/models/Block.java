@@ -31,13 +31,26 @@ public class Block {
     @Inject
     private String minHeight;
 
+    @Inject
+    private String topPadding;
+
+    @Inject
+    private String bottomPadding;
+
     public String getStyleString()
     {
         String backgroundStyle = generateBackgroundStyle();
         String heightStyle = generateMinHeightStyle();
+        String topPaddingStyle = "padding-top: " + topPadding + "px;";
+        String bottomPaddingStyle = "padding-bottom: " + bottomPadding + "px;";
 
         StringBuilder sb = new StringBuilder();
-        sb.append(backgroundStyle).append(" ").append(heightStyle);
+        sb
+        .append(backgroundStyle).append(" ")
+        .append(heightStyle).append(" ")
+        .append(backgroundStyle).append(" ")
+        .append(topPaddingStyle).append(" ")
+        .append(bottomPaddingStyle);
 
         return sb.toString();
     }
@@ -124,4 +137,13 @@ public class Block {
     public String getMinHeight() {
         return minHeight;
     }
+
+    public String getTopPadding() {
+        return topPadding;
+    }
+
+    public String getBottomPadding() {
+        return bottomPadding;
+    }
+
 }
