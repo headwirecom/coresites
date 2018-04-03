@@ -25,9 +25,33 @@ public class Block {
     @Inject
     private String gradientColor1;
 
-    @Inject String gradientColor2;
+    @Inject
+    private String gradientColor2;
+
+    @Inject
+    private String minHeight;
 
     public String getStyleString()
+    {
+        String backgroundStyle = generateBackgroundStyle();
+        String heightStyle = generateMinHeightStyle();
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(backgroundStyle).append(" ").append(heightStyle);
+
+        return sb.toString();
+    }
+
+    private String generateMinHeightStyle()
+    {
+        if(minHeight == null || minHeight.isEmpty())
+        {
+            return "min-height: 10px;";
+        }
+        return "min-height: " + minHeight + "px;";
+    }
+
+    private String generateBackgroundStyle()
     {
         if(backgroundType == null || backgroundType.isEmpty() || backgroundType.equals("transparent"))
         {
@@ -95,5 +119,9 @@ public class Block {
         }
 
         return "linear-gradient(" + gradientColor1 + ", " + gradientColor2 + ")";
+    }
+
+    public String getMinHeight() {
+        return minHeight;
     }
 }

@@ -203,6 +203,14 @@
                                                 text="Full Width"
                                                 uncheckedValue="false"
                                                 value="true"/>
+                                            <minHeight
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                fieldLabel="Minimum Block Height (px)"
+                                                fieldDescription="Defaults to 10px. Set to 0 to remove minimum height."
+                                                value="10"
+                                                min="{Double}0"
+                                                name="./minHeight"/>
                                         </items>
                                     </column>
                                 </items>
