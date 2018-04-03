@@ -41,13 +41,12 @@ public class Block {
     {
         String backgroundStyle = generateBackgroundStyle();
         String heightStyle = generateMinHeightStyle();
-        String topPaddingStyle = "padding-top: " + topPadding + "px;";
-        String bottomPaddingStyle = "padding-bottom: " + bottomPadding + "px;";
+        String topPaddingStyle = topPadding == null ? "" : "padding-top: " + topPadding + "px;";
+        String bottomPaddingStyle = bottomPadding == null ? "" : "padding-bottom: " + bottomPadding + "px;";
 
         StringBuilder sb = new StringBuilder();
         sb
         .append(backgroundStyle).append(" ")
-        .append(heightStyle).append(" ")
         .append(backgroundStyle).append(" ")
         .append(topPaddingStyle).append(" ")
         .append(bottomPaddingStyle);
