@@ -1,6 +1,6 @@
 <sly data-sly-use.block="com.headwire.coresites.core.models.Block"/>
 
-<div style="${block.styleString @ context = 'attribute'}">
+<div class="block-inner" style="${block.styleString @ context = 'attribute'}">
     <div class="${block.fullWidth ? 'container-fluid' : 'container'}">
         <sly data-sly-resource="${'grid' @ resourceType='wcm/foundation/components/responsivegrid'}"/>
     </div>
