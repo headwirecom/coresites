@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-03T14:30:53.148-07:00"
+        cq:lastModified="{Date}2018-04-04T13:51:43.605-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
-        jcr:lastModified="{Date}2018-04-03T09:52:05.466-07:00"
+        jcr:lastModified="{Date}2018-04-04T12:41:44.831-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="Flare"
@@ -33,36 +33,31 @@
                 <grid
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <vectorgraphic
-                        jcr:created="{Date}2018-04-03T13:23:57.499-07:00"
+                    <vectorgraphic/>
+                    <coreflex_2105940069
+                        cq:styleIds="[1522344074998,1522344146547,1522264032790]"
+                        jcr:created="{Date}2018-04-04T12:40:17.254-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T13:58:02.748-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/vectorGraphic"
-                        displayPopupTitle="false"
-                        fileName="flareyellow.svg"
-                        isDecorative="true">
-                        <file/>
-                    </vectorgraphic>
-                    <coreflex
-                        jcr:created="{Date}2018-04-03T09:04:13.005-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:04:13.005-07:00"
+                        jcr:lastModified="{Date}2018-04-04T13:31:53.224-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/coreflex">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <title
-                            cq:styleIds="[1522779776111]"
-                            jcr:created="{Date}2018-04-03T11:24:25.671-07:00"
+                        <vectorgraphic
+                            jcr:created="{Date}2018-04-04T10:34:15.998-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-03T11:24:44.638-07:00"
+                            jcr:lastModified="{Date}2018-04-04T10:34:24.245-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Flare"
-                            sling:resourceType="coresites/components/content/title"
-                            type="[h1,h1]"/>
+                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            fileReference="/content/dam/coresites/flareyellow.svg">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="5"/>
+                            </cq:responsive>
+                        </vectorgraphic>
                         <text
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-03T09:03:51.776-07:00"
@@ -73,55 +68,57 @@
                             sling:resourceType="coresites/components/content/text"
                             text="&lt;p>Making The World Look Small&lt;/p>&#xa;"
                             textIsRich="true"/>
-                    </coreflex>
+                    </coreflex_2105940069>
                 </grid>
             </block2>
-            <block2_2038094251
-                cq:styleIds="[1522775960576,1522776022399,1522790387505]"
-                jcr:created="{Date}2018-04-03T09:28:53.599-07:00"
+            <coreblock
+                cq:styleIds="[1522776022399,1522790387505,1522775960576]"
+                jcr:created="{Date}2018-04-04T12:10:25.122-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-03T14:30:21.253-07:00"
+                jcr:lastModified="{Date}2018-04-04T12:15:00.387-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"
-                backgroundType="transparent"
-                fullWidth="false"
-                minHeight="50">
+                sling:resourceType="coresites/components/content/coreblock">
                 <grid
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <header
-                        jcr:created="{Date}2018-04-03T09:29:02.809-07:00"
+                    <vectorgraphic
+                        jcr:created="{Date}2018-04-04T12:11:30.085-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:30:39.700-07:00"
+                        jcr:lastModified="{Date}2018-04-04T12:11:59.843-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/structure/header"
-                        rootPath="/content/coresites">
-                        <logo
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/image"/>
-                        <navigation
-                            jcr:lastModified="{Date}2018-04-03T09:30:04.479-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/structure/navigation"
-                            collectAllPages="true"
-                            navigationRoot="/content/coresites"
-                            skipNavigationRoot="true"/>
+                        sling:resourceType="coresites/components/content/vectorGraphic"
+                        fileReference="/content/dam/coresites/flareyellow.svg">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="2"/>
+                        </cq:responsive>
+                    </vectorgraphic>
+                    <navigation
+                        jcr:created="{Date}2018-04-04T12:10:33.699-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-04T12:11:01.348-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/structure/navigation"
+                        collectAllPages="true"
+                        navigationRoot="/content/coresites"
+                        skipNavigationRoot="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="12"/>
+                                width="10"/>
                         </cq:responsive>
-                    </header>
+                    </navigation>
                 </grid>
-            </block2_2038094251>
+            </coreblock>
             <block2_972069599
                 jcr:created="{Date}2018-04-03T09:32:34.094-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-03T10:57:16.212-07:00"
+                jcr:lastModified="{Date}2018-04-04T11:02:25.333-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
@@ -191,13 +188,14 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
-                                width="4"/>
+                                width="5"/>
                         </cq:responsive>
                     </image>
                     <text_1765545310
+                        cq:styleIds="[1522869452948]"
                         jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:44:37.796-07:00"
+                        jcr:lastModified="{Date}2018-04-04T12:23:26.191-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -206,8 +204,8 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="5"/>
+                                offset="0"
+                                width="6"/>
                         </cq:responsive>
                     </text_1765545310>
                 </grid>
@@ -319,9 +317,10 @@
                         </cq:responsive>
                     </text>
                     <text_1765545310
+                        cq:styleIds="[1522869457971]"
                         jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T10:05:35.118-07:00"
+                        jcr:lastModified="{Date}2018-04-04T12:24:03.560-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -331,7 +330,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
-                                width="4"/>
+                                width="5"/>
                         </cq:responsive>
                     </text_1765545310>
                     <image
@@ -345,7 +344,7 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
+                                offset="0"
                                 width="4"/>
                         </cq:responsive>
                     </image>
@@ -416,7 +415,7 @@
                 cq:styleIds="[1522775960576]"
                 jcr:created="{Date}2018-04-03T09:57:56.435-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-03T10:58:07.527-07:00"
+                jcr:lastModified="{Date}2018-04-04T11:08:59.481-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
@@ -499,22 +498,12 @@
                         <text
                             jcr:created="{Date}2018-04-03T10:00:52.958-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-03T10:01:40.042-07:00"
+                            jcr:lastModified="{Date}2018-04-04T11:12:52.258-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>© 2017 Flare International&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.facebook.com/&quot;>&amp;nbsp;&lt;/a>&lt;/p>&#xa;"
+                            text="&lt;p>© 2017 Flare International&lt;/p>&#xd;&#xa;"
                             textIsRich="true"/>
-                        <navigation
-                            jcr:created="{Date}2018-04-03T10:01:04.771-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-03T10:01:52.742-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/structure/navigation"
-                            collectAllPages="true"
-                            navigationRoot="/content/coresites"
-                            skipNavigationRoot="true"/>
                     </coreflex>
                 </grid>
             </block2_2125998065>

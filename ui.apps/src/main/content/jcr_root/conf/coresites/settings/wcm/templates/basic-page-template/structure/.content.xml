@@ -9,26 +9,11 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="coresites/components/structure/page">
         <root
+            jcr:lastModified="{Date}2018-03-28T14:35:50.501-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <header
-                jcr:created="{Date}2018-03-05T14:35:27.356-08:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-03-05T14:35:27.356-08:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/structure/header"/>
-            <responsivegrid
-                jcr:created="{Date}2018-03-05T14:35:44.226-08:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-03-05T14:35:44.226-08:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
-            </responsivegrid>
-        </root>
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            editable="{Boolean}true"/>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
