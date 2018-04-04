@@ -38,7 +38,7 @@
                                                 class="cq-droptarget"
                                                 fileNameParameter="./fileName"
                                                 fileReferenceParameter="./fileReference"
-                                                mimeTypes="[image/svg+xml]"
+                                                mimeTypes="[image/svg\\+xml]"
                                                 multiple="{Boolean}false"
                                                 name="./file"
                                                 title="Upload Image Asset"
