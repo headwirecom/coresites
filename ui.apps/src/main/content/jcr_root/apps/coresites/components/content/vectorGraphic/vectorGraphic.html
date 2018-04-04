@@ -1,7 +1,7 @@
 <div data-sly-use.vectorGraphic="com.headwire.coresites.core.models.VectorGraphic"
      data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
      data-sly-test="${vectorGraphic.src}"
-     class="cmp-image${!wcmmode.disabled ? ' cq-dd-image' : ''}">
-    <img src="${vectorGraphic.src}"/>
+     class="cmp-vector${!wcmmode.disabled ? ' cq-dd-image' : ''}">
+    <img class="w-100" src="${vectorGraphic.src}"/>
 </div>
 <sly data-sly-call="${templates.placeholder @ isEmpty = !vectorGraphic.src, classAppend = 'cmp-image cq-dd-image'}"></sly>
