@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="e26a6ef9-78f0-4c71-8187-60169768d1d6">
     <jcr:content
+        cq:name="golden-gate-bridge-388917_150.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/golden-gate-bridge-388917_150.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:00:55.959-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:15.492-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:54.037-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:15.220-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,10 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="74196fdf53ddd078644df5f9440a19964473ce9e"
+            dam:sha1="92673cbd00c1bed604a46ef6d67c1f985094f410"
             dam:size="{Long}62546"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:15.267-07:00"
             exif:DateTimeOriginal="{Date}2014-05-14T10:19:30.000-07:00"
             exif:ExposureTime="1/400"
             exif:FNumber="5/1"
@@ -31,6 +35,8 @@
             exif:ISOSpeedRatings="{Long}[640]"
             exif:ISOSpeedRatings_xmpArrayType="rdf:Seq"
             exifEX:LensModel="EF70-300mm f/4-5.6 IS USM"
+            jcr:lastModified="{Date}2018-04-02T15:20:15.267-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:DateCreated="{Date}2014-05-14T10:19:30.000-07:00"
@@ -49,5 +55,14 @@
                 xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-04-03T09:44:21.492-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

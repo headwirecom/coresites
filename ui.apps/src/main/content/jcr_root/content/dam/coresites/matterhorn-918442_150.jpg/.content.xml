@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4237d30c-b66d-4e48-b289-5b5d38704da7">
     <jcr:content
+        cq:name="matterhorn-918442_150.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/matterhorn-918442_150.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:00:58.953-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:17.014-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:58.435-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:12.134-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,13 +24,25 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="47732f6d97a2678dbe48be3b6d9b3b71de599392"
+            dam:sha1="7ec49935c93f0dbf16e6ace47905e620c2f6413d"
             dam:size="{Long}95482"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:16.926-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:16.926-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}435"
             tiff:ImageWidth="{Long}640"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-04-03T10:07:41.908-07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

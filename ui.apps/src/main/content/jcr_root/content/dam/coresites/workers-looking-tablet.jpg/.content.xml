@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="dbdef38d-0dd2-4306-8c68-b528218d45ac">
     <jcr:content
+        cq:name="workers-looking-tablet.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/workers-looking-tablet.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:01:00.512-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:17.324-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:59.748-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:12.610-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}1.8333333730697632"
             dam:Progressive="no"
-            dam:sha1="b690815ba4df369fcf262b2e25bf6a3c45bd614f"
+            dam:sha1="cbba213392f707499d8335529ff5e1f4b5a8ad70"
             dam:size="{Long}23706"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:17.199-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:17.199-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}367"

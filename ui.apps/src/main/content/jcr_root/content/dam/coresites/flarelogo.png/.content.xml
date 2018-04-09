@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="b731ced4-b02b-43b3-835d-94e6a3f39e58">
     <jcr:content
+        cq:name="flarelogo.png"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/flarelogo.png"
-        jcr:lastModified="{Date}2018-04-02T12:01:04.218-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:15.158-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:01:03.909-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:14.955-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}96"
             dam:Physicalwidthininches="{Decimal}2.0208332538604736"
             dam:Progressive="no"
-            dam:sha1="51f59fc2d2bb901f170d45af01e0e3613a969c84"
-            dam:size="{Long}4429"
+            dam:sha1="b419b602c27de9513dac278e18fb1f1d52a3571c"
+            dam:size="{Long}7407"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-02T15:20:12.190-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:12.190-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}72"

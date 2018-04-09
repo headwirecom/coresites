@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="f7fcc0a0-d7ef-4bbf-a035-07e6743f78c8">
     <jcr:content
+        cq:name="horizon-architecture-sunset-skyline-city-skyscraper-665988-pxhere.com.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/horizon-architecture-sunset-skyline-city-skyscraper-665988-pxhere.com.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:00:56.143-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:14.643-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:53.835-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:11.954-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}7.199999809265137"
             dam:Progressive="no"
-            dam:sha1="540d1c58851ec2183da368f179d68b65659cd37a"
+            dam:sha1="d2a0d58d9c02f6a15c69a18c57828eb3a430b4cb"
             dam:size="{Long}882014"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:14.500-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:14.500-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1440"

@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/flare.svg"
-        jcr:lastModified="{Date}2018-04-02T12:01:03.687-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:14.877-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-02T12:01:03.552-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:14.705-07:00"
             dam:sha1="ac786787edacbde1acbf12b9652d442a581896ac"
             dam:size="{Long}3372"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-02T15:20:11.733-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:11.733-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

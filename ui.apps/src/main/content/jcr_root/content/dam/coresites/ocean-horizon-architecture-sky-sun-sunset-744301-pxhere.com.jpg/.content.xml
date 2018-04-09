@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="72eaa70b-88ec-40a3-a424-94ca914ced70">
     <jcr:content
+        cq:name="ocean-horizon-architecture-sky-sun-sunset-744301-pxhere.com.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/ocean-horizon-architecture-sky-sun-sunset-744301-pxhere.com.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:00:59.675-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:16.785-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:59.119-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:14.106-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="879b80d7514b9bc3f89be24fdb6ec21ab7a41ca1"
+            dam:sha1="5b5e45e6fefd2835b3a215a97a2cca4189e5617c"
             dam:size="{Long}807069"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:16.692-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:16.692-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1440"

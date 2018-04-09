@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4b5aeec4-1460-4feb-9b01-da495c711f71">
     <jcr:content
+        cq:name="los-angeles-1790986_150.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/los-angeles-1790986_150.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:00:59.245-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:11.969-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:58.317-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:11.125-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}2.133333444595337"
             dam:Progressive="no"
-            dam:sha1="3896dc108669ba7a33d6a818814be3c8e8a06a90"
+            dam:sha1="d6ef8cd1a167ec4728b6eaa87aebb61febec0fda"
             dam:size="{Long}40633"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:11.844-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:11.844-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}444"

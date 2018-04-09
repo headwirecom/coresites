@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:ns3="http://ns.adobe.com/photoshop/1.0/panorama-profile" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="137f963b-6f22-44a6-a943-7235fae2a1eb">
     <jcr:content
+        cq:name="mountain.jpg"
+        cq:parentPath="/content/dam/coresites"
         dam:assetState="processed"
         dam:relativePath="coresites/mountain.jpg"
-        jcr:lastModified="{Date}2018-04-02T12:01:05.148-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:22.638-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -129,7 +132,7 @@
             crs:WhiteBalance="Custom"
             crs:Whites2012="{Long}0"
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-02T12:00:59.113-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:15.403-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -139,12 +142,13 @@
             dam:Physicalwidthindpi="{Long}300"
             dam:Physicalwidthininches="{Decimal}28.516666412353516"
             dam:Progressive="no"
-            dam:sha1="e6a10f113fec71f8435eb8ab303f0961068f9c21"
+            dam:sha1="0afb3356d36cbbe7b89930b764cbb903c62ba6dc"
             dam:size="{Long}22146256"
             dam:TimeCreated="052133+0000"
             dc:date="{Long}[20150820]"
             dc:date_xmpArrayType="rdf:Bag"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-02T15:20:15.972-07:00"
             exif:ApertureValue="6918863/1000000"
             exif:BrightnessValue="-1446/2560"
             exif:ColorSpace="{Long}65535"
@@ -183,6 +187,8 @@
             exifEX:PhotographicSensitivity="{Long}100"
             exifEX:RecommendedExposureIndex="{Long}100"
             exifEX:SensitivityType="{Long}2"
+            jcr:lastModified="{Date}2018-04-02T15:20:15.972-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             ns3:Transformation="Cylindrical"
@@ -223,6 +229,12 @@
                 exif:RedEyeMode="{Boolean}false"
                 exif:Return="{Long}0"
                 jcr:primaryType="nt:unstructured"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:4c6a935e-d019-e444-a8f8-79b1aa2d6538"
+                stRef:instanceID="xmp.iid:82e85df1-3760-f148-a6f6-cfb8b16a5ff9"
+                stRef:originalDocumentID="xmp.did:66af20d7-290c-f948-9e72-817d982d742a"
                 xmpNodeType="xmpStruct"/>
             <crs:GradientBasedCorrections
                 jcr:primaryType="nt:unstructured"
@@ -331,12 +343,6 @@
                     stEvt:when="{Date}2016-06-02T17:09:22.000+02:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="xmp.did:4c6a935e-d019-e444-a8f8-79b1aa2d6538"
-                stRef:instanceID="xmp.iid:82e85df1-3760-f148-a6f6-cfb8b16a5ff9"
-                stRef:originalDocumentID="xmp.did:66af20d7-290c-f948-9e72-817d982d742a"
-                xmpNodeType="xmpStruct"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
         <usages

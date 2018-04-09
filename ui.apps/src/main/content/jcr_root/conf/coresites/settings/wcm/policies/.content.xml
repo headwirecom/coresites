@@ -7,22 +7,26 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1520289293027
-                        jcr:lastModified="{Date}2018-04-02T10:00:39.137-07:00"
+                        jcr:lastModified="{Date}2018-04-06T08:46:30.375-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Blocks,group:Coresites.Blox,group:Coresites.Content,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Blox,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1520289293027>
                     <policy_1568462218782546
-                        jcr:lastModified="{Date}2018-03-20T12:12:19.607-07:00"
+                        jcr:lastModified="{Date}2018-04-06T10:06:28.627-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Content]">
+                        columns="12"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Content,group:Coresites.Form]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured"/>
+                        </cq:styleGroups>
                     </policy_1568462218782546>
                 </responsivegrid>
             </components>
@@ -33,7 +37,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <card jcr:primaryType="nt:unstructured">
                     <policy_1520630683778
-                        jcr:lastModified="{Date}2018-03-29T14:47:36.117-07:00"
+                        jcr:lastModified="{Date}2018-04-06T12:49:05.473-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Theme styles"
@@ -76,7 +80,16 @@
                             </crop>
                         </plugins>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-card--rounded"
+                                        cq:styleId="1523031215493"
+                                        cq:styleLabel="Rounded"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
                                 cq:styleGroupLabel="Card Style"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -91,69 +104,7 @@
                                         cq:styleLabel="Dark Background"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
-                            </item0>
-                            <item1
-                                cq:styleGroupLabel="Top Padding"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="pt-1"
-                                        cq:styleId="1521674902988"
-                                        cq:styleLabel="Top Padding 1"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="pt-2"
-                                        cq:styleId="1521674896134"
-                                        cq:styleLabel="Top Padding 2"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="pt-3"
-                                        cq:styleId="1521674882110"
-                                        cq:styleLabel="Top Padding 3"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="pt-4"
-                                        cq:styleId="1521674875142"
-                                        cq:styleLabel="Top Padding 4"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item4
-                                        cq:styleClasses="pt-5"
-                                        cq:styleId="1521575071050"
-                                        cq:styleLabel="Top Padding 5"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
                             </item1>
-                            <item2
-                                cq:styleGroupLabel="Bottom Padding"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="pb-1"
-                                        cq:styleId="1521674918384"
-                                        cq:styleLabel="Bottom Padding 1"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="pb-2"
-                                        cq:styleId="1521674923992"
-                                        cq:styleLabel="Bottom Padding 2"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="pb-3"
-                                        cq:styleId="1521674930096"
-                                        cq:styleLabel="Bottom Padding 3"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="pb-4"
-                                        cq:styleId="1521674935891"
-                                        cq:styleLabel="Bottom Padding 4"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item4
-                                        cq:styleClasses="pb-5"
-                                        cq:styleId="1521674941632"
-                                        cq:styleLabel="Bottom Padding 5"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item2>
                         </cq:styleGroups>
                     </policy_1520630683778>
                 </card>
@@ -182,7 +133,7 @@
                         </cq:styleGroups>
                     </policy_1521755716573>
                     <policy_8954129518377
-                        jcr:lastModified="{Date}2018-04-04T12:20:20.173-07:00"
+                        jcr:lastModified="{Date}2018-04-09T10:50:56.543-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Title Styles"
@@ -213,19 +164,18 @@
                                 </cq:styles>
                             </item0>
                             <item1
-                                cq:styleGroupLabel="Padding"
-                                cq:styleGroupMultiple="true"
+                                cq:styleGroupLabel="Text Color"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleClasses="pl-3"
-                                        cq:styleId="1522869605526"
-                                        cq:styleLabel="Left"
+                                        cq:styleClasses="text-primary"
+                                        cq:styleId="1523294642331"
+                                        cq:styleLabel="Primary"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="pr-3"
-                                        cq:styleId="1522869615006"
-                                        cq:styleLabel="Right"
+                                        cq:styleClasses="text-secondary"
+                                        cq:styleId="1523294651745"
+                                        cq:styleLabel="Secondary"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
@@ -356,15 +306,17 @@
                 </teaser>
                 <coreflex jcr:primaryType="nt:unstructured">
                     <policy_1522264010158
-                        jcr:lastModified="{Date}2018-03-29T10:23:20.410-07:00"
+                        jcr:lastModified="{Date}2018-04-05T08:51:32.811-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Flex Styles"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <section jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
                                 cq:styleGroupLabel="Flex Direction"
+                                cq:styleGroupMultiple="true"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
@@ -386,6 +338,16 @@
                                         cq:styleClasses="d-flex flex-column-reverse"
                                         cq:styleId="1522343948525"
                                         cq:styleLabel="Column Reverse"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="d-flex flex-sm-row"
+                                        cq:styleId="1522878357324"
+                                        cq:styleLabel="Row Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="d-flex flex-sm-column"
+                                        cq:styleId="1522878442254"
+                                        cq:styleLabel="Column Small"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -554,7 +516,7 @@
                 </block2>
                 <coreblock jcr:primaryType="nt:unstructured">
                     <policy_1522775948876
-                        jcr:lastModified="{Date}2018-04-03T14:20:11.010-07:00"
+                        jcr:lastModified="{Date}2018-04-05T14:30:43.635-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Block Styles"
@@ -586,6 +548,16 @@
                                         cq:styleId="1522776022399"
                                         cq:styleLabel="Sticky"
                                         jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="coreblock__fixed-top"
+                                        cq:styleId="1522963022899"
+                                        cq:styleLabel="Fixed Top"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="coreblock__fixed-bottom"
+                                        cq:styleId="1522963023965"
+                                        cq:styleLabel="Fixed Bottom"
+                                        jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
                             <item2
@@ -614,7 +586,7 @@
                 </coreblock>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1522779791882
-                        jcr:lastModified="{Date}2018-04-04T12:20:37.978-07:00"
+                        jcr:lastModified="{Date}2018-04-09T11:43:17.626-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Text Styles"
@@ -742,22 +714,47 @@
                                 </cq:styles>
                             </item0>
                             <item1
-                                cq:styleGroupLabel="Padding"
-                                cq:styleGroupMultiple="true"
+                                cq:styleGroupLabel="Text Color"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
-                                        cq:styleClasses="pl-3"
-                                        cq:styleId="1522869452948"
-                                        cq:styleLabel="Left"
+                                        cq:styleClasses="text-primary"
+                                        cq:styleId="1523296269834"
+                                        cq:styleLabel="Primary"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="pr-3"
-                                        cq:styleId="1522869457971"
-                                        cq:styleLabel="Right"
+                                        cq:styleClasses="text-secondary"
+                                        cq:styleId="1523296277987"
+                                        cq:styleLabel="Secondary"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
+                            <item2
+                                cq:styleGroupLabel="Padding"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="p-0"
+                                        cq:styleId="1523299377333"
+                                        cq:styleLabel="0"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="p-1"
+                                        cq:styleId="1523299378316"
+                                        cq:styleLabel="1"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="p-2"
+                                        cq:styleId="1523299378941"
+                                        cq:styleLabel="2"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="p-3"
+                                        cq:styleId="1523299394140"
+                                        cq:styleLabel="3"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item2>
                         </cq:styleGroups>
                     </policy_1522779791882>
                 </text>
@@ -765,7 +762,7 @@
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1520449984995
-                        jcr:lastModified="{Date}2018-03-23T11:06:36.015-07:00"
+                        jcr:lastModified="{Date}2018-04-09T13:09:12.241-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Theme styles"
@@ -792,6 +789,107 @@
                     </policy_1520449984995>
                 </page>
             </structure>
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <policy_1523296554320
+                        jcr:lastModified="{Date}2018-04-09T10:59:22.831-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Form Styles"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Theme"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="text-light bg-dark"
+                                        cq:styleId="1523296563965"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="text-dark bg-light"
+                                        cq:styleId="1523296564813"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Padding"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="p-0"
+                                        cq:styleId="1523296716214"
+                                        cq:styleLabel="0"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="p-1"
+                                        cq:styleId="1523296717068"
+                                        cq:styleLabel="1"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="p-2"
+                                        cq:styleId="1523296718174"
+                                        cq:styleLabel="2"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="p-3"
+                                        cq:styleId="1523296719425"
+                                        cq:styleLabel="3"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="p-4"
+                                        cq:styleId="1523296720193"
+                                        cq:styleLabel="4"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="p-5"
+                                        cq:styleId="1523296741108"
+                                        cq:styleLabel="5"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="rounded"
+                                        cq:styleId="1523296634690"
+                                        cq:styleLabel="Round Corners"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item2>
+                        </cq:styleGroups>
+                    </policy_1523296554320>
+                </container>
+                <button jcr:primaryType="nt:unstructured">
+                    <policy_1523297485475
+                        jcr:lastModified="{Date}2018-04-09T11:11:55.348-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Button styles"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-button--primary"
+                                        cq:styleId="1523297489457"
+                                        cq:styleLabel="Primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-button--secondary"
+                                        cq:styleId="1523297490190"
+                                        cq:styleLabel="Secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1523297485475>
+                </button>
+            </form>
         </components>
     </coresites>
 </jcr:root>

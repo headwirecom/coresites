@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/Flarelogo.svg"
-        jcr:lastModified="{Date}2018-04-02T12:01:04.999-07:00"
+        jcr:lastModified="{Date}2018-04-02T15:20:14.799-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-02T12:01:04.076-07:00"
+            dam:extracted="{Date}2018-04-02T15:20:12.954-07:00"
             dam:sha1="ab2162b04cd7fe99af4f77b2f8e88008bb001fd8"
             dam:size="{Long}5642"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-02T15:20:14.799-07:00"
+            jcr:lastModified="{Date}2018-04-02T15:20:14.783-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
