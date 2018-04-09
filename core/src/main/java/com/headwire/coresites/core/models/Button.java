@@ -23,6 +23,9 @@ public class Button {
     @Inject
     private String color;
 
+    @Inject
+    private String size;
+
     public String getText() {
         return text;
     }
@@ -33,5 +36,13 @@ public class Button {
 
     public String getColor() {
         return color;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 }
