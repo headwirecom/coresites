@@ -5,10 +5,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientlib.js @ categories='coresites.dependencies'}"/>
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientlib.css @ categories='coresites.base'}"/>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='coresites.dependencies'}"/>
+    <sly data-sly-call="${clientlib.css @ categories='coresites.base'}"/>
+    <sly data-sly-repeat="${inheritedPageProperties.extraClientLibs}"
+         data-sly-call="${clientlib.all @ categories=item}"/>
+</sly>
+
 
      
 <!--/* Load authoring related client libraries */-->
