@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-04T13:51:43.605-07:00"
+        cq:lastModified="{Date}2018-04-05T12:20:27.585-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:lastModified="{Date}2018-04-04T12:41:44.831-07:00"
@@ -21,16 +21,18 @@
                 cq:styleIds="[1522775960576]"
                 jcr:created="{Date}2018-04-02T14:26:00.516-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-03T11:21:35.125-07:00"
+                jcr:lastModified="{Date}2018-04-05T12:20:27.547-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
                 backgroundImagePath="/content/dam/coresites/landscape-nature-forest-outdoor-horizon-mountain-1181347-pxhere.com.jpg"
                 backgroundType="image"
                 bottomPadding="250"
-                fullWidth="false"
+                fullWidth="true"
                 topPadding="250">
                 <grid
+                    jcr:lastModified="{Date}2018-04-05T08:49:35.124-07:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <vectorgraphic/>
@@ -38,15 +40,24 @@
                         cq:styleIds="[1522344074998,1522344146547,1522264032790]"
                         jcr:created="{Date}2018-04-04T12:40:17.254-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-04T13:31:53.224-07:00"
+                        jcr:lastModified="{Date}2018-04-05T08:50:17.200-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/coreflex">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="5"
+                                width="24"/>
+                        </cq:responsive>
                         <vectorgraphic
-                            jcr:created="{Date}2018-04-04T10:34:15.998-07:00"
+                            jcr:created="{Date}2018-04-04T10:34:15.000-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-04T10:34:24.245-07:00"
+                            jcr:lastModified="{Date}2018-04-04T10:34:24.000-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/vectorGraphic"
@@ -70,6 +81,11 @@
                             textIsRich="true"/>
                     </coreflex_2105940069>
                 </grid>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
             </block2>
             <coreblock
                 cq:styleIds="[1522776022399,1522790387505,1522775960576]"
@@ -127,87 +143,120 @@
                 fullWidth="false"
                 topPadding="100">
                 <grid
+                    cq:styleIds="[1522879553096]"
+                    jcr:lastModified="{Date}2018-04-04T15:16:05.147-07:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <title
-                        jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
+                    <responsivegrid
+                        cq:styleIds="[1522879553096]"
+                        jcr:created="{Date}2018-04-04T15:13:37.462-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:42:32.897-07:00"
+                        jcr:lastModified="{Date}2018-04-04T15:16:34.460-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Ihre Chance"
-                        sling:resourceType="coresites/components/content/title">
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="10"/>
+                                offset="2"
+                                width="20"/>
                         </cq:responsive>
-                    </title>
-                    <text
-                        jcr:created="{Date}2018-04-03T09:33:16.222-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:42:58.943-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Der&amp;nbsp;amerikanische&amp;nbsp;Absatzmarkt mit über&amp;nbsp;270 Millionen Konsumenten&amp;nbsp;bietet eine Chance für jedes Unternehmen. Dies nicht nur Dank der vorhandenen&amp;nbsp;economy of scale,&amp;nbsp;sondern auch zur Knüpfung von neuen Kontakten und weltweiten Allianzen.&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="10"/>
-                        </cq:responsive>
-                    </text>
-                    <text_1128410048
-                        jcr:created="{Date}2018-04-03T09:43:15.533-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:43:19.519-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Mit einer Währung, einem Wirtschaftsraum, einer Sprache, einem Absatzmarkt und einem sehr fördernden Klima für KMU, besitzt die USA beinahe ideale betriebswirtschaftliche Voraussetzungen.&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="10"/>
-                        </cq:responsive>
-                    </text_1128410048>
-                    <image
-                        jcr:created="{Date}2018-04-03T09:43:26.325-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T09:44:21.396-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/image"
-                        fileReference="/content/dam/coresites/golden-gate-bridge-388917_150.jpg">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="5"/>
-                        </cq:responsive>
-                    </image>
-                    <text_1765545310
-                        cq:styleIds="[1522869452948]"
-                        jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-04T12:23:26.191-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Es gilt, die Gelegenheit zu nutzen und sich gemäss den eigenen Stärken richtig im amerikanischen Markt zu positionieren. Mit&amp;nbsp;modernen technologischen Mitteln&amp;nbsp;lassen sich vorteilhafte Konstrukte schaffen, mit welchen sich der Einstieg in den amerikanischen Markt auch&amp;nbsp;für kleinere Firmen&amp;nbsp;mit einem gut&amp;nbsp;abschätzbaren finanziellen Risiko&amp;nbsp;bewerkstelligen lässt.&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                        </cq:responsive>
-                    </text_1765545310>
+                        <title
+                            jcr:created="{Date}2018-04-03T09:33:12.647-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T09:42:32.897-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Ihre Chance"
+                            sling:resourceType="coresites/components/content/title">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="11"/>
+                            </cq:responsive>
+                        </title>
+                        <text_1128410048
+                            jcr:created="{Date}2018-04-03T09:43:15.533-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T09:43:19.519-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>Mit einer Währung, einem Wirtschaftsraum, einer Sprache, einem Absatzmarkt und einem sehr fördernden Klima für KMU, besitzt die USA beinahe ideale betriebswirtschaftliche Voraussetzungen.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1128410048>
+                        <text_1765545310
+                            jcr:created="{Date}2018-04-03T09:43:22.475-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-04T15:04:22.412-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>Es gilt, die Gelegenheit zu nutzen und sich gemäss den eigenen Stärken richtig im amerikanischen Markt zu positionieren. Mit&amp;nbsp;modernen technologischen Mitteln&amp;nbsp;lassen sich vorteilhafte Konstrukte schaffen, mit welchen sich der Einstieg in den amerikanischen Markt auch&amp;nbsp;für kleinere Firmen&amp;nbsp;mit einem gut&amp;nbsp;abschätzbaren finanziellen Risiko&amp;nbsp;bewerkstelligen lässt.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1765545310>
+                        <image
+                            jcr:created="{Date}2018-04-03T09:43:26.325-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T09:44:21.396-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/golden-gate-bridge-388917_150.jpg">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="5"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </image>
+                        <text
+                            jcr:created="{Date}2018-04-03T09:33:16.222-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-03T09:42:58.943-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>Der&amp;nbsp;amerikanische&amp;nbsp;Absatzmarkt mit über&amp;nbsp;270 Millionen Konsumenten&amp;nbsp;bietet eine Chance für jedes Unternehmen. Dies nicht nur Dank der vorhandenen&amp;nbsp;economy of scale,&amp;nbsp;sondern auch zur Knüpfung von neuen Kontakten und weltweiten Allianzen.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
+                    </responsivegrid>
                 </grid>
             </block2_972069599>
             <block2_972069599_cop
@@ -223,6 +272,8 @@
                 fullWidth="false"
                 topPadding="100">
                 <grid
+                    jcr:lastModified="{Date}2018-04-04T15:07:54.620-07:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title

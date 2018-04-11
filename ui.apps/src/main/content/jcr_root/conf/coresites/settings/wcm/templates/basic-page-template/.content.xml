@@ -1,93 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2018-04-09T13:09:12.256-07:00"
+        cq:lastModified="{Date}2018-04-09T13:09:12.258-07:00"
         cq:lastModifiedBy="admin"
-        cq:policy="coresites/components/structure/page/policy_1520449984995"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="wcm/core/components/policies/mappings">
-        <root
-            cq:policy="wcm/foundation/components/responsivegrid/policy_1520289293027"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/core/components/policies/mapping">
-            <responsivegrid
-                cq:policy="wcm/foundation/components/responsivegrid/policy_1568462218782546"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping">
-                <coresites jcr:primaryType="nt:unstructured">
-                    <components jcr:primaryType="nt:unstructured">
-                        <content jcr:primaryType="nt:unstructured">
-                            <card
-                                cq:policy="coresites/components/content/card/policy_1520630683778"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <teaser
-                                cq:policy="coresites/components/content/teaser/policy_1521676693809"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <title
-                                cq:policy="coresites/components/content/title/policy_1521755716573"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
-                        </content>
-                    </components>
-                </coresites>
-            </responsivegrid>
-            <coresites jcr:primaryType="nt:unstructured">
-                <components jcr:primaryType="nt:unstructured">
-                    <content jcr:primaryType="nt:unstructured">
-                        <coreflex
-                            cq:policy="coresites/components/content/coreflex/policy_1522264010158"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <coregrid
-                            cq:policy="coresites/components/content/coregrid/policy_1522359855646"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <card
-                            cq:policy="coresites/components/content/card/policy_1520630683778"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <block2
-                            cq:policy="coresites/components/content/block2/policy_1522691481242"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <coreblock
-                            cq:policy="coresites/components/content/coreblock/policy_1522775948876"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <title
-                            cq:policy="coresites/components/content/title/policy_8954129518377"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <text
-                            cq:policy="coresites/components/content/text/policy_1522779791882"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                    </content>
-                    <form jcr:primaryType="nt:unstructured">
-                        <container
-                            cq:policy="coresites/components/form/container/policy_1523296554320"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                        <button
-                            cq:policy="coresites/components/form/button/policy_1523297485475"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                    </form>
-                </components>
-            </coresites>
-            <wcm jcr:primaryType="nt:unstructured">
-                <foundation jcr:primaryType="nt:unstructured">
-                    <components jcr:primaryType="nt:unstructured">
-                        <responsivegrid
-                            cq:policy="wcm/foundation/components/responsivegrid/policy_1568462218782546"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/core/components/policies/mapping"/>
-                    </components>
-                </foundation>
-            </wcm>
-        </root>
-    </jcr:content>
+        cq:templateType="/conf/coresites/settings/wcm/template-types/empty-page"
+        jcr:description="Template for creating Coresite pages."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Basic Page Template"
+        status="enabled"/>
 </jcr:root>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-09T13:25:27.097-07:00"
+        cq:lastModified="{Date}2018-04-11T09:39:35.356-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:lastModified="{Date}2018-04-06T12:28:08.932-07:00"
@@ -75,9 +75,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
+                        cq:styleIds="[1522779770141]"
                         jcr:created="{Date}2018-04-05T12:39:31.509-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-05T12:46:29.816-07:00"
+                        jcr:lastModified="{Date}2018-04-11T09:39:09.293-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Drive More. Earn More"
@@ -481,8 +482,8 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="1"/>
+                                    offset="2"
+                                    width="7"/>
                             </cq:responsive>
                         </vectorgraphic>
                         <text

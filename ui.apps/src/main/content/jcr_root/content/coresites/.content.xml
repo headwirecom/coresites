@@ -11,4 +11,7 @@
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/coresites/en"/>
     <test-page/>
+    <article-test/>
+    <Flare/>
+    <Lyft/>
 </jcr:root>
