@@ -26,6 +26,12 @@ public class VectorGraphic {
     @Inject
     private String fileReference;
 
+    @Inject
+    private String width;
+
+    @Inject
+    private String height;
+
     private String src;
 
     @PostConstruct
@@ -59,5 +65,13 @@ public class VectorGraphic {
 
     public String getSrc() {
         return src;
+    }
+
+    public String getWidth() {
+        return width;
+    }
+
+    public String getHeight() {
+        return height;
     }
 }
