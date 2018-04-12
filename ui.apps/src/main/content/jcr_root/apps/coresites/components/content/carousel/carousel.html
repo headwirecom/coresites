@@ -2,13 +2,6 @@
      data-sly-test.hasItems="${carousel.listItems}"
      id="${resource.name}"
      class="carousel slide w-100 text-light">
-    <style>
-        .cc-no-image
-        {
-            position: static;
-            background-color: #212529;
-        }
-    </style>
     <ol data-sly-list="${carousel.listItems}" class="carousel-indicators">
         <li data-target="${resource.name}" data-slide-to="${itemList.index}" class="${itemList.first ? 'active' : ''}"></li>
     </ol>
