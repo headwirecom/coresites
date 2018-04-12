@@ -2,9 +2,6 @@
      data-sly-test.hasItems="${carousel.listItems}"
      id="${resource.name}"
      class="carousel slide w-100 text-light">
-    <ol data-sly-list="${carousel.listItems}" class="carousel-indicators">
-        <li data-target="${resource.name}" data-slide-to="${itemList.index}" class="${itemList.first ? 'active' : ''}"></li>
-    </ol>
 
     <div data-sly-list="${carousel.listItems}" role="listbox" class="carousel-inner">
         <div class="carousel-item ${itemList.first ? 'active' : ''}">
@@ -16,6 +13,10 @@
             </div>
         </div>
     </div>
+
+    <ol data-sly-list="${carousel.listItems}" class="carousel-indicators">
+        <li data-target="${resource.name}" data-slide-to="${itemList.index}" class="${itemList.first ? 'active' : ''}"></li>
+    </ol>
 
     <a href="#${resource.name}" role="button" data-slide="prev" class="carousel-control-prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
