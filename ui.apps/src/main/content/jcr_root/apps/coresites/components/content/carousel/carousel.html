@@ -1,15 +1,15 @@
 <div data-sly-use.carousel="com.headwire.coresites.core.models.Carousel"
      data-sly-test.hasItems="${carousel.listItems}"
      id="${resource.name}"
-     class="carousel slide w-100 text-light">
+     class="carousel slide w-100">
 
     <div data-sly-list="${carousel.listItems}" role="listbox" class="carousel-inner">
         <div class="carousel-item ${itemList.first ? 'active' : ''}">
-            <img  data-sly-test.hasImage="${item.imageSrc}" class="d-block w-100" src="${item.imageSrc}"/>
+            <img  data-sly-test.hasImage="${item.imageSrc}" class="d-block" src="${item.imageSrc}"/>
             <div class="carousel-caption ${!hasImage ? 'cc-no-image' : ''}">
                 <!-- To-do: come up with a better way of handling missing images -->
-                <h5>${item.title}</h5>
-                ${item.description @ context='html'}
+                <h3>${item.title}</h3>
+                <p>${item.description @ context='html'}</p>
             </div>
         </div>
     </div>
