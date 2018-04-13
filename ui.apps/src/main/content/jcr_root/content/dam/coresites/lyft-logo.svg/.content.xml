@@ -6,25 +6,28 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/lyft-logo.svg"
-        jcr:lastModified="{Date}2018-04-05T12:44:13.791-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:37:48.227-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-05T12:44:13.000-07:00"
+            dam:extracted="{Date}2018-04-11T11:37:48.084-07:00"
             dam:sha1="a28d48c28acd91dfe4d448a07a9d687875f4e40e"
             dam:size="{Long}2118"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-11T11:37:46.619-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:37:46.619-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}1"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2018-04-05T12:45:14.942-07:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2018-04-13T10:06:46.676-07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

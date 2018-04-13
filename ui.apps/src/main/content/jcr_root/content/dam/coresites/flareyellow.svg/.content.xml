@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/flareyellow.svg"
-        jcr:lastModified="{Date}2018-04-02T15:20:16.910-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:37:03.146-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-02T15:20:12.704-07:00"
+            dam:extracted="{Date}2018-04-11T11:36:52.169-07:00"
             dam:sha1="fa0448092e740cf1c0139692e0b42444871e85b6"
             dam:size="{Long}3387"
             dc:format="image/svg+xml"
             dc:modified="{Date}2018-04-02T15:20:16.910-07:00"
-            jcr:lastModified="{Date}2018-04-02T15:20:16.910-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:37:03.146-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/bike.svg"
-        jcr:lastModified="{Date}2018-04-09T09:55:24.242-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:36:59.482-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-09T09:55:21.090-07:00"
+            dam:extracted="{Date}2018-04-11T11:36:54.994-07:00"
             dam:sha1="b4b9a146d739fe7e857f2b4a65fe15c3da89ce24"
             dam:size="{Long}876"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-11T11:36:48.686-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:36:48.686-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/video/americanflag.mp4"
-        jcr:lastModified="{Date}2018-04-02T15:20:15.863-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:37:46.657-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-02T15:20:13.595-07:00"
+            dam:extracted="{Date}2018-04-11T11:37:46.177-07:00"
             dam:sha1="d2b87d46fa18517beaf2b0daed78925f83eed3b0"
             dam:size="{Long}2695838"
             dc:format="video/mp4"
             dc:modified="{Date}2018-04-02T15:20:15.863-07:00"
-            jcr:lastModified="{Date}2018-04-02T15:20:15.863-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:37:46.123-07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

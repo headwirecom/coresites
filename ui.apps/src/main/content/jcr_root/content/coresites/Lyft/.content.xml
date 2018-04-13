@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-11T09:39:35.356-07:00"
+        cq:lastModified="{Date}2018-04-13T11:28:10.369-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:lastModified="{Date}2018-04-06T12:28:08.932-07:00"
@@ -17,51 +17,11 @@
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <coreblock_507446500
-                cq:styleIds="[1522963022899]"
-                jcr:created="{Date}2018-04-05T12:41:02.736-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-09T08:50:28.265-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"
-                backgroundType="gradient"
-                bottomPadding="10"
-                fullWidth="true"
-                gradientColor1="rgba(0,0,0,0.79)"
-                gradientColor2="rgba(127,127,127,0)"
-                minHeight="10"
-                topPadding="10">
-                <grid
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <vectorgraphic
-                        jcr:created="{Date}2018-04-05T12:44:40.243-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-05T14:44:16.688-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/vectorGraphic"
-                        alt="Lyft"
-                        altValueFromDAM="false"
-                        displayPopupTitle="false"
-                        fileReference="/content/dam/coresites/lyft-logo.svg"
-                        isDecorative="false"
-                        titleValueFromDAM="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="1"/>
-                        </cq:responsive>
-                    </vectorgraphic>
-                </grid>
-            </coreblock_507446500>
             <coreblock
                 cq:styleIds="[1522775960576]"
                 jcr:created="{Date}2018-04-05T12:32:05.594-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-05T14:19:19.230-07:00"
+                jcr:lastModified="{Date}2018-04-13T10:00:57.669-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
@@ -72,13 +32,16 @@
                 minHeight="10"
                 topPadding="200">
                 <grid
+                    cq:styleIds="[1523550014320]"
+                    jcr:lastModified="{Date}2018-04-12T12:56:28.251-07:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <title
                         cq:styleIds="[1522779770141]"
                         jcr:created="{Date}2018-04-05T12:39:31.509-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-11T09:39:09.293-07:00"
+                        jcr:lastModified="{Date}2018-04-12T12:57:36.652-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Drive More. Earn More"
@@ -109,11 +72,11 @@
                         </cq:responsive>
                         <text
                             cq:styleIds="[1522779807004]"
-                            jcr:lastModified="{Date}2018-04-05T12:38:47.965-07:00"
+                            jcr:lastModified="{Date}2018-04-12T12:58:31.150-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h2>Apply Now&lt;/h2>&#xd;&#xa;&lt;p>Enter your info, and then download the Lyft app to create your driver profile.&lt;/p>&#xd;&#xa;"
+                            text="&lt;h2>&lt;b>Apply Now&lt;/b>&lt;/h2>&#xa;&lt;p>Enter your info, and then download the Lyft app to create your driver profile.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -170,7 +133,7 @@
                         <options_883058678
                             jcr:created="{Date}2018-04-09T07:40:28.284-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T13:16:39.982-07:00"
+                            jcr:lastModified="{Date}2018-04-12T10:55:33.811-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title=" "
@@ -207,15 +170,67 @@
                         <text_1123801798
                             jcr:created="{Date}2018-04-09T11:27:38.248-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T11:27:42.062-07:00"
+                            jcr:lastModified="{Date}2018-04-12T10:55:20.269-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>Already applied?&amp;nbsp;&lt;a href=&quot;https://www.lyft.com/drivers/apply/resume&quot;>Check the status of your application here.&lt;/a>&lt;/p>&#xa;"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Already applied?&amp;nbsp;&lt;a href=&quot;https://www.lyft.com/drivers/apply/resume&quot;>Check the status of your application here.&lt;/a>&lt;/p>&#xa;"
                             textIsRich="true"/>
                     </container>
                 </grid>
             </coreblock>
+            <coreblock_679929307
+                cq:styleIds="[1522776022399,1522790358056]"
+                jcr:created="{Date}2018-04-13T10:05:28.984-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T10:10:58.247-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundColor="#fff"
+                backgroundType="color"
+                fullWidth="true">
+                <grid
+                    jcr:lastModified="{Date}2018-04-13T10:08:57.516-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid
+                        cq:styleIds="[1523636655309]"
+                        jcr:created="{Date}2018-04-13T10:07:21.190-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T10:08:06.066-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="11"/>
+                        </cq:responsive>
+                        <vectorgraphic
+                            jcr:created="{Date}2018-04-13T10:06:33.158-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T10:07:46.171-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/lyft-logo.svg"
+                            isDecorative="true"
+                            titleValueFromDAM="false"
+                            width="75px">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="1"/>
+                            </cq:responsive>
+                        </vectorgraphic>
+                    </responsivegrid>
+                </grid>
+            </coreblock_679929307>
             <coreblock_1581731951
                 jcr:created="{Date}2018-04-05T12:46:42.428-07:00"
                 jcr:createdBy="admin"
@@ -229,50 +244,58 @@
                 minHeight="10"
                 topPadding="50">
                 <grid jcr:primaryType="nt:unstructured">
+                    <text
+                        cq:styleIds="[1523296269834]"
+                        jcr:created="{Date}2018-04-05T12:48:09.578-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-12T11:10:14.059-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h4>&lt;b>Don’t have wheels?&lt;/b>&lt;/h4>&#xa;&lt;h4>&lt;b>Get a flexible rental with Lyft Express Drive&lt;/b>&lt;/h4>&#xa;&lt;h4>&amp;nbsp;&lt;/h4>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </text>
                     <responsivegrid_35513
+                        cq:styleIds="[1523550014320]"
                         jcr:created="{Date}2018-04-09T09:48:17.768-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-09T09:48:17.768-07:00"
+                        jcr:lastModified="{Date}2018-04-12T12:25:18.281-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="10"/>
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
-                        <text
-                            cq:styleIds="[1523296269834]"
-                            jcr:created="{Date}2018-04-05T12:48:09.578-07:00"
+                        <image_432728991
+                            jcr:created="{Date}2018-04-13T08:25:52.177-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T11:40:13.070-07:00"
+                            jcr:lastModified="{Date}2018-04-13T09:18:40.556-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/text"
-                            text="&lt;h3>&lt;b>Don’t have wheels?&lt;/b>&lt;/h3>&#xd;&#xa;&lt;h3>&lt;b>Get a flexible rental with Lyft Express Drive&lt;/b>&lt;/h3>&#xd;&#xa;"
-                            textIsRich="true"/>
-                        <vectorgraphic_751897738
-                            jcr:created="{Date}2018-04-09T09:50:35.867-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T09:55:39.433-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/bike.svg">
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/car.55ea7ada.png">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
                             </cq:responsive>
-                        </vectorgraphic_751897738>
+                        </image_432728991>
                         <text_130494129
-                            cq:styleIds="[1523299394140]"
-                            jcr:lastModified="{Date}2018-04-09T11:44:02.246-07:00"
+                            cq:styleIds="[1523299377333]"
+                            jcr:lastModified="{Date}2018-04-12T12:24:49.783-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&lt;b>Drive your way&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Get a car any time - and return it when you want.&lt;/p>&#xd;&#xa;"
+                            text="&lt;p>&lt;b>Drive your way&lt;/b>&lt;/p>&#xa;&lt;p>Get a car any time - and return it when you want.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -281,27 +304,27 @@
                                     width="3"/>
                             </cq:responsive>
                         </text_130494129>
-                        <vectorgraphic_2076447465
-                            jcr:created="{Date}2018-04-09T09:50:38.410-07:00"
+                        <image_175399392
+                            jcr:created="{Date}2018-04-13T08:25:50.008-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T09:55:41.777-07:00"
+                            jcr:lastModified="{Date}2018-04-13T08:27:07.594-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/beer.svg">
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/cost.47185a08.png">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
                             </cq:responsive>
-                        </vectorgraphic_2076447465>
+                        </image_175399392>
                         <text_670131074
-                            cq:styleIds="[1523299394140]"
-                            jcr:lastModified="{Date}2018-04-09T11:43:47.260-07:00"
+                            cq:styleIds="[1523299377333]"
+                            jcr:lastModified="{Date}2018-04-12T12:25:05.353-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&lt;b>Cut Costs&lt;br>&#xd;&#xa;&lt;/b>Insurance and standard maintenance are always included.&lt;/p>&#xd;&#xa;"
+                            text="&lt;p>&lt;b>Cut Costs&lt;/b>&lt;/p>&#xa;&lt;p>Insurance and standard maintenance are always included.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -310,27 +333,27 @@
                                     width="3"/>
                             </cq:responsive>
                         </text_670131074>
-                        <vectorgraphic
-                            jcr:created="{Date}2018-04-09T09:49:51.060-07:00"
+                        <image
+                            jcr:created="{Date}2018-04-13T08:25:46.861-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T09:55:37.345-07:00"
+                            jcr:lastModified="{Date}2018-04-13T08:27:09.271-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/bonmb.svg">
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/limit.a090835c.png">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
                             </cq:responsive>
-                        </vectorgraphic>
+                        </image>
                         <text_930726409
-                            cq:styleIds="[1523299394140]"
-                            jcr:lastModified="{Date}2018-04-09T11:43:36.299-07:00"
+                            cq:styleIds="[1523299377333]"
+                            jcr:lastModified="{Date}2018-04-12T12:24:56.291-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&lt;b>Enjoy Zero Limits&lt;br>&#xa;&lt;/b>Drive with Lyft and for personal use, with no cap on miles.&lt;/p>&#xa;"
+                            text="&lt;p>&lt;b>Enjoy Zero Limits&lt;/b>&lt;/p>&#xa;&lt;p>Drive with Lyft and for personal use, with no cap on miles.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -342,11 +365,11 @@
                         <text_302339165
                             jcr:created="{Date}2018-04-05T12:52:30.323-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-05T12:52:44.532-07:00"
+                            jcr:lastModified="{Date}2018-04-12T10:54:53.336-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>The more you drive, the less you pay with all inclusive rentals designed to help you earn on your terms.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.lyft.com/expressdrive&quot;>Learn more&lt;/a>&lt;/p>&#xa;"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>The more you drive, the less you pay with all inclusive rentals designed to help you earn on your terms.&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.lyft.com/expressdrive&quot;>Learn more&lt;/a>&lt;/p>&#xd;&#xa;"
                             textIsRich="true"/>
                     </responsivegrid_35513>
                 </grid>
@@ -371,11 +394,11 @@
                         cq:styleIds="[1522779812077]"
                         jcr:created="{Date}2018-04-05T12:56:15.487-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-05T12:56:56.120-07:00"
+                        jcr:lastModified="{Date}2018-04-12T11:10:33.024-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>What is Lyft?&lt;/h3>&#xa;&lt;p>Lyft matches drivers with passengers who request rides through our smartphone app, and passengers pay automatically through the app.&lt;br />&#xa;&lt;br />&#xa;Whether you’re trying to offset costs of your car, cover this month’s bills, or fund your dreams, Lyft will get you there. So, go ahead. Be your own boss.&lt;/p>&#xa;"
+                        text="&lt;h3>What is Lyft?&lt;/h3>&#xa;&lt;p>Lyft matches drivers with passengers who request rides through our smartphone app, and passengers pay automatically through the app.&lt;br>&#xa;&lt;br>&#xa;Whether you’re trying to offset costs of your car, cover this month’s bills, or fund your dreams, Lyft will get you there. So, go ahead. Be your own boss.&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <text_copy
                         cq:styleIds="[1522779812077]"
@@ -387,82 +410,10 @@
                         sling:resourceType="coresites/components/content/text"
                         text="&lt;h3>&amp;nbsp;&lt;/h3>&#xd;&#xa;&lt;h3>Why Lyft?&lt;/h3>&#xd;&#xa;"
                         textIsRich="true"/>
-                    <responsivegrid
-                        jcr:created="{Date}2018-04-09T10:00:08.740-07:00"
+                    <responsivegrid_2066574230
+                        jcr:created="{Date}2018-04-12T13:09:31.673-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-09T10:00:08.740-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                        </cq:responsive>
-                        <vectorgraphic
-                            jcr:created="{Date}2018-04-09T10:00:58.225-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T10:01:09.908-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/bike.svg">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="6"/>
-                            </cq:responsive>
-                        </vectorgraphic>
-                        <text
-                            cq:styleIds="[1522779812077]"
-                            jcr:lastModified="{Date}2018-04-05T12:58:50.241-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/text"
-                            text="&lt;h6>&lt;b>Keep Your Tips&lt;/b>&lt;/h6>&#xa;&lt;p>Earn tips from your passengers and keep the whole amount — they’re yours.&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </responsivegrid>
-                    <responsivegrid_1989786096
-                        jcr:created="{Date}2018-04-09T10:00:14.771-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-09T10:00:14.771-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                        </cq:responsive>
-                        <vectorgraphic
-                            jcr:created="{Date}2018-04-09T10:01:01.226-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T10:01:11.538-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/beer.svg">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="1"/>
-                            </cq:responsive>
-                        </vectorgraphic>
-                        <text
-                            cq:styleIds="[1522779812077]"
-                            jcr:lastModified="{Date}2018-04-05T12:58:53.682-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/text"
-                            text="&lt;h6>&lt;b>Make More Money&lt;/b>&lt;/h6>&#xa;&lt;p>With increased Prime Time pricing during peak hours, you make more with Lyft.&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </responsivegrid_1989786096>
-                    <responsivegrid_2143198735
-                        jcr:created="{Date}2018-04-09T10:00:16.939-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-09T10:00:16.939-07:00"
+                        jcr:lastModified="{Date}2018-04-12T13:09:31.673-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -474,60 +425,349 @@
                         <vectorgraphic
                             jcr:created="{Date}2018-04-09T10:01:04.971-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-09T10:01:13.338-07:00"
+                            jcr:lastModified="{Date}2018-04-13T08:25:21.534-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/vectorGraphic"
-                            fileReference="/content/dam/coresites/bonmb.svg">
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/drive-for-lyft-tip.f57a8a46.svg"
+                            height="100px"
+                            isDecorative="true"
+                            titleValueFromDAM="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="2"
-                                    width="7"/>
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </vectorgraphic>
-                        <text
+                        <text_1506270926
                             cq:styleIds="[1522779812077]"
-                            jcr:lastModified="{Date}2018-04-05T12:58:58.274-07:00"
+                            jcr:lastModified="{Date}2018-04-13T08:28:20.802-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h6>&lt;b>Best Community&lt;/b>&lt;/h6>&#xa;&lt;p>The Lyft community is full of awesome, friendly people — passengers and drivers alike.&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </responsivegrid_2143198735>
+                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Keep Your Tips&lt;/b>&lt;/h6>&#xa;&lt;p>Earn tips from your passengers and keep the whole amount — they’re yours.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1506270926>
+                    </responsivegrid_2066574230>
+                    <responsivegrid
+                        jcr:created="{Date}2018-04-12T13:09:19.842-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-12T13:09:19.842-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <vectorgraphic_107804
+                            jcr:created="{Date}2018-04-09T10:01:01.226-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T08:25:14.115-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/drive-for-lyft-pay.e79d86e9.svg"
+                            height="100px"
+                            isDecorative="true"
+                            titleValueFromDAM="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="12"/>
+                            </cq:responsive>
+                        </vectorgraphic_107804>
+                        <text_1588397428
+                            cq:styleIds="[1522779812077]"
+                            jcr:lastModified="{Date}2018-04-13T08:28:26.824-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Best Community&lt;/b>&lt;/h6>&#xa;&lt;p>The Lyft community is full of awesome, friendly people — passengers and drivers alike.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1588397428>
+                    </responsivegrid>
+                    <responsivegrid_463773279
+                        jcr:created="{Date}2018-04-12T13:09:39.164-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-12T13:09:39.164-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <vectorgraphic_780912
+                            jcr:created="{Date}2018-04-09T10:00:58.225-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T09:54:57.003-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/drive-for-lyft-community.b6331fb1.svg"
+                            height="100px"
+                            isDecorative="true"
+                            titleValueFromDAM="false"
+                            width="80%">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="6"/>
+                            </cq:responsive>
+                        </vectorgraphic_780912>
+                        <text_939199664
+                            cq:styleIds="[1522779812077]"
+                            jcr:lastModified="{Date}2018-04-13T08:28:30.424-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Make More Money&lt;/b>&lt;/h6>&#xa;&lt;p>With increased Prime Time pricing during peak hours, you make more with Lyft.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_939199664>
+                    </responsivegrid_463773279>
                 </grid>
             </coreblock_1964133565>
             <coreblock_921197493
                 cq:styleIds="[1522775961706]"
                 jcr:created="{Date}2018-04-05T12:59:12.771-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-05T13:00:08.769-07:00"
+                jcr:lastModified="{Date}2018-04-13T11:28:10.354-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
                 backgroundColor="#d8dce6"
                 backgroundType="color"
-                fullWidth="true">
+                fullWidth="true"
+                minHeight="3">
                 <grid
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <carousel
-                        jcr:created="{Date}2018-04-05T12:59:53.835-07:00"
+                    <carousel_1747206158
+                        jcr:created="{Date}2018-04-11T13:04:16.886-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-05T13:01:06.560-07:00"
+                        jcr:lastModified="{Date}2018-04-13T08:24:10.330-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/carousel"
                         childDepth="1"
                         linkItems="false"
-                        listFrom="static"
-                        pages="[,]"
+                        listFrom="fields"
                         showDescription="false"
                         showModificationDate="false"
                         sortOrder="asc"
-                        tagsMatch="any"/>
+                        tagsMatch="any">
+                        <slides jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                description="Accept a ride request"
+                                imageSrc="/content/dam/coresites/how-lyft-works-rate.ab90f38e.png"
+                                title="How Lyft Driving Works"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                description="Pick up a passenger"
+                                imageSrc="/content/dam/coresites/how-lyft-works-drive-passenger.69859621.png"
+                                title="How Lyft Driving Works"/>
+                        </slides>
+                    </carousel_1747206158>
                 </grid>
             </coreblock_921197493>
+            <coreblock_363927373
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-13T08:18:58.190-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T08:33:26.632-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
+                <grid
+                    cq:styleIds="[1523550013606]"
+                    jcr:lastModified="{Date}2018-04-13T08:31:02.863-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <vectorgraphic
+                        jcr:created="{Date}2018-04-13T08:29:27.598-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T09:21:53.858-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/vectorGraphic"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/coresites/drive-for-lyft-shield.857a556c.svg"
+                        isDecorative="true"
+                        titleValueFromDAM="false"
+                        width="60%">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="2"/>
+                        </cq:responsive>
+                    </vectorgraphic>
+                    <text
+                        cq:styleIds="[1523299394140]"
+                        jcr:created="{Date}2018-04-13T08:29:32.046-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T09:18:25.061-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h3>Lyft Insurance Protection&lt;/h3>&#xa;&lt;p>Lyft provides additional insurance policies, at no cost to the driver. We worked with leading insurance carriers to provide various coverages including: commercial auto liability insurance up to $1M per occurrence, contingent comprehensive and collision insurance for drivers who carry comprehensive and collision coverage on their personal auto policy, and coverage for bodily injury caused by uninsured/underinsured motorists when you are engaged in a ride. If you already carry commercial insurance or personal coverage providing specific coverage for ridesharing, Lyft’s policy will continue to be excess to your insurance coverage. Please note, the above coverage may be modified to comply with local regulations or state laws. Our policy is available in all states in the U.S., except for those rides originating in New York City with a TLC (Taxi and Limousine Commission) driver.&amp;nbsp;&lt;a href=&quot;https://www.lyft.com/safety&quot;>Get information about our insurance policies.&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                    </text>
+                    <vectorgraphic_115068360
+                        jcr:created="{Date}2018-04-13T08:29:35.202-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T09:21:45.899-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/vectorGraphic"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/coresites/drive-for-lyft-five-stars.1914fa1c.svg"
+                        isDecorative="true"
+                        titleValueFromDAM="false"
+                        width="60%">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="2"/>
+                        </cq:responsive>
+                    </vectorgraphic_115068360>
+                    <text_979717126
+                        cq:styleIds="[1523299394140]"
+                        jcr:created="{Date}2018-04-13T08:29:38.063-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T08:31:24.522-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h3>Passenger Ratings&lt;/h3>&#xa;&lt;p>Drivers rate passengers after each ride, so you’ve always got a say. We also require passengers to provide valid credit card information for identity verification purposes.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                    </text_979717126>
+                </grid>
+            </coreblock_363927373>
+            <coreblock_1067225331
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-13T08:34:04.604-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T08:46:26.863-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock">
+                <grid
+                    cq:styleIds="[1523633690400]"
+                    jcr:lastModified="{Date}2018-04-13T09:01:51.777-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <responsivegrid
+                        cq:styleIds="[1523633690400,1523636655309]"
+                        jcr:created="{Date}2018-04-13T09:02:19.078-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T09:25:11.408-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
+                        <text
+                            jcr:created="{Date}2018-04-13T08:46:02.012-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T08:46:08.681-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h2>Frequently Asked Questions&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;p>I already have a job, so can I just drive a few hours in my off-time?&lt;/p>&#xd;&#xa;&lt;p>Absolutely. You choose when you drive. Some drivers make more than $800 just driving Friday nights and weekends.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>How do I get paid?&lt;/p>&#xd;&#xa;&lt;p>Drivers get paid for every trip on a per minute and mile basis. Money is deposited into your account each week automatically, or you can cash out instantly with Express Pay.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>Is Lyft safe?&lt;/p>&#xd;&#xa;&lt;p>Our community’s safety is our top priority. We run extensive background checks on drivers, provide up to $1M commercial automobile liability policy, and designed numerous safety features into our app. Passengers must provide a valid credit card and phone number for identity verification purposes. Drivers and passengers also rate each other at the end of a ride, so that we’re always upholding our high community standards.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>What are Lyft’s requirements?&lt;/p>&#xd;&#xa;&lt;p>You must be at least 21 and own an iPhone or Android phone. As part of our approval process, you’ll undergo a DMV check, plus a national and county background check. This will require a Social Security number, in addition to an in-state driver’s license that is at least a year old. Learn more about our background check standards on our&amp;nbsp;&lt;a href=&quot;https://www.lyft.com/safety&quot;>Safety page&lt;/a>, and our comprehensive driver requirements in the&amp;nbsp;&lt;a href=&quot;http://lft.to/9F7DBC1&quot;>Help Center&lt;/a>.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;Your car needs to have four external door handles and at least five total seat belts. You must be a covered party on your car’s in-state insurance, and have in-state license plates. We’ll confirm all of this during your 19-point vehicle inspection. Cars have Lyft age requirements too, which can vary by state. See your&amp;nbsp;&lt;a href=&quot;http://lft.to/2s4gOZf&quot;>state-specific requirements&lt;/a>.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://help.lyft.com/&quot;>See more commonly asked questions&lt;/a>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </responsivegrid>
+                </grid>
+            </coreblock_1067225331>
+            <coreblock_44744630
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-13T08:46:35.054-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T09:01:03.550-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="false"
+                topPadding="100">
+                <grid
+                    cq:styleIds="[1523636655309]"
+                    jcr:lastModified="{Date}2018-04-13T09:25:21.916-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <button
+                        cq:styleIds="[1523297489457]"
+                        jcr:created="{Date}2018-04-13T08:46:40.762-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T08:50:48.459-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/button"
+                        color="btn-primary"
+                        size="btn-lg"
+                        text="APPLY NOW">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="4"
+                                width="4"/>
+                        </cq:responsive>
+                    </button>
+                </grid>
+            </coreblock_44744630>
         </root>
     </jcr:content>
 </jcr:root>

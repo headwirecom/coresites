@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b4ee24be-1670-46e2-82ad-5ee97b929b42">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/drive-for-lyft-tip.f57a8a46.svg"
+        jcr:lastModified="{Date}2018-04-13T08:22:42.741-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-04-13T08:22:41.953-07:00"
+            dam:sha1="7da633b814ed1a2093817d425dab28d4f1113ea9"
+            dam:size="{Long}1590"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-04-13T08:25:21.652-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

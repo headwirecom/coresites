@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/bonmb.svg"
-        jcr:lastModified="{Date}2018-04-09T09:55:24.252-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:36:59.139-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-09T09:55:21.091-07:00"
+            dam:extracted="{Date}2018-04-11T11:36:55.439-07:00"
             dam:sha1="7d23c359616b6c0d22f4975142d73565e9296887"
             dam:size="{Long}958"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-11T11:36:51.856-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:36:51.855-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

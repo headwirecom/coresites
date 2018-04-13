@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/beer.svg"
-        jcr:lastModified="{Date}2018-04-09T09:55:24.187-07:00"
+        jcr:lastModified="{Date}2018-04-11T11:37:02.973-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-09T09:55:21.103-07:00"
+            dam:extracted="{Date}2018-04-11T11:36:59.802-07:00"
             dam:sha1="fa09f7ee30ca9c01ac9b77555a7f894d9a4304bd"
             dam:size="{Long}321"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2018-04-11T11:37:02.973-07:00"
+            jcr:lastModified="{Date}2018-04-11T11:37:02.972-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
