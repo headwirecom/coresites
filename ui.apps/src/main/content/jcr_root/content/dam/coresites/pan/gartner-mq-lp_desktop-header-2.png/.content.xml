@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="736116f0-0894-49ab-aef3-ebec56506f7d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="coresites/pan/gartner-mq-lp_desktop-header-2.png"
+        jcr:lastModified="{Date}2018-04-13T14:47:48.733-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-04-13T14:47:48.630-07:00"
+            dam:sha1="0b457962a28d6d4cd0da9a1cd7e8712cdfee4c6f"
+            dam:size="{Long}57764"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-04-13T15:00:35.237-07:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
