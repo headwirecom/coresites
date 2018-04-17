@@ -2,8 +2,8 @@
 .cmp-card--light {
   .cmp-card {
     .cmp-card-body {
-      color: @light-theme-text-color;
-      background: @light-theme-bg-color;
+      color: $light-theme-text-color;
+      background: $light-theme-bg-color;
     }
   }
 }

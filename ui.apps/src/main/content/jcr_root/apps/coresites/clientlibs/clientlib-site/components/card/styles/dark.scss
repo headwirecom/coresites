@@ -2,8 +2,8 @@
 .cmp-card--dark {
   .cmp-card {
     .cmp-card-body {
-      color: @dark-theme-text-color;
-      background: @dark-theme-bg-color;
+      color: $dark-theme-text-color;
+      background: $dark-theme-bg-color;
     }
   }
 }

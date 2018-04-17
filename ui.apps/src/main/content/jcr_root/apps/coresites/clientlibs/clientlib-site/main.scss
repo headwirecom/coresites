@@ -1,20 +1,13 @@
 /* Coresites main.less */
-
 @charset "UTF-8";
-
-
 
 /* Bootstrap Overrides */
 @import "site/css/variables.scss";
-/* Import Responsive Grid */
-@import "site/css/grid.scss";
-/* Common Styles */
-@import "site/css/common.scss";
-/* Import Bootstrap scss */
+@import "site/css/bootstrap/bootstrap.scss";
+
 
 /* Import Coresites page styles first */
 @import "components/page/page.scss";
-
 /* Import Coresites Components styles */
 @import "components/title/title.scss";
 @import "components/text/text.scss";

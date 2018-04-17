@@ -23,15 +23,15 @@
 .button {
   &.cmp-button--primary {
     button {
-      background-color: @brand-primary;
-      color: @dark-theme-text-color;
+      background-color: $brand-primary;
+      color: $dark-theme-text-color;
     }
   }
 
   &.cmp-button--secondary {
     button {
-      background-color: @brand-secondary;
-      color: @light-theme-text-color;
+      background-color: $brand-secondary;
+      color: $light-theme-text-color;
     }
   }
 }
