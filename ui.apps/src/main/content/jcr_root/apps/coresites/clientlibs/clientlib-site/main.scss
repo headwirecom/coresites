@@ -1,9 +1,8 @@
 /* Coresites main.scss */
-@charset "UTF-8";
 
 /* Bootstrap Overrides */
-@import "site/css/variables.scss";
 @import "site/css/bootstrap/bootstrap.scss";
+@import "site/css/variables.scss";
 
 
 /* Import Coresites page styles first */

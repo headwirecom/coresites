@@ -25,10 +25,10 @@
       margin: 0 auto;
       border-radius: 3px;
       color: white;
-      background: $brand-success;
+      background: $success;
       &:hover {
         text-decoration: none;
-        background: darken($brand-success, 20%);
+        background: darken($success, 20%);
       }
     }
   }
