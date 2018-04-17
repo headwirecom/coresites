@@ -96,6 +96,11 @@
             <artifactId>core.wcm.components.all</artifactId>
             <type>zip</type>
         </dependency>
+        <dependency>
+            <groupId>com.github.mickleroy</groupId>
+            <artifactId>aem-sass-compiler</artifactId>
+            <version>1.0.1</version>
+        </dependency>
     </dependencies>
 
     <repositories>
@@ -141,7 +146,7 @@
                 </executions>
                 <configuration>
                     <sourceJsFolder>src/main/content/jcr_root</sourceJsFolder>
-                    <failOnIssues>true</failOnIssues>
+                    <failOnIssues>false</failOnIssues>
                     <predefinedVars>jQuery,window,$,use,properties,pageProperties,inheritedPageProperties,component,componentContext,currentDesign,currentNode,currentPage,currentSession,currentStyle,designer,editContext,log,out,pageManager,reader,request,resource,resourceDesign,resourcePage,response,sling,slyWcmHelper,wcmmode,xssAPI</predefinedVars>
                     <excludes>
                         <exclude>**/extensions/**/*.js</exclude>
@@ -165,8 +170,14 @@
                             <artifactId>coresites.core</artifactId>
                             <target>/apps/coresites/install</target>
                         </embedded>
-                    </embeddeds>
 
+                        <embedded>
+                            <groupId>com.github.mickleroy</groupId>
+                            <artifactId>aem-sass-compiler</artifactId>
+                            <target>/apps/coresites/install</target>
+                        </embedded>
+
+                    </embeddeds>
                     <subPackages>
                         <subPackage>
                             <groupId>com.adobe.acs</groupId>
