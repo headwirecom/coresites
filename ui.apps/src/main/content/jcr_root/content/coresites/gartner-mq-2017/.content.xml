@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-04-13T16:35:39.421-07:00"
+        cq:lastModifiedBy="admin"
+        cq:styleIds="[1520450005945]"
+        cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
+        jcr:lastModified="{Date}2018-04-13T16:35:39.415-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Gartner MQ 2017"
+        sling:resourceType="coresites/components/structure/page"
+        extraClientLibs="pan.gartner">
+        <root
+            jcr:lastModified="{Date}2018-03-28T14:36:01.576-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-04-13T14:58:49.916-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T14:58:49.916-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="6"/>
+                </cq:responsive>
+                <image
+                    jcr:created="{Date}2018-04-13T15:00:30.382-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T15:00:35.160-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/image"
+                    fileReference="/content/dam/coresites/pan/gartner-mq-lp_desktop-header-2.png"/>
+                <responsivegrid
+                    jcr:created="{Date}2018-04-13T15:00:52.446-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T15:00:52.446-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                    </cq:responsive>
+                    <text
+                        cq:styleIds="[1523299394140]"
+                        jcr:created="{Date}2018-04-13T15:50:40.101-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T16:09:19.647-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h6>A GARTNER LEADER FOR THE SIXTH CONSECUTIVE TIME&lt;/h6>&#xa;&lt;p>Next-generation firewalls are far superior to – and more secure than – traditional firewalls. Having moved beyond port and protocol filtering, today’s NGFWs boast safe enablement of applications, classification of traffic, ease of management, fewer rules, lower TCO and, of course, better security. No longer an optional part of security infrastructure, next-generation firewalls are a must-have for today’s organizations.&lt;/p>&#xa;&lt;p>Gartner just released its 2017 Magic Quadrant report for Enterprise Network Firewalls and named Palo Alto Networks® a Leader for Enterprise Network Firewalls for the sixth time.&lt;/p>&#xa;&lt;p>Read this year’s report to:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;span>Get a wide-angle view of the relative positions of the market’s competitors.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span>Ascertain how well vendors are executing their stated visions and performing against Gartner’s market view.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span>Learn what to consider when making purchasing decisions.&lt;/span>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Gartner, Inc., a leading global research and advisory company, provides IT leaders with the objective insights they need to make informed business and purchasing decisions.&lt;/p>&#xa;&lt;p>The Gartner Magic Quadrant for Enterprise Network Firewalls report provides a comprehensive overview of the market, including research and key players. Based on a uniform set of evaluation criteria, the graphical grid format provides an understanding of how established vendors are executing against their own stated visions as well as a visual representation of Gartner’s market view. The quadrant encompasses Leaders, Visionaries, Niche Players and Challengers. Palo Alto Networks®&amp;nbsp;has been firmly positioned in the top-right quadrant as a Leader for six years in a row.&lt;/p>&#xa;&lt;p>We believe Palo Alto Networks Next-Generation Firewall is the foundational component of the company’s natively integrated Next-Generation Security Platform. Rooted in prevention, the platform combines network, cloud and endpoint security capabilities to safely enable applications and prevent successful cyber breaches wherever your organization’s data resides.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+                <responsivegrid_2095037947
+                    jcr:created="{Date}2018-04-13T15:01:31.410-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T15:19:48.028-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                    <container
+                        cq:styleIds="[1523296563965]"
+                        jcr:created="{Date}2018-04-13T15:02:20.359-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T15:19:33.623-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/form/container"
+                        action="/content/usergenerated/coresites/gartner-mq-2017/cq-gen1523656940360/"
+                        actionType="foundation/components/form/actions/store">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <title
+                            jcr:created="{Date}2018-04-13T15:04:33.710-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:09:19.994-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="See what Gartner says about next-generation firewalls"
+                            sling:resourceType="coresites/components/content/title"
+                            type="h2"/>
+                        <text
+                            jcr:created="{Date}2018-04-13T15:02:53.938-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:55.685-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="First Name"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="First Name"
+                            hideTitle="true"
+                            name="firstname"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1143841338
+                            jcr:created="{Date}2018-04-13T15:17:32.211-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:51.358-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Last Name"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Last Name"
+                            hideTitle="true"
+                            name="lastname"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1012322742
+                            jcr:created="{Date}2018-04-13T15:18:17.998-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:46.561-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Work Email"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Work Email"
+                            hideTitle="true"
+                            name="workemail"
+                            required="true"
+                            rows="1"
+                            type="email"
+                            usePlaceholder="true"/>
+                        <text_842041855
+                            jcr:created="{Date}2018-04-13T15:19:07.139-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:19:20.427-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Company"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Company"
+                            hideTitle="true"
+                            name="company"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1975271917
+                            jcr:created="{Date}2018-04-13T15:19:58.438-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:20:16.735-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Job Level"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Job Level"
+                            hideTitle="true"
+                            name="joblevel"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1918759903
+                            jcr:created="{Date}2018-04-13T15:20:20.914-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:20:46.290-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Phone"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Phone"
+                            hideTitle="true"
+                            name="phone"
+                            required="true"
+                            rows="1"
+                            type="tel"
+                            usePlaceholder="true"/>
+                        <text_395952390
+                            jcr:created="{Date}2018-04-13T15:37:44.558-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:37:59.483-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Country"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Country"
+                            hideTitle="true"
+                            name="country"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <options
+                            jcr:created="{Date}2018-04-13T16:09:50.615-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T16:11:08.361-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title=" "
+                            sling:resourceType="coresites/components/form/options"
+                            name="options"
+                            source="local"
+                            type="checkbox">
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="I'd like to speak to a specialist"
+                                    value="specialist"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Email me exclusive invites, research, offers, and news"
+                                    value="emailme"/>
+                            </items>
+                        </options>
+                        <button
+                            cq:styleIds="[1523297490190]"
+                            jcr:created="{Date}2018-04-13T16:11:18.537-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T16:11:47.029-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Read the report"
+                            sling:resourceType="coresites/components/form/button"
+                            type="submit"/>
+                        <text_925314876
+                            jcr:created="{Date}2018-04-13T16:26:28.337-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T16:33:52.007-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>By submitting this form, you agree to our &lt;a href=&quot;#&quot;>Terms&lt;/a>. View our &lt;a href=&quot;#&quot;>Privacy Statement&lt;/a>.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </container>
+                </responsivegrid_2095037947>
+                <text
+                    cq:styleIds="[1523661738813]"
+                    jcr:created="{Date}2018-04-13T16:14:39.702-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T16:23:00.647-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Gartner Magic Quadrant for Enterprise Network Firewalls, Adam Hils, Jeremy D’Hoinne, 10 July 2017.&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner's research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <text_1064919874
+                    jcr:created="{Date}2018-04-13T16:23:39.609-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T16:25:23.885-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>©&amp;nbsp;2018&amp;nbsp;&lt;a href=&quot;#&quot;>Palo Alto Networks, Inc&lt;/a>. All&amp;nbsp;Rights&amp;nbsp;Reserved.&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;a href=&quot;#&quot;>Privacy&lt;/a> | &lt;a href=&quot;#&quot;>Contact Us&lt;/a> | &lt;a href=&quot;#&quot;>Terms of Use&lt;/a>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

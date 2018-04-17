@@ -659,7 +659,7 @@
                 </coreblock>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1522779791882
-                        jcr:lastModified="{Date}2018-04-12T10:44:12.442-07:00"
+                        jcr:lastModified="{Date}2018-04-13T16:30:29.471-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Text Styles"
@@ -668,7 +668,7 @@
                         <rtePlugins jcr:primaryType="nt:unstructured">
                             <paraformat
                                 jcr:primaryType="nt:unstructured"
-                                features="-">
+                                features="*">
                                 <formats
                                     jcr:primaryType="nt:unstructured"
                                     override="true">
@@ -712,7 +712,7 @@
                             </paraformat>
                             <misctools
                                 jcr:primaryType="nt:unstructured"
-                                features="-">
+                                features="sourceedit,specialchars">
                                 <specialCharsConfig jcr:primaryType="nt:unstructured">
                                     <chars
                                         jcr:primaryType="nt:unstructured"
@@ -738,31 +738,31 @@
                             </misctools>
                             <edit
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="paste-plaintext,paste-wordhtml"/>
                             <findreplace
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <spellcheck
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <table
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <lists
                                 jcr:primaryType="nt:unstructured"
                                 features="*"/>
                             <justify
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <format
                                 jcr:primaryType="nt:unstructured"
-                                features="bold,italic"/>
+                                features="bold,italic,underline"/>
                             <links
                                 jcr:primaryType="nt:unstructured"
                                 features="modifylink,unlink"/>
                             <subsuperscript
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                         </rtePlugins>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -828,6 +828,33 @@
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item2>
+                            <item3
+                                cq:styleGroupLabel="Borders"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="border-top border-dark"
+                                        cq:styleId="1523661724160"
+                                        cq:styleLabel="Top"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="border-right border-dark"
+                                        cq:styleId="1523661730540"
+                                        cq:styleLabel="Right"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="border-bottom border-dark"
+                                        cq:styleId="1523661738813"
+                                        cq:styleLabel="Bottom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="border-left border-dark"
+                                        cq:styleId="1523661744893"
+                                        cq:styleLabel="Left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item3>
                         </cq:styleGroups>
                     </policy_1522779791882>
                 </text>
@@ -988,6 +1015,7 @@
                         </cq:styleGroups>
                     </policy_1523297485475>
                 </button>
+                <text jcr:primaryType="nt:unstructured"/>
             </form>
         </components>
     </coresites>
