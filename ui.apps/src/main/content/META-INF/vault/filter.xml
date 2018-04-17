@@ -12,6 +12,7 @@
 
     <filter root="/etc/clientlibs/coresites"/>
     <filter root="/etc/clientlibs/lyft"/>
+    <filter root="/etc/clientlibs/tesla"/>
 
 
     <filter root="/etc/designs/coresites">
