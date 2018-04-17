@@ -1,0 +1,28 @@
+/* Coresites main.less */
+
+@charset "UTF-8";
+
+
+
+/* Bootstrap Overrides */
+@import "site/css/variables.scss";
+/* Import Responsive Grid */
+@import "site/css/grid.scss";
+/* Common Styles */
+@import "site/css/common.scss";
+/* Import Bootstrap scss */
+
+/* Import Coresites page styles first */
+@import "components/page/page.scss";
+
+/* Import Coresites Components styles */
+@import "components/title/title.scss";
+@import "components/text/text.scss";
+@import "components/card/card.scss";
+@import "components/accordion/accordion.scss";
+@import "components/teaser/teaser.scss";
+@import "components/navigation/navigation.scss";
+@import "components/block/block.scss";
+@import "components/forms/form.scss";
+@import "components/carousel/carousel.scss";
+
