@@ -1,3 +1,11 @@
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px
+
+@screen-sm: 576px;
+@screen-lg: 992px;
 
 
 @gridpath : "/libs/wcm/foundation/clientlibs/grid";
@@ -13,14 +21,14 @@
 }
 
 /* phone breakpoint */
-@media (max-width: (@screen-sm-min - 1)) {
+@media (max-width: (@screen-sm - 1)) {
     .aem-Grid {
         .generate-grid(phone, @max_col);
     }
 }
 
 /* tablet breakpoint */
-@media (min-width: @screen-sm-min) and (max-width: @screen-lg-min) {
+@media (min-width: @screen-sm) and (max-width: @screen-lg) {
     .aem-Grid {
         .generate-grid(tablet, @max_col);
     }
