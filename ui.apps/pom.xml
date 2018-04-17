@@ -146,6 +146,7 @@
                     <excludes>
                         <exclude>**/extensions/**/*.js</exclude>
                         <exclude>**/vendor/**/*.js</exclude>
+                        <exclude>apps/coresites/clientlibs/clientlib-site/site/css/bootstrap/plugins/*.js</exclude>
                     </excludes>
                 </configuration>
             </plugin>
