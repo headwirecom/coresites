@@ -1,9 +1,6 @@
 /* Coresites main.scss */
-
-/* Bootstrap Overrides */
-@import "site/css/bootstrap/bootstrap.scss";
 @import "site/css/variables.scss";
-
+@import "site/css/bootstrap-coresites/bootstrap-coresites.scss";
 
 /* Import Coresites page styles first */
 @import "components/page/page.scss";
@@ -17,4 +14,5 @@
 @import "components/block/block.scss";
 @import "components/forms/form.scss";
 @import "components/carousel/carousel.scss";
+@import "components/button/button.scss";
 
