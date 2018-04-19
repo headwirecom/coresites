@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2018-04-13T16:30:29.484-07:00"
+        cq:lastModified="{Date}2018-04-19T13:59:18.797-07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/coresites/settings/wcm/template-types/empty-page"
         jcr:description="Template for creating Coresite pages."
