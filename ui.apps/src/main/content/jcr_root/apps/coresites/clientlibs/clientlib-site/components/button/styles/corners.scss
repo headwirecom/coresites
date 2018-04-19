@@ -1,0 +1,13 @@
+.button {
+  &.cmp-button--soft {
+    button, .btn {
+      border-radius: 0.25rem;
+    }
+  }
+
+  &.cmp-button--rounded {
+    button, .btn {
+      border-radius: 50px;
+    }
+  }
+}

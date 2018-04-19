@@ -2,6 +2,7 @@
 @import "site/css/variables.scss";
 @import "site/css/bootstrap-coresites.scss";
 
+
 /* Import Coresites page styles first */
 @import "components/page/page.scss";
 /* Import Coresites Components styles */
@@ -16,4 +17,3 @@
 @import "components/carousel/carousel.scss";
 @import "components/button/button.scss";
 @import "components/grid/grid.scss";
-

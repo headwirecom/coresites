@@ -2,3 +2,9 @@ $coresites-primary-text: var(--primary-text-color);
 $coresites-secondary-text: var(--secondary-text-color);
 $coresites-primary-bg: var(--primary-background-color);
 $coresites-secondary-bg: var(--secondary-background-color);
+
+$coresites-font-family: var(--coresites-font-family);
+
+:root {
+  --coresites-font-family: 'Montserrat'
+}

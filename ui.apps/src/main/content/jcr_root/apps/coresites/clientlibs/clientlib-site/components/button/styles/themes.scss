@@ -1,0 +1,15 @@
+.button {
+  &.cmp-button--primary {
+    button, .btn {
+      background-color: $coresites-primary-bg;
+      color: $light;
+    }
+  }
+
+  &.cmp-button--secondary {
+    button, .btn {
+      background-color: $coresites-secondary-bg;
+      color: $light;
+    }
+  }
+}

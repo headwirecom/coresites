@@ -1,0 +1,31 @@
+.aem-Grid--align-start {
+  .aem-Grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
+
+.aem-Grid--align-end {
+  .aem-Grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+}
+
+.aem-Grid--align-center {
+  .aem-Grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+.aem-Grid--align-stretch {
+  .aem-Grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}

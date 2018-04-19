@@ -1,0 +1,22 @@
+.button {
+  &.cmp-button--border-primary {
+    button, .btn {
+      border: 2px solid $coresites-primary-bg;
+    }
+  }
+  &.cmp-button--border-secondary {
+    button, .btn {
+      border: 2px solid $coresites-secondary-bg;
+    }
+  }
+  &.cmp-button--border-dark {
+    button, .btn {
+      border: 2px solid $dark;
+    }
+  }
+  &.cmp-button--border-light {
+    button, .btn {
+      border: 2px solid $light;
+    }
+  }
+}
