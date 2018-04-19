@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-18T14:34:43.724-07:00"
+        cq:lastModified="{Date}2018-04-19T08:14:51.630-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
         cq:lastReplicatedBy="admin"
@@ -91,7 +91,7 @@
             <coreblock_1092692856
                 jcr:created="{Date}2018-04-13T12:59:09.874-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-17T12:24:51.167-07:00"
+                jcr:lastModified="{Date}2018-04-19T08:14:51.599-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
@@ -119,6 +119,9 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="2"
                                 width="8"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1522779812077]"
@@ -135,6 +138,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="2"
                                     width="8"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <button
@@ -152,6 +159,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="2"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </button>
                         <button_copy
@@ -169,6 +180,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </button_copy>
                         <text_854084717
@@ -211,6 +225,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="2"
                                 width="8"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1522779812077]"
@@ -237,6 +255,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="3"
                                     width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </button>
                         <text_649421172
@@ -275,7 +297,14 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
                         text="&lt;h1>Production&amp;nbsp;Timeline&lt;/h1>&#xd;&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xd;&#xa;"
-                        textIsRich="true"/>
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </text>
                     <text_1867665976
                         cq:styleIds="[1522779812077,1523299394140]"
                         jcr:created="{Date}2018-04-13T13:08:12.630-07:00"
@@ -290,6 +319,9 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                     </text_1867665976>
                     <text_1867665976_copy
@@ -306,6 +338,9 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                     </text_1867665976_copy>
                     <text_1867665976_copy_95709885
@@ -322,6 +357,9 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="4"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                     </text_1867665976_copy_95709885>
                 </grid>
@@ -350,7 +388,11 @@
                         sling:resourceType="coresites/components/form/container"
                         action="/content/usergenerated/coresites/tesla-model-3/cq-gen1523651112308/"
                         actionType="foundation/components/form/actions/store">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
+                        </cq:responsive>
                         <text_1700697854
                             jcr:created="{Date}2018-04-13T13:27:36.497-07:00"
                             jcr:createdBy="admin"
@@ -365,6 +407,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
                                     width="10"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="11"/>
                             </cq:responsive>
                         </text_1700697854>
                         <text
@@ -386,6 +432,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="2"
                                     width="5"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <button
@@ -405,6 +455,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </button>
                     </container>
@@ -440,6 +493,9 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="2"
                                 width="7"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                     </text_264596390>
                 </grid>
@@ -478,11 +534,12 @@
                         cq:styleIds="[1523297489457]"
                         jcr:created="{Date}2018-04-13T13:14:04.624-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-13T13:19:54.861-07:00"
+                        jcr:lastModified="{Date}2018-04-19T08:00:58.066-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/button"
                         color="btn-primary"
+                        size="btn-lg"
                         text="SEE INVENTORY">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -821,20 +878,20 @@
                         cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-13T13:41:28.745-07:00"
+                        jcr:lastModified="{Date}2018-04-19T08:07:29.652-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Passenger&lt;/p>&#xa;"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Passenger seating for&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <text_1737882774_copy_1272994907
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-13T13:44:57.173-07:00"
+                        jcr:lastModified="{Date}2018-04-19T08:07:15.645-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Seating for&lt;/p>&#xa;&lt;h2>5&amp;nbsp;Adults + 2&amp;nbsp;Children&lt;/h2>&#xa;&lt;p>(with Rear Facing Seats)&lt;/p>&#xa;"
+                        text="&lt;h2>5&amp;nbsp;Adults + 2&amp;nbsp;Children&lt;br>&#xd;&#xa;&lt;/h2>&#xd;&#xa;&lt;p>(with Rear Facing Seats)&lt;/p>&#xd;&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1006,6 +1063,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="5"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="11"/>
                         </cq:responsive>
                     </text_665231219>
                 </grid>

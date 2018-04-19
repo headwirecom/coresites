@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-13T11:28:10.369-07:00"
+        cq:lastModified="{Date}2018-04-19T10:50:03.931-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:lastModified="{Date}2018-04-06T12:28:08.932-07:00"
@@ -55,10 +55,10 @@
                         </cq:responsive>
                     </title>
                     <container
-                        cq:styleIds="[1523296564813,1523296634690,1523296719425]"
+                        cq:styleIds="[1523296564813,1523296634690]"
                         jcr:created="{Date}2018-04-09T07:39:43.685-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-09T13:17:24.067-07:00"
+                        jcr:lastModified="{Date}2018-04-19T10:50:03.919-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/form/container"
