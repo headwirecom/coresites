@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-19T14:58:55.083-07:00"
+        cq:lastModified="{Date}2018-04-20T09:27:54.698-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:primaryType="cq:PageContent"
@@ -55,123 +55,6 @@
                     </navigation>
                 </grid>
             </coreblock_1562659830>
-                        <coreblock_939497647
-                jcr:created="{Date}2018-04-17T16:38:23.445-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-17T16:38:48.353-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/aem/54658.en.amc.marquee.experience-manager-summit.1440x544.jpg"
-                backgroundType="image"
-                bottomPadding="10"
-                fullWidth="true"
-                minHeight="10"
-                topPadding="10">
-                <grid
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <image
-                        jcr:created="{Date}2018-04-17T16:43:58.955-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-17T16:46:06.848-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/image"
-                        alt="Play Button"
-                        altValueFromDAM="false"
-                        displayPopupTitle="false"
-                        fileReference="/content/dam/coresites/aem/play-flat.png"
-                        isDecorative="false"
-                        linkURL="/content/coresites/experience-manager"
-                        titleValueFromDAM="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="5"
-                                width="1"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="5"
-                                width="3"/>
-                        </cq:responsive>
-                    </image>
-                    <title
-                        cq:styleIds="[1522779776111,1523294651745]"
-                        jcr:created="{Date}2018-04-17T16:47:30.311-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-18T16:25:08.434-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Make delivering great digital experiences look easy."
-                        sling:resourceType="coresites/components/content/title">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                    </title>
-                </grid>
-            </coreblock_939497647>
-            <coreblock_717746538
-                jcr:created="{Date}2018-04-17T16:49:08.118-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-17T16:49:44.041-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"
-                backgroundColor="#1473e6"
-                backgroundType="color"
-                bottomPadding="100"
-                fullWidth="true"
-                minHeight="10"
-                topPadding="100">
-                <grid
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <text
-                        cq:styleIds="[1522779812077,1523296277987]"
-                        jcr:created="{Date}2018-04-17T16:51:36.080-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-17T16:55:50.526-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Learn about Experience League, a new enablement program so you get the most out of Adobe Experience Cloud.&amp;nbsp;&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="3"
-                                width="5"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
-                        </cq:responsive>
-                    </text>
-                    <button
-                        jcr:created="{Date}2018-04-17T16:53:10.196-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-17T16:55:59.822-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/button"
-                        color="btn-primary"
-                        link="#"
-                        text="Learn More">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="1"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                    </button>
-                </grid>
-            </coreblock_717746538>
             <coreblock
                 cq:styleIds="[1522776022399,1522775960576]"
                 jcr:created="{Date}2018-04-17T16:12:46.394-07:00"
@@ -181,12 +64,12 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
                 backgroundType="gradient"
-                bottomPadding="100"
+                bottomPadding="10"
                 fullWidth="true"
                 gradientColor1="rgba(35,20,6,0.9)"
                 gradientColor2="rgba(114,51,14,0.9)"
                 minHeight="0"
-                topPadding="100">
+                topPadding="10">
                 <grid
                     jcr:lastModified="{Date}2018-04-19T13:43:22.230-07:00"
                     jcr:lastModifiedBy="admin"
@@ -464,18 +347,288 @@
                     </text>
                 </grid>
             </coreblock_1449273997>
-            <coreblock_295519577
-                jcr:created="{Date}2018-04-19T09:42:05.295-07:00"
+            <coreblock_197899548
+                cq:styleIds="[1522775961706]"
+                jcr:created="{Date}2018-04-20T09:09:52.074-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-19T09:42:05.295-07:00"
+                jcr:lastModified="{Date}2018-04-20T09:22:58.270-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"/>
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="100"
+                fullWidth="true"
+                minHeight="10"
+                topPadding="100">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <text
+                        cq:styleIds="[1522779812077]"
+                        jcr:created="{Date}2018-04-20T09:10:10.903-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T09:10:42.139-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h3>Content backbone, as agile and accessible as it is robust.&lt;br />&#xd;&#xa;&lt;/h3>&#xd;&#xa;&lt;p>Your customers and employees want each interaction with your brand to feel genuine and valuable. The right capabilities and workflows help you meet this expectation with speed and scale, now and into the future.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </text>
+                    <responsivegrid
+                        cq:styleIds="[1523550014320,1524169764362,1523636654635]"
+                        jcr:created="{Date}2018-04-20T09:11:11.737-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T09:23:48.963-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2018-04-20T09:12:24.171-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:13:46.764-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/aem/54658.en.aem_learn_support.icon.sites.60x60.png">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="1"/>
+                            </cq:responsive>
+                        </image>
+                        <text
+                            jcr:created="{Date}2018-04-20T09:12:56.667-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:20:39.444-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h5>Sites&lt;/h5>&#xd;&#xa;&lt;p>Across web and mobile sites, online communities, physical signage, and application end points, ensure your content supports a personalized and connected experience wherever people are.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="8"/>
+                            </cq:responsive>
+                        </text>
+                        <button
+                            cq:styleIds="[1523297489457,1524170957616]"
+                            jcr:created="{Date}2018-04-20T09:13:20.321-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:18:49.331-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/button"
+                            color="btn-primary"
+                            text="Learn More">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button>
+                    </responsivegrid>
+                    <responsivegrid_copy
+                        cq:styleIds="[1523550014320,1524169764362,1523636654635]"
+                        jcr:created="{Date}2018-04-20T09:11:11.737-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T09:23:58.943-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2018-04-20T09:12:28.026-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:13:49.101-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/aem/54658.en.aem_learn_support.icon.forms.60x60.png">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="1"/>
+                            </cq:responsive>
+                        </image>
+                        <text_copy
+                            jcr:created="{Date}2018-04-20T09:12:56.667-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:20:48.579-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h5>Assets&lt;/h5>&#xd;&#xa;&lt;p>Discover a smart, enterprise-class digital asset management system that accelerates the sourcing, rapid adaptation, and delivery of all your assets at scale.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="9"/>
+                            </cq:responsive>
+                        </text_copy>
+                        <button_copy
+                            cq:styleIds="[1523297489457,1524170957616]"
+                            jcr:created="{Date}2018-04-20T09:13:20.321-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:18:45.499-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/button"
+                            color="btn-primary"
+                            text="Learn More">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button_copy>
+                    </responsivegrid_copy>
+                    <responsivegrid_copy_2107230077
+                        cq:styleIds="[1523550014320,1524169764362,1523636654635]"
+                        jcr:created="{Date}2018-04-20T09:11:11.737-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T09:24:05.438-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2018-04-20T09:12:30.139-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:13:50.540-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/aem/54658.en.aem_learn_support.icon.assets.60x60.png">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="1"/>
+                            </cq:responsive>
+                        </image>
+                        <text_copy
+                            jcr:created="{Date}2018-04-20T09:12:56.667-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:20:55.439-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h5>Forms&lt;/h5>&#xd;&#xa;&lt;p>With customers visiting your sites and apps, simplify how you create forms and documents that transform customer enrollments and communications.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="9"/>
+                            </cq:responsive>
+                        </text_copy>
+                        <button_copy
+                            cq:styleIds="[1523297489457,1524170957616]"
+                            jcr:created="{Date}2018-04-20T09:13:20.321-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:18:40.592-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/button"
+                            color="btn-primary"
+                            text="Learn More">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button_copy>
+                    </responsivegrid_copy_2107230077>
+                    <responsivegrid_copy_796442742
+                        cq:styleIds="[1523550014320,1524169764362,1523636654635]"
+                        jcr:created="{Date}2018-04-20T09:11:11.737-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T09:24:09.578-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2018-04-20T09:12:31.904-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:13:53.998-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            fileReference="/content/dam/coresites/aem/54658.aem.icon.cloud-manager.60x60.png">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="1"/>
+                            </cq:responsive>
+                        </image>
+                        <text_copy
+                            jcr:created="{Date}2018-04-20T09:12:56.667-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:21:01.080-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h5>Cloud Manager&lt;br>&#xd;&#xa;&lt;/h5>&#xd;&#xa;&lt;p>Launch and continually improve, monitor, and test your digital experiences whenever you need and want — all at cloud scale, speed, and security.&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="9"/>
+                            </cq:responsive>
+                        </text_copy>
+                        <button_copy
+                            cq:styleIds="[1523297489457,1524170957616]"
+                            jcr:created="{Date}2018-04-20T09:13:20.321-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T09:18:33.544-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/button"
+                            color="btn-primary"
+                            text="Learn More">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button_copy>
+                    </responsivegrid_copy_796442742>
+                </grid>
+            </coreblock_197899548>
             <coreblock_524238232
                 cq:styleIds="[1522775960576]"
                 jcr:created="{Date}2018-04-17T17:20:06.889-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-19T09:37:55.435-07:00"
+                jcr:lastModified="{Date}2018-04-20T09:22:41.705-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
@@ -696,20 +849,22 @@
                     </text>
                 </grid>
             </coreblock_1721583829>
-            <coreblock_1559223412
-                jcr:created="{Date}2018-04-19T09:36:31.940-07:00"
+            <coreblock_1697763969
+                cq:styleIds="[1522775960576]"
+                jcr:created="{Date}2018-04-17T17:29:23.425-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-19T09:37:01.200-07:00"
+                jcr:lastModified="{Date}2018-04-20T09:27:08.737-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
-                backgroundType="transparent"
+                backgroundImagePath="/content/dam/coresites/aem/54658.en.aem.overview.banner.hyatt.1440x434.jpg"
+                backgroundType="image"
                 bottomPadding="100"
                 fullWidth="true"
                 minHeight="10"
                 topPadding="100">
                 <grid jcr:primaryType="nt:unstructured">
-                    <grid
+                    <grid_1981912321
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <image
@@ -731,35 +886,15 @@
                                     width="12"/>
                             </cq:responsive>
                         </image>
-                        <title
-                            cq:styleIds="[1522779776111]"
-                            jcr:created="{Date}2018-04-17T17:31:00.421-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T09:35:48.968-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Content management helps Hyatt tell unique stories."
-                            sling:resourceType="coresites/components/content/title"
-                            type="h2">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="2"
-                                    width="8"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"/>
-                            </cq:responsive>
-                        </title>
                         <text
+                            cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-17T17:31:34.176-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T09:35:53.327-07:00"
+                            jcr:lastModified="{Date}2018-04-20T09:27:54.676-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>See how Hyatt uses Experience Manager to store all its photos and other marketing content in one place, and then use it to uniquely show off each beautiful property.&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h2>Content management helps Hyatt tell unique stories.&lt;/h2>&#xd;&#xa;&lt;p style=&quot;text-align: center;&quot;>See how Hyatt uses Experience Manager to store all its photos and other marketing content in one place, and then use it to uniquely show off each beautiful property.&lt;/p>&#xd;&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -803,22 +938,9 @@
                                 </cq:responsive>
                             </button>
                         </responsivegrid>
-                    </grid>
+                    </grid_1981912321>
                 </grid>
-            </coreblock_1559223412>
-            <coreblock_1697763969
-                jcr:created="{Date}2018-04-17T17:29:23.425-07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-04-19T09:27:51.008-07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/aem/54658.en.aem.overview.banner.hyatt.1440x434.jpg"
-                backgroundType="image"
-                bottomPadding="100"
-                fullWidth="true"
-                minHeight="10"
-                topPadding="100"/>
+            </coreblock_1697763969>
             <coreblock_226153234
                 jcr:created="{Date}2018-04-17T17:33:44.539-07:00"
                 jcr:createdBy="admin"
