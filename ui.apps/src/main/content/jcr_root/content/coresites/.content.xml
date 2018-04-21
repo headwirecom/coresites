@@ -10,11 +10,9 @@
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/coresites/en"/>
-    <test-page/>
-    <article-test/>
-    <Flare/>
-    <Lyft/>
-    <tesla-model-3/>
-    <gartner-mq-2017/>
-    <experience-manager/>
+    <burn/>
+    <fahr/>
+    <generic-business-landing/>
+    <car-order-page/>
+    <cms/>
 </jcr:root>

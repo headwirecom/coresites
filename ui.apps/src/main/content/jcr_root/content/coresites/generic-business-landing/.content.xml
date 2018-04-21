@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-04-20T17:05:33.309-07:00"
+        cq:lastModifiedBy="admin"
+        cq:styleIds="[1520450005945]"
+        cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-04-13T16:35:39.415-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Generic Business Landing"
+        jcr:uuid="eb588257-0e8d-4d27-9584-25b5b2a8486e"
+        sling:resourceType="coresites/components/structure/page"
+        extraClientLibs="business.landing">
+        <root
+            jcr:lastModified="{Date}2018-03-28T14:36:01.576-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-04-13T14:58:49.916-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-13T14:58:49.916-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <image
+                    jcr:created="{Date}2018-04-13T15:00:30.382-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-20T12:45:16.472-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/image"
+                    fileReference="/content/dam/coresites/generic-business-landing/achievement-agreement-business-886465.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <responsivegrid
+                    jcr:created="{Date}2018-04-13T15:00:52.446-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T15:00:52.446-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <text
+                        cq:styleIds="[1523299394140]"
+                        jcr:created="{Date}2018-04-13T15:50:40.101-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-20T12:49:57.684-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h6>LOREM IPSUM DOLOR SIT AMET&lt;/h6>&#xa;&lt;p>Duis posuere felis in dolor varius viverra. Praesent tristique purus tortor, vel molestie tellus suscipit ac. Vivamus eget blandit nisi. Ut felis orci, varius eget felis at, aliquam lobortis metus. Maecenas eu tempus purus. Curabitur odio risus, volutpat non ligula id, scelerisque placerat quam. Duis quis accumsan eros. Integer pellentesque posuere scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ornare aliquet lacus, a condimentum ante ultricies eu. Integer sollicitudin, tellus a finibus accumsan, elit quam luctus nibh, eget sagittis odio lacus vitae sapien. Fusce ullamcorper mauris vel neque vulputate, in efficitur orci aliquet.&lt;/p>&#xa;&lt;p>Donec pellentesque eros quis arcu:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;span>Mauris volutpat nisi quis rhoncus facilisis.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span>Nulla dignissim ex ac augue accumsan, eu efficitur leo aliquam.&lt;/span>&lt;/li>&#xa;&lt;li>&lt;span>Phasellus in purus varius, gravida dolor sed, fringilla purus.&lt;/span>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>In faucibus dictum leo, nec tempor magna finibus id. Donec commodo, dolor sit amet auctor commodo, justo turpis tincidunt sem, et auctor tortor enim et nunc. Curabitur semper nunc nec nisl consequat iaculis. Fusce eu augue iaculis, faucibus felis eu, suscipit nibh. Fusce non felis ultrices, vestibulum eros sed, sodales velit. Praesent commodo nunc sed nulla imperdiet, id tristique nulla ornare. Proin iaculis orci purus.&lt;/p>&#xa;&lt;p>Mauris at egestas ligula. Aenean sed consequat lacus. Sed sapien nunc, mollis non purus at, pharetra dignissim eros. Donec eu ultricies dolor. Donec vel quam auctor, bibendum quam nec, tristique urna. In nibh nulla, condimentum sed nulla eu, commodo suscipit diam. Etiam imperdiet nunc neque, quis suscipit nisl bibendum nec. Curabitur ipsum justo, efficitur nec libero a, sodales posuere felis.&lt;/p>&#xa;&lt;p>Phasellus ut facilisis felis. Nullam sit amet tempus tellus. Maecenas a nulla ac felis imperdiet semper. Pellentesque ac consectetur arcu. Nunc placerat lectus non ante maximus facilisis. Fusce consequat lacus in faucibus maximus. Phasellus sed odio dolor. Donec vehicula pulvinar massa, non sollicitudin augue dictum non. Pellentesque id augue neque. Fusce consectetur viverra maximus. Fusce maximus auctor felis a imperdiet. Morbi fringilla rutrum est.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
+                        </cq:responsive>
+                    </text>
+                </responsivegrid>
+                <responsivegrid_2095037947
+                    jcr:created="{Date}2018-04-13T15:01:31.410-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-13T15:19:48.028-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                    </cq:responsive>
+                    <container
+                        cq:styleIds="[1523296563965]"
+                        jcr:created="{Date}2018-04-13T15:02:20.359-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-13T15:19:33.623-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/form/container"
+                        action="/content/usergenerated/coresites/gartner-mq-2017/cq-gen1523656940360/"
+                        actionType="foundation/components/form/actions/store">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <title
+                            jcr:created="{Date}2018-04-13T15:04:33.710-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T12:45:53.141-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Sign Up For Information"
+                            sling:resourceType="coresites/components/content/title"
+                            type="h2"/>
+                        <text
+                            jcr:created="{Date}2018-04-13T15:02:53.938-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:55.685-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="First Name"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="First Name"
+                            hideTitle="true"
+                            name="firstname"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1143841338
+                            jcr:created="{Date}2018-04-13T15:17:32.211-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:51.358-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Last Name"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Last Name"
+                            hideTitle="true"
+                            name="lastname"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1012322742
+                            jcr:created="{Date}2018-04-13T15:18:17.998-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:18:46.561-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Work Email"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Work Email"
+                            hideTitle="true"
+                            name="workemail"
+                            required="true"
+                            rows="1"
+                            type="email"
+                            usePlaceholder="true"/>
+                        <text_842041855
+                            jcr:created="{Date}2018-04-13T15:19:07.139-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:19:20.427-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Company"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Company"
+                            hideTitle="true"
+                            name="company"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1975271917
+                            jcr:created="{Date}2018-04-13T15:19:58.438-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:20:16.735-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Job Level"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Job Level"
+                            hideTitle="true"
+                            name="joblevel"
+                            required="true"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <text_1918759903
+                            jcr:created="{Date}2018-04-13T15:20:20.914-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:20:46.290-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Phone"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Phone"
+                            hideTitle="true"
+                            name="phone"
+                            required="true"
+                            rows="1"
+                            type="tel"
+                            usePlaceholder="true"/>
+                        <text_395952390
+                            jcr:created="{Date}2018-04-13T15:37:44.558-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T15:37:59.483-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Country"
+                            sling:resourceType="coresites/components/form/text"
+                            helpMessage="Country"
+                            hideTitle="true"
+                            name="country"
+                            rows="1"
+                            type="text"
+                            usePlaceholder="true"/>
+                        <options
+                            jcr:created="{Date}2018-04-13T16:09:50.615-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T16:11:08.361-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title=" "
+                            sling:resourceType="coresites/components/form/options"
+                            name="options"
+                            source="local"
+                            type="checkbox">
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="I'd like to speak to a specialist"
+                                    value="specialist"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Email me exclusive invites, research, offers, and news"
+                                    value="emailme"/>
+                            </items>
+                        </options>
+                        <button
+                            cq:styleIds="[1523297490190]"
+                            jcr:created="{Date}2018-04-13T16:11:18.537-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-20T12:46:06.956-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Sign Up"
+                            sling:resourceType="coresites/components/form/button"
+                            type="submit"/>
+                        <text_925314876
+                            jcr:created="{Date}2018-04-13T16:26:28.337-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-13T16:33:52.007-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>By submitting this form, you agree to our &lt;a href=&quot;#&quot;>Terms&lt;/a>. View our &lt;a href=&quot;#&quot;>Privacy Statement&lt;/a>.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </container>
+                </responsivegrid_2095037947>
+                <text
+                    cq:styleIds="[1523661738813]"
+                    jcr:created="{Date}2018-04-13T16:14:39.702-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-20T12:50:35.467-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Quisque lacus elit, elementum pulvinar fermentum vitae, pharetra et sapien.&lt;br>&#xa;19 April, 2018&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Donec tincidunt, elit at auctor euismod, velit sapien malesuada nunc, eget ornare arcu turpis at purus. Suspendisse volutpat ante erat, ac tincidunt tellus volutpat convallis. Nunc gravida leo a pretium vulputate. Curabitur sagittis convallis vehicula. In nec diam ut justo luctus auctor ac quis velit. Etiam consequat, ante vel accumsan lacinia, arcu purus varius eros, in iaculis mi nibh non arcu.&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <text_1064919874
+                    jcr:created="{Date}2018-04-13T16:23:39.609-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-04-20T12:51:02.382-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="coresites/components/content/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>©&amp;nbsp;2018 &lt;a href=&quot;#&quot;>Generic Business Inc,&lt;/a>&amp;nbsp;All&amp;nbsp;Rights&amp;nbsp;Reserved.&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;a href=&quot;#&quot;>Privacy&lt;/a> | &lt;a href=&quot;#&quot;>Contact Us&lt;/a> | &lt;a href=&quot;#&quot;>Terms of Use&lt;/a>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
