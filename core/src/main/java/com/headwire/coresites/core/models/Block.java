@@ -29,9 +29,6 @@ public class Block {
     private String gradientColor2;
 
     @Inject
-    private String minHeight;
-
-    @Inject
     private String topPadding;
 
     @Inject
@@ -40,7 +37,6 @@ public class Block {
     public String getStyleString()
     {
         String backgroundStyle = generateBackgroundStyle();
-        String heightStyle = generateMinHeightStyle();
         String topPaddingStyle = topPadding == null ? "" : "padding-top: " + topPadding + "px;";
         String bottomPaddingStyle = bottomPadding == null ? "" : "padding-bottom: " + bottomPadding + "px;";
 
@@ -52,15 +48,6 @@ public class Block {
         .append(bottomPaddingStyle);
 
         return sb.toString();
-    }
-
-    private String generateMinHeightStyle()
-    {
-        if(minHeight == null || minHeight.isEmpty())
-        {
-            return "min-height: 100px;";
-        }
-        return "height: " + minHeight + "px;";
     }
 
     private String generateBackgroundStyle()
@@ -131,10 +118,6 @@ public class Block {
         }
 
         return "linear-gradient(" + gradientColor1 + ", " + gradientColor2 + ")";
-    }
-
-    public String getMinHeight() {
-        return minHeight;
     }
 
     public String getTopPadding() {
