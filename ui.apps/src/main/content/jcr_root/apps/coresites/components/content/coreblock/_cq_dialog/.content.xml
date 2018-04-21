@@ -26,6 +26,11 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/container">
                                         <items jcr:primaryType="nt:unstructured">
+                                            <blockId
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Block Id"
+                                                name="./blockId"/>
                                             <backgroundType
                                                 granite:class="cq-dialog-dropdown-showhide"
                                                 jcr:primaryType="nt:unstructured"

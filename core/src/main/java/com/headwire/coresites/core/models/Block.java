@@ -34,6 +34,9 @@ public class Block {
     @Inject
     private String bottomPadding;
 
+    @Inject
+    private String blockId;
+
     public String getStyleString()
     {
         String backgroundStyle = generateBackgroundStyle();
@@ -128,4 +131,7 @@ public class Block {
         return bottomPadding;
     }
 
+    public String getBlockId() {
+        return blockId;
+    }
 }
