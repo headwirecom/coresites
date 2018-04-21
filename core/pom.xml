@@ -72,14 +72,10 @@
             <groupId>junit-addons</groupId>
             <artifactId>junit-addons</artifactId>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.adobe.aem</groupId>-->
-            <!--<artifactId>uber-jar</artifactId>-->
-            <!--<classifier>apis</classifier>-->
-        <!--</dependency>-->
         <dependency>
-            <groupId>com.day.cq</groupId>
-            <artifactId>cq-quickstart</artifactId>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>uber-jar</artifactId>
+            <classifier>apis</classifier>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
