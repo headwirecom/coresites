@@ -1,0 +1,10 @@
+<ul data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+    data-sly-use.inPageNavigation="com.headwire.coresites.core.models.InPageNavigation"
+    data-sly-test.hasContent="${!inPageNavigation.empty}"
+    data-sly-attribute.id="${inPageNavigation.id}"
+    data-sly-list="${inPageNavigation.anchors}">
+    <li>
+        <a href="${item.href}">${item.text}</a>
+    </li>
+</ul>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
