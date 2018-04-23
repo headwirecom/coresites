@@ -57,10 +57,6 @@
                                                         jcr:primaryType="nt:unstructured"
                                                         text="Image"
                                                         value="image"/>
-                                                    <video
-                                                        jcr:primaryType="nt:unstructured"
-                                                        text="Video"
-                                                        value="video"/>
                                                 </items>
                                             </backgroundType>
                                             <setTransparent
@@ -176,29 +172,6 @@
                                                     </well>
                                                 </items>
                                             </setImage>
-                                            <setVideo
-                                                granite:class="hide background-showhide-target foundation-layout-util-vmargin"
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/container">
-                                                <granite:data
-                                                    jcr:primaryType="nt:unstructured"
-                                                    showhidetargetvalue="video"/>
-                                                <items jcr:primaryType="nt:unstructured">
-                                                    <heading
-                                                        granite:class="coral-Heading coral-Heading--4"
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="granite/ui/components/coral/foundation/heading"
-                                                        level="{Long}4"
-                                                        text="Video Background"/>
-                                                    <well
-                                                        jcr:primaryType="nt:unstructured"
-                                                        sling:resourceType="granite/ui/components/coral/foundation/well">
-                                                        <items jcr:primaryType="nt:unstructured">
-
-                                                        </items>
-                                                    </well>
-                                                </items>
-                                            </setVideo>
 
                                             <fullWidth
                                                 jcr:primaryType="nt:unstructured"
