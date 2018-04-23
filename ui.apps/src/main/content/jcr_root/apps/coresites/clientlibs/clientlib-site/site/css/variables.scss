@@ -5,6 +5,8 @@ $coresites-secondary-bg: var(--secondary-background-color);
 
 $coresites-font-family: var(--coresites-font-family);
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
 :root {
-  --coresites-font-family: 'Montserrat'
+  --coresites-font-family: 'Montserrat', sans-serif;
 }
