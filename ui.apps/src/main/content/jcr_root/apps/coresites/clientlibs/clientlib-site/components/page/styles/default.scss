@@ -6,3 +6,16 @@ a {
   color: $coresites-primary-text;
 }
 
+.text-primary {
+  color: $coresites-primary-text !important;
+}
+.text-secondary {
+  color: $coresites-secondary-text !important;
+}
+
+.bg-primary {
+  background-color: $coresites-primary-bg !important;
+}
+.bg-secondary {
+  background-color: $coresites-secondary-bg !important;
+}
