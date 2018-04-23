@@ -20,29 +20,11 @@ public class Button {
     @Inject
     private String link;
 
-    @Inject
-    private String color;
-
-    @Inject
-    private String size;
-
     public String getText() {
         return text;
     }
 
     public String getLink() {
         return link;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
     }
 }
