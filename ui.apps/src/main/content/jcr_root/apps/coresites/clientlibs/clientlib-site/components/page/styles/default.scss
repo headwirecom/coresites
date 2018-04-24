@@ -4,6 +4,11 @@ body {
 
 a {
   color: $coresites-primary-text;
+  &:hover {
+    color: $coresites-primary-text;
+    filter: brightness(80%);
+    cursor: pointer;
+  }
 }
 
 .text-primary {
