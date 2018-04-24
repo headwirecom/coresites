@@ -1,5 +1,7 @@
 package com.headwire.coresites.core.models;
 
+import com.day.cq.commons.inherit.HierarchyNodeInheritanceValueMap;
+import com.day.cq.commons.inherit.InheritanceValueMap;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
@@ -37,6 +39,9 @@ public class CoresitesPage {
     protected void initModel()
     {
         LOG.debug("Initializing model for {}", resource.getPath());
+        initColors();
+
+
         StringBuilder stringBuilder = new StringBuilder();
 
         stringBuilder.append("\t:root {\n");
@@ -64,6 +69,32 @@ public class CoresitesPage {
 
         variableStyleString = stringBuilder.toString();
     }
+
+    private void initColors()
+    {
+        InheritanceValueMap inheritedProperties = new HierarchyNodeInheritanceValueMap(resource);
+        if(primaryTextColor == null)
+        {
+            primaryTextColor = inheritedProperties.getInherited("primaryTextColor", String.class);
+            LOG.debug("Setting primaryTextColor to {}", primaryTextColor);
+        }
+        if(secondaryTextColor == null)
+        {
+            secondaryTextColor = inheritedProperties.getInherited("secondaryTextColor", String.class);
+            LOG.debug("Setting secondaryTextColor to {}", secondaryTextColor);
+        }
+        if(primaryBackgroundColor == null)
+        {
+            primaryBackgroundColor = inheritedProperties.getInherited("primaryBackgroundColor", String.class);
+            LOG.debug("Setting primaryBackgroundColor to {}", primaryBackgroundColor);
+        }
+        if(secondaryBackgroundColor == null)
+        {
+            secondaryBackgroundColor = inheritedProperties.getInherited("secondaryBackgroundColor", String.class);
+            LOG.debug("Setting secondaryBackgroundColor to {}", secondaryBackgroundColor);
+        }
+    }
+
 
     public String getPrimaryTextColor() {
         return primaryTextColor;
