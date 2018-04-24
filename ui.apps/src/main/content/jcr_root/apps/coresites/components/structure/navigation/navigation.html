@@ -1,14 +1,15 @@
+<sly data-sly-use.cc="com.headwire.coresites.core.models.CoresitesComponent"/>
 <nav class="cmp-navigation navbar justify-content-end align-items-center navbar-light navbar-expand-lg w-100">
 
     <!-- Hamburger toggle button -->
-    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#nav-${cc.id}" aria-expanded="false"
             aria-controls="collapseExample">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Collapsible Menu -->
     <div class="text-right collapse navbar-collapse justify-content-end ${!wcmmode.disabled ? 'placeholder-width' : ''}"
-         id="navbarSupportedContent"
+         id="nav-${cc.id}"
         data-sly-use.template="core/wcm/components/commons/v1/templates.html"
         data-sly-use.navigation="com.adobe.cq.wcm.core.components.models.Navigation"
         data-sly-test.hasContent="${navigation.items.size > 0}"
