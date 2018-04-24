@@ -1,12 +1,15 @@
 .coreblock.coreblock__sticky {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 .coreblock.coreblock__fixed-bottom {
   position: fixed;
   bottom: 0;
+  z-index: 100;
 }
 .coreblock.coreblock__fixed-top {
   position: fixed;
   top: 0;
+  z-index: 100;
 }
