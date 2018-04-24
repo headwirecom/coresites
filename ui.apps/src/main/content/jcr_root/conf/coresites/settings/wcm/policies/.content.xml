@@ -21,7 +21,7 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1520289293027>
                     <policy_1568462218782546
-                        jcr:lastModified="{Date}2018-04-19T13:32:36.771-07:00"
+                        jcr:lastModified="{Date}2018-04-24T09:22:21.879-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
@@ -134,6 +134,53 @@
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item3>
+                            <item4
+                                cq:styleGroupLabel="Background"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="bg-primary"
+                                        cq:styleId="1524518363204"
+                                        cq:styleLabel="Primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="bg-secondary"
+                                        cq:styleId="1524518363887"
+                                        cq:styleLabel="Secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="bg-dark"
+                                        cq:styleId="1524518386935"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="bg-light"
+                                        cq:styleId="1524518387536"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item4>
+                            <item5
+                                cq:styleGroupLabel="Drop Shadow"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="dropshadow-1"
+                                        cq:styleId="1524586917742"
+                                        cq:styleLabel="1"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="dropshadow-2"
+                                        cq:styleId="1524586918489"
+                                        cq:styleLabel="2"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="dropshadow-3"
+                                        cq:styleId="1524586919065"
+                                        cq:styleLabel="3"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item5>
                         </cq:styleGroups>
                     </policy_1568462218782546>
                 </responsivegrid>
@@ -660,7 +707,7 @@
                 </block2>
                 <coreblock jcr:primaryType="nt:unstructured">
                     <policy_1522775948876
-                        jcr:lastModified="{Date}2018-04-11T12:36:49.883-07:00"
+                        jcr:lastModified="{Date}2018-04-23T15:02:46.688-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Block Styles"
@@ -685,6 +732,16 @@
                                         cq:styleClasses="text-dark bg-light"
                                         cq:styleId="1522775961706"
                                         cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="bg-primary text-primary"
+                                        cq:styleId="1524520941431"
+                                        cq:styleLabel="Primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="bg-secondary text-secondary"
+                                        cq:styleId="1524520949677"
+                                        cq:styleLabel="Secondary"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -735,7 +792,7 @@
                 </coreblock>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1522779791882
-                        jcr:lastModified="{Date}2018-04-13T13:12:24.820-07:00"
+                        jcr:lastModified="{Date}2018-04-23T15:03:59.717-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Text Styles"
@@ -880,6 +937,16 @@
                                         cq:styleClasses="text-secondary"
                                         cq:styleId="1523296277987"
                                         cq:styleLabel="Secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="text-dark"
+                                        cq:styleId="1524521026383"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="text-light"
+                                        cq:styleId="1524521026908"
+                                        cq:styleLabel="Light"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item1>
@@ -1049,6 +1116,18 @@
                         </cq:styleGroups>
                     </policy_1520449984995>
                 </page>
+                <search jcr:primaryType="nt:unstructured"/>
+                <inPageNavigation jcr:primaryType="nt:unstructured">
+                    <policy_1524600269956
+                        jcr:lastModified="{Date}2018-04-24T13:05:50.325-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="In page nav styles"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1524600269956>
+                </inPageNavigation>
+                <navigation jcr:primaryType="nt:unstructured"/>
             </structure>
             <form jcr:primaryType="nt:unstructured">
                 <container jcr:primaryType="nt:unstructured">
