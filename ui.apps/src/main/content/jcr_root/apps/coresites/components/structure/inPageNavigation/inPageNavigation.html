@@ -1,10 +1,20 @@
-<ul data-sly-use.template="core/wcm/components/commons/v1/templates.html"
-    data-sly-use.inPageNavigation="com.headwire.coresites.core.models.InPageNavigation"
-    data-sly-test.hasContent="${!inPageNavigation.empty}"
-    data-sly-attribute.id="${inPageNavigation.id}"
-    data-sly-list="${inPageNavigation.anchors}">
-    <li>
-        <a href="${item.href}">${item.text}</a>
-    </li>
-</ul>
+<nav class="cmp-navigation navbar justify-content-end align-items-center navbar-light navbar-expand-lg w-100">
+    <!-- Hamburger toggle button -->
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#nav-${inPageNavigation.id}" aria-expanded="false"
+            aria-controls="collapseExample">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" text-right collapse navbar-collapse justify-content-end ${!wcmmode.disabled ? 'placeholder-width' : ''}"
+         id="nav-${inPageNavigation.id}">
+        <ul class="cmp-navigation__group"
+            data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+            data-sly-use.inPageNavigation="com.headwire.coresites.core.models.InPageNavigation"
+            data-sly-test.hasContent="${!inPageNavigation.empty}"
+            data-sly-list="${inPageNavigation.anchors}">
+            <li class="nav-item cmp-navigation__item">
+                <a class="cmp-navigation__item-link" href="${item.href}">${item.text}</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
