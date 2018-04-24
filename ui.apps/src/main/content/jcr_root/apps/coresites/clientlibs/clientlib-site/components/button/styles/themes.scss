@@ -2,14 +2,20 @@
   &.cmp-button--primary {
     button, .btn {
       background-color: $coresites-primary-bg;
-      color: $light;
+      color: $coresites-primary-text;
+      &:hover {
+        color: $coresites-primary-text;
+      }
     }
   }
 
   &.cmp-button--secondary {
     button, .btn {
       background-color: $coresites-secondary-bg;
-      color: $light;
+      color: $coresites-secondary-text;
+      &:hover {
+        color: $coresites-secondary-text;
+      }
     }
   }
 }
