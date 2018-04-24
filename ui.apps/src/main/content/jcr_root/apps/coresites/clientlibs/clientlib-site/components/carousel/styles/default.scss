@@ -2,14 +2,23 @@
   .carousel-indicators {
     position: relative;
   }
-}
 
-.carousel {
   .carousel-caption {
     color: inherit;
   }
-}
 
+  .carousel-item {
+    height: 700px;
+    overflow: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+}
 .cc-no-image
 {
     position: static;
