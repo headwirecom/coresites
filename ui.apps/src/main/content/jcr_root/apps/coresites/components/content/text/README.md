@@ -1,0 +1,1 @@
+<a href="https://github.com/headwirecom/coresites/wiki/Coresites-Components#text" target="blank">Text</a>

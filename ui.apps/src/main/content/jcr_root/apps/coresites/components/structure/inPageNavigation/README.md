@@ -1,0 +1,1 @@
+<a href="https://github.com/headwirecom/coresites/wiki/Coresites-Components#in-page-navigation" target="blank">In Page Navigation</a>

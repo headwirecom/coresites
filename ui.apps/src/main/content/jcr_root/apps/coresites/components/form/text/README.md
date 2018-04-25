@@ -1,0 +1,1 @@
+<a href="https://github.com/headwirecom/coresites/wiki/Coresites-Components#form-text" target="blank">Form Text</a>
