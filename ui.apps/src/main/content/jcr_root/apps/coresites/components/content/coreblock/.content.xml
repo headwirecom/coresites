@@ -3,4 +3,4 @@
     jcr:description="Block Component"
     jcr:primaryType="cq:Component"
     jcr:title="Coresites Block"
-    componentGroup="Coresites.Blox"/>
+    componentGroup="Coresites.Content"/>

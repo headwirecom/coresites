@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c58ad58e-6778-4311-9a49-c794ac2bcd0d">
     <jcr:content
+        cq:name="apartment-architectural-design-architecture-323780.jpg"
+        cq:parentPath="/content/dam/coresites/appartment"
         dam:assetState="processed"
         dam:relativePath="coresites/appartment/apartment-architectural-design-architecture-323780.jpg"
-        jcr:lastModified="{Date}2018-04-24T13:19:05.775-07:00"
+        jcr:lastModified="{Date}2018-04-24T17:25:12.651-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-24T13:19:04.456-07:00"
+            dam:extracted="{Date}2018-04-24T17:25:11.736-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}73.11111450195312"
             dam:Progressive="no"
-            dam:sha1="616327e39343b425af3c490cc606a5ff41a23a47"
-            dam:size="{Long}1567249"
+            dam:sha1="578339fe2da4d34ad0f737c1e38bd9393e22df66"
+            dam:size="{Long}1570232"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-24T17:25:10.197-07:00"
+            jcr:lastModified="{Date}2018-04-24T17:25:10.196-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3393"

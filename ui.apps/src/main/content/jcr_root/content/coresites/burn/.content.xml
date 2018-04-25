@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-19T17:01:19.501-07:00"
+        cq:lastModified="{Date}2018-04-25T11:37:30.592-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -28,9 +28,9 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/burn/ash-boom-calamity-735647.jpg"
                 backgroundType="image"
                 bottomPadding="250"
+                fileReference="/content/dam/coresites/burn/ash-boom-calamity-735647.jpg"
                 fullWidth="true"
                 topPadding="250">
                 <grid
@@ -38,47 +38,38 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <coreflex_2105940069
-                        cq:styleIds="[1522344074998,1522344146547,1522264032790]"
-                        jcr:created="{Date}2018-04-04T12:40:17.254-07:00"
+                    <image
+                        jcr:created="{Date}2018-04-19T16:27:49.135-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-05T08:50:17.200-07:00"
+                        jcr:lastModified="{Date}2018-04-19T16:37:19.501-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/coreflex">
+                        sling:resourceType="coresites/components/content/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/coresites/burn/burn.png"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="5"
-                                width="24"/>
+                                width="2"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
-                        <image
-                            jcr:created="{Date}2018-04-19T16:27:49.135-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T16:37:19.501-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/image"
-                            altValueFromDAM="true"
-                            displayPopupTitle="true"
-                            fileReference="/content/dam/coresites/burn/burn.png"
-                            isDecorative="false"
-                            titleValueFromDAM="true"/>
-                        <text
-                            cq:styleIds="[1522779812077]"
-                            jcr:created="{Date}2018-04-03T09:03:51.776-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T16:37:42.190-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>Everything Is On Fire&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </coreflex_2105940069>
+                    </image>
+                    <text
+                        cq:styleIds="[1522779812077]"
+                        jcr:created="{Date}2018-04-03T09:03:51.776-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-19T16:37:42.190-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>Everything Is On Fire&lt;/p>&#xa;"
+                        textIsRich="true"/>
                 </grid>
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <phone
@@ -331,9 +322,9 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/burn/burning-dark-fire-66398.jpg"
                 backgroundType="image"
                 bottomPadding="250"
+                fileReference="/content/dam/coresites/burn/burning-dark-fire-66398.jpg"
                 fullWidth="false"
                 topPadding="250">
                 <cq:responsive jcr:primaryType="nt:unstructured">
@@ -503,9 +494,9 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/burn/accident-action-adult-280076.jpg"
                 backgroundType="image"
                 bottomPadding="250"
+                fileReference="/content/dam/coresites/burn/accident-action-adult-280076.jpg"
                 fullWidth="false"
                 topPadding="250"/>
             <block2_2125998065
@@ -599,33 +590,22 @@
                                 width="12"/>
                         </cq:responsive>
                     </text_1826340220>
-                    <coreflex
-                        cq:styleIds="[1522264028803,1522344078058]"
-                        jcr:created="{Date}2018-04-03T10:00:42.230-07:00"
+                    <text2
+                        cq:styleIds="[1522779812077]"
+                        jcr:created="{Date}2018-04-03T10:00:52.958-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-03T10:01:17.545-07:00"
+                        jcr:lastModified="{Date}2018-04-25T11:37:30.580-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/coreflex">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                        <text
-                            jcr:created="{Date}2018-04-03T10:00:52.958-07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T16:55:32.137-07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>© 2018 Burn International&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </coreflex>
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;p>© 2018 Burn International&lt;/p>&#xa;"
+                        textIsRich="true"/>
                 </grid>
             </block2_2125998065>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
     </jcr:content>
     <fire/>
     <spark/>

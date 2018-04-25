@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="8258cf78-78a6-49fa-b85e-2425c9fa3124">
     <jcr:content
+        cq:name="apartment-architecture-buildings-681331.jpg"
+        cq:parentPath="/content/dam/coresites/appartment"
         dam:assetState="processed"
         dam:relativePath="coresites/appartment/apartment-architecture-buildings-681331.jpg"
-        jcr:lastModified="{Date}2018-04-24T13:19:07.136-07:00"
+        jcr:lastModified="{Date}2018-04-24T17:25:05.972-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-24T13:19:05.580-07:00"
+            dam:extracted="{Date}2018-04-24T17:25:04.328-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}74.56944274902344"
             dam:Progressive="no"
-            dam:sha1="b92ab89edc4a5ef041b58cc4c396af743fbf8ab9"
-            dam:size="{Long}3098605"
+            dam:sha1="469b600eea4cba55db52afb165aae8b3663c7449"
+            dam:size="{Long}3101599"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-24T17:25:01.578-07:00"
+            jcr:lastModified="{Date}2018-04-24T17:25:01.577-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3017"

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-20T17:05:48.351-07:00"
+        cq:lastModified="{Date}2018-04-25T14:43:58.436-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -28,9 +28,9 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="coresites/components/content/coreblock"
-                backgroundImagePath="/content/dam/coresites/fahr/car-808372_1920.jpg"
                 backgroundType="image"
                 bottomPadding="200"
+                fileReference="/content/dam/coresites/fahr/car-808372_1920.jpg"
                 fullWidth="false"
                 minHeight="10"
                 topPadding="200">
@@ -497,16 +497,15 @@
                                 jcr:primaryType="nt:unstructured"
                                 width="12"/>
                         </cq:responsive>
-                        <vectorgraphic
+                        <image
                             jcr:created="{Date}2018-04-09T10:01:04.971-07:00"
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2018-04-19T17:33:38.066-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            sling:resourceType="coresites/components/content/image"
                             displayPopupTitle="false"
-                            fileReference="/content/dam/coresites/fahr/if_money_bag_2639867.svg"
-                            height="100px"
+                            fileReference="/content/dam/coresites/fahr/if_money_bag_2639867.png"
                             isDecorative="true"
                             titleValueFromDAM="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -519,7 +518,7 @@
                                     offset="0"
                                     width="12"/>
                             </cq:responsive>
-                        </vectorgraphic>
+                        </image>
                         <text_1506270926
                             cq:styleIds="[1522779812077]"
                             jcr:lastModified="{Date}2018-04-19T17:35:09.503-07:00"
@@ -551,16 +550,15 @@
                                 jcr:primaryType="nt:unstructured"
                                 width="12"/>
                         </cq:responsive>
-                        <vectorgraphic_107804
+                        <image_107804
                             jcr:created="{Date}2018-04-09T10:01:01.226-07:00"
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2018-04-19T17:36:56.737-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            sling:resourceType="coresites/components/content/image"
                             displayPopupTitle="false"
-                            fileReference="/content/dam/coresites/fahr/if_stop_298874.svg"
-                            height="100px"
+                            fileReference="/content/dam/coresites/fahr/if_stop_298874.png"
                             isDecorative="true"
                             titleValueFromDAM="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -569,7 +567,7 @@
                                     offset="4"
                                     width="4"/>
                             </cq:responsive>
-                        </vectorgraphic_107804>
+                        </image_107804>
                         <text_1588397428
                             cq:styleIds="[1522779812077]"
                             jcr:lastModified="{Date}2018-04-19T17:38:09.622-07:00"
@@ -601,30 +599,29 @@
                                 jcr:primaryType="nt:unstructured"
                                 width="12"/>
                         </cq:responsive>
-                        <vectorgraphic_780912
+                        <image_780912
                             jcr:created="{Date}2018-04-09T10:00:58.225-07:00"
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2018-04-19T17:38:54.007-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="coresites/components/content/vectorGraphic"
+                            sling:resourceType="coresites/components/content/image"
                             displayPopupTitle="false"
-                            fileReference="/content/dam/coresites/fahr/if_02_1872626.svg"
-                            height="100px"
+                            fileReference="/content/dam/coresites/fahr/if_02_1872626.png"
                             isDecorative="true"
                             titleValueFromDAM="false"
                             width="80%">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="8"/>
+                                    offset="4"
+                                    width="4"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     offset="4"
                                     width="5"/>
                             </cq:responsive>
-                        </vectorgraphic_780912>
+                        </image_780912>
                         <text_939199664
                             cq:styleIds="[1522779812077]"
                             jcr:lastModified="{Date}2018-04-19T17:39:38.853-07:00"
@@ -705,94 +702,111 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <vectorgraphic
-                        jcr:created="{Date}2018-04-13T08:29:27.598-07:00"
+                    <responsivegrid
+                        jcr:created="{Date}2018-04-25T14:43:45.182-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:44:17.550-07:00"
+                        jcr:lastModified="{Date}2018-04-25T14:43:45.182-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/vectorGraphic"
-                        displayPopupTitle="false"
-                        fileReference="/content/dam/coresites/fahr/if_Vector-icons_39_1041628.svg"
-                        isDecorative="true"
-                        titleValueFromDAM="false"
-                        width="60%">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="2"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="4"
-                                width="6"/>
-                        </cq:responsive>
-                    </vectorgraphic>
-                    <text
-                        cq:styleIds="[1523299394140]"
-                        jcr:created="{Date}2018-04-13T08:29:32.046-07:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <image
+                            jcr:created="{Date}2018-04-13T08:29:27.598-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-19T17:44:17.550-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/fahr/if_Vector-icons_39_1041628.png"
+                            isDecorative="true"
+                            titleValueFromDAM="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="6"/>
+                            </cq:responsive>
+                        </image>
+                        <text
+                            cq:styleIds="[1523299394140]"
+                            jcr:created="{Date}2018-04-13T08:29:32.046-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-19T17:48:52.064-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h3>Get Fahr Away&lt;/h3>&#xa;&lt;p>When you drive for Fahr, you won't have to worry about accidents or insurance. That's because our drivers are trained to wear disguises and flee the scene of any accident. That keeps our costs low and our employees out prison.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="7"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
+                    </responsivegrid>
+                    <responsivegrid_1189216853
+                        jcr:created="{Date}2018-04-25T14:43:54.638-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:48:52.064-07:00"
+                        jcr:lastModified="{Date}2018-04-25T14:43:54.638-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>Get Fahr Away&lt;/h3>&#xa;&lt;p>When you drive for Fahr, you won't have to worry about accidents or insurance. That's because our drivers are trained to wear disguises and flee the scene of any accident. That keeps our costs low and our employees out prison.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="7"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                    </text>
-                    <vectorgraphic_115068360
-                        jcr:created="{Date}2018-04-13T08:29:35.202-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:45:47.727-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/vectorGraphic"
-                        displayPopupTitle="false"
-                        fileReference="/content/dam/coresites/fahr/if_SEO_favorite_969249.svg"
-                        isDecorative="true"
-                        titleValueFromDAM="false"
-                        width="60%">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="2"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="4"
-                                width="6"/>
-                        </cq:responsive>
-                    </vectorgraphic_115068360>
-                    <text_979717126
-                        cq:styleIds="[1523299394140]"
-                        jcr:created="{Date}2018-04-13T08:29:38.063-07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:46:58.280-07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>Not a Popularity Contest&lt;/h3>&#xa;&lt;p>We don't care how much your passengers like you, or how much you like your passengers. Ratings don't matter here.&lt;/p>&#xa;"
-                        textIsRich="true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="7"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                        </cq:responsive>
-                    </text_979717126>
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <image_115068360
+                            jcr:created="{Date}2018-04-13T08:29:35.202-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-19T17:45:47.727-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/image"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/coresites/fahr/if_SEO_favorite_969249.png"
+                            isDecorative="true"
+                            titleValueFromDAM="false"
+                            width="60%">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="6"/>
+                            </cq:responsive>
+                        </image_115068360>
+                        <text_979717126
+                            cq:styleIds="[1523299394140]"
+                            jcr:created="{Date}2018-04-13T08:29:38.063-07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-04-19T17:46:58.280-07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="coresites/components/content/text"
+                            text="&lt;h3>Not a Popularity Contest&lt;/h3>&#xa;&lt;p>We don't care how much your passengers like you, or how much you like your passengers. Ratings don't matter here.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="7"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_979717126>
+                    </responsivegrid_1189216853>
                 </grid>
             </coreblock_363927373>
             <coreblock_1067225331
@@ -889,5 +903,8 @@
                 </grid>
             </coreblock_44744630>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
     </jcr:content>
 </jcr:root>

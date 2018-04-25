@@ -12,6 +12,42 @@
             jcr:lastModified="{Date}2018-03-28T14:36:01.576-07:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <coreblock
+                jcr:created="{Date}2018-04-25T15:48:09.836-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-04-25T15:48:42.574-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="gradient"
+                bottomPadding="10"
+                fullWidth="true"
+                gradientColor1="rgba(255,65,54,0.8)"
+                gradientColor2="rgb(255,133,27)"
+                topPadding="10">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <title
+                        cq:styleIds="[1522779776111]"
+                        jcr:created="{Date}2018-04-25T15:48:47.429-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-25T15:48:53.749-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/title"/>
+                    <text
+                        jcr:created="{Date}2018-04-25T15:48:56.872-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-25T15:50:33.627-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h3 style=&quot;text-align: center;&quot;>This page intentionally left blank&lt;/h3>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;sub>It's only here to fill out the navigation on the demo page.&lt;/sub>&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </grid>
+            </coreblock>
+        </root>
     </jcr:content>
 </jcr:root>

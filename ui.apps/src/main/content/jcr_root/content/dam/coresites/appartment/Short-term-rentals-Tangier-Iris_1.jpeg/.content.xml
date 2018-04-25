@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="99e87e8d-4633-44ef-a596-3fca4be636c2">
     <jcr:content
+        cq:name="Short-term-rentals-Tangier-Iris_1.jpeg"
+        cq:parentPath="/content/dam/coresites/appartment"
         dam:assetState="processed"
         dam:relativePath="coresites/appartment/Short-term-rentals-Tangier-Iris_1.jpeg"
-        jcr:lastModified="{Date}2018-04-24T08:37:03.269-07:00"
+        jcr:lastModified="{Date}2018-04-24T17:25:06.993-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-24T08:37:02.869-07:00"
+            dam:extracted="{Date}2018-04-24T17:25:05.578-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}96"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="ca71bf7195bec85197a6aa0d399e5364e7fda043"
+            dam:sha1="816907933264c413777a939080ae17a350392f78"
             dam:size="{Long}28497"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-24T17:25:06.456-07:00"
+            jcr:lastModified="{Date}2018-04-24T17:25:06.456-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}600"
