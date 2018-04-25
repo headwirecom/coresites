@@ -792,7 +792,7 @@
                 </coreblock>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1522779791882
-                        jcr:lastModified="{Date}2018-04-23T15:03:59.717-07:00"
+                        jcr:lastModified="{Date}2018-04-25T13:13:09.395-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Text Styles"
@@ -960,17 +960,17 @@
                                         cq:styleLabel="0"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="px-1"
+                                        cq:styleClasses="p-0 px-md--1"
                                         cq:styleId="1523299378316"
                                         cq:styleLabel="1"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item2
-                                        cq:styleClasses="px-2"
+                                        cq:styleClasses="p-0 px-md-2"
                                         cq:styleId="1523299378941"
                                         cq:styleLabel="2"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item3
-                                        cq:styleClasses="px-3"
+                                        cq:styleClasses="p-0 px-md-3"
                                         cq:styleId="1523299394140"
                                         cq:styleLabel="3"
                                         jcr:primaryType="nt:unstructured"/>
@@ -1008,7 +1008,7 @@
                 </text>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1523297485475
-                        jcr:lastModified="{Date}2018-04-19T14:16:30.489-07:00"
+                        jcr:lastModified="{Date}2018-04-25T14:09:48.779-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Button styles"
@@ -1037,6 +1037,32 @@
                                 </cq:styles>
                             </item0>
                             <item1
+                                cq:styleGroupLabel="Text Color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="text-primary"
+                                        cq:styleId="1524690560829"
+                                        cq:styleLabel="Primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="text-secondary"
+                                        cq:styleId="1524690561490"
+                                        cq:styleLabel="Secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="text-dark"
+                                        cq:styleId="1524690562208"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="text-light"
+                                        cq:styleId="1524690562937"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2
                                 cq:styleGroupLabel="Corners"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -1051,8 +1077,8 @@
                                         cq:styleLabel="Round"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
-                            </item1>
-                            <item2
+                            </item2>
+                            <item3
                                 cq:styleGroupLabel="Border"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -1077,7 +1103,7 @@
                                         cq:styleLabel="Light"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
-                            </item2>
+                            </item3>
                         </cq:styleGroups>
                     </policy_1523297485475>
                 </button>
@@ -1211,7 +1237,7 @@
                 </container>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1523297485475
-                        jcr:lastModified="{Date}2018-04-19T13:59:18.791-07:00"
+                        jcr:lastModified="{Date}2018-04-25T14:09:09.261-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Button styles"
@@ -1240,6 +1266,32 @@
                                 </cq:styles>
                             </item0>
                             <item1
+                                cq:styleGroupLabel="Text Color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="text-primary"
+                                        cq:styleId="1524690522974"
+                                        cq:styleLabel="Primary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="text-secondary"
+                                        cq:styleId="1524690528733"
+                                        cq:styleLabel="Secondary"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="text-dark"
+                                        cq:styleId="1524690529705"
+                                        cq:styleLabel="Dark"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="text-light"
+                                        cq:styleId="1524690530295"
+                                        cq:styleLabel="Light"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2
                                 cq:styleGroupLabel="Corners"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -1254,8 +1306,8 @@
                                         cq:styleLabel="Rounded"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
-                            </item1>
-                            <item2
+                            </item2>
+                            <item3
                                 cq:styleGroupLabel="Border"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -1280,7 +1332,7 @@
                                         cq:styleLabel="Dark"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
-                            </item2>
+                            </item3>
                         </cq:styleGroups>
                     </policy_1523297485475>
                 </button>
