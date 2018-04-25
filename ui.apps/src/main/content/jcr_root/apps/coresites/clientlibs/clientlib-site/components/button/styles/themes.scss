@@ -18,4 +18,36 @@
       }
     }
   }
+  &.text-primary {
+    button, .btn {
+      color: $coresites-primary-text;
+      &:hover {
+        color: $coresites-primary-text;
+      }
+    }
+  }
+  &.text-secondary {
+    button, .btn {
+      color: $coresites-secondary-text;
+      &:hover {
+        color: $coresites-secondary-text;
+      }
+    }
+  }
+  &.text-light {
+    button, .btn {
+      color: $light;
+      &:hover {
+        color: $light;
+      }
+    }
+  }
+  &.text-dark {
+    button, .btn {
+      color: $dark;
+      &:hover {
+        color: $dark;
+      }
+    }
+  }
 }
