@@ -1,16 +1,24 @@
 package com.headwire.coresites.core.models;
 
 import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.Self;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 @Model(adaptables = Resource.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Block {
+    private static final Logger LOG = LoggerFactory.getLogger(Block.class);
 
-    @Inject
+    @Self
+    private Resource resource;
+
     private String backgroundImagePath;
 
     @Inject
@@ -36,6 +44,28 @@ public class Block {
 
     @Inject
     private String blockId;
+
+    @PostConstruct
+    protected void initModel()
+    {
+        if(backgroundType != null && backgroundType.equals("image"))
+        {
+            ValueMap properties = resource.getValueMap();
+            String fileReference = properties.get("fileReference", String.class);
+            if(fileReference != null && !fileReference.isEmpty())
+            {
+                backgroundImagePath = fileReference;
+            }
+            else
+            {
+                Resource fileResource = resource.getChild("file");
+                if(fileResource != null)
+                {
+                    backgroundImagePath = fileResource.getPath();
+                }
+            }
+        }
+    }
 
     public String getStyleString()
     {
