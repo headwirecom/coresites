@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ====================================================================== -->
+    <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+    <parent>
+        <artifactId>coresites</artifactId>
+        <groupId>com.headwire</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+
+    <artifactId>coresites.ui.content</artifactId>
+    <packaging>content-package</packaging>
+    <name>Coresites UI Content</name>
+    <description>Sample content for Coresites</description>
+
+    <!-- ====================================================================== -->
+    <!-- B U I L D D E F I N I T I O N -->
+    <!-- ====================================================================== -->
+    <build>
+        <resources>
+            <!-- define the resources that will go into the package -->
+            <resource>
+                <!-- we want to keep some of the META-INF files and not configure everything
+                    in the plugin. -->
+                <directory>${basedir}/src/main/content/META-INF</directory>
+                <targetPath>../vault-work/META-INF</targetPath>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/content/jcr_root</directory>
+                <excludes>
+                    <!-- exclude .vlt control files in the package -->
+                    <exclude>**/.vlt</exclude>
+                    <exclude>**/.vltignore</exclude>
+                    <exclude>**/.gitignore</exclude>
+                    <exclude>**/*.iml</exclude>
+                    <exclude>**/.classpath</exclude>
+                    <exclude>**/.project</exclude>
+                    <exclude>**/.settings</exclude>
+                    <exclude>**/.DS_Store</exclude>
+                    <exclude>**/target/**</exclude>
+                    <exclude>**/pom.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        <plugins>
+            <!-- we want to keep some of the META-INF files and not configure everything
+                in the plugin (mainly the filters). copy the resource explicitly instead
+                of attaching it to the default resources -->
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <!-- ensure that the empty directories are copied -->
+                <configuration>
+                    <includeEmptyDirs>true</includeEmptyDirs>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>copy-metainf-vault-resources</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/vault-work/META-INF</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/META-INF</directory>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- ====================================================================== -->
+            <!-- V A U L T   P A C K A G E   P L U G I N                                -->
+            <!-- ====================================================================== -->
+            <plugin>
+                <groupId>com.day.jcr.vault</groupId>
+                <artifactId>content-package-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <filterSource>${basedir}/META-INF/vault/filter.xml</filterSource>
+                    <verbose>true</verbose>
+                    <failOnError>true</failOnError>
+                    <group>coresites</group>
+                    <properties>
+                        <acHandling>merge_preserve</acHandling>
+                    </properties>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <profiles>
+        <profile>
+            <id>autoInstallPackage</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.day.jcr.vault</groupId>
+                        <artifactId>content-package-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>install-content-package</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>install</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>autoInstallPackagePublish</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.day.jcr.vault</groupId>
+                        <artifactId>content-package-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>install-content-package-publish</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>install</goal>
+                                </goals>
+                                <configuration>
+                                    <targetURL>http://${publish.crx.host}:${publish.crx.port}/crx/packmgr/service.jsp</targetURL>
+                                    <userId>${publish.crx.username}</userId>
+                                    <password>${publish.crx.password}</password>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

@@ -6,13 +6,6 @@
 
 
     <filter root="/conf/coresites" mode="merge"/>
-    <filter root="/content/coresites" mode="merge"/>
-    <filter root="/content/dam/coresites" mode="merge"/>
-
-
-    <filter root="/etc/clientlibs/coresites"/>
-    <filter root="/etc/clientlibs/lyft"/>
-    <filter root="/etc/clientlibs/tesla"/>
 
 
     <filter root="/etc/designs/coresites">

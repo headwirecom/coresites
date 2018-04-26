@@ -86,6 +86,7 @@
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
             <type>content-package</type>
+            <classifier>min</classifier>
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
