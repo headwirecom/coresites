@@ -3,8 +3,6 @@
 
     <filter root="/content/coresites"/>
     <filter root="/content/dam/coresites"/>
-    <filter root="/etc/clientlibs/coresites"/>
-    <filter root="/etc/clientlibs/lyft"/>
-    <filter root="/etc/clientlibs/tesla"/>
+    <filter root="/apps/coresites-samples"/>
 
 </workspaceFilter>

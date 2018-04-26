@@ -160,6 +160,9 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>coresites</group>
+                    <properties>
+                        <acHandling>merge_preserve</acHandling>
+                    </properties>
                     <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     <embeddeds>
                         <embedded>
