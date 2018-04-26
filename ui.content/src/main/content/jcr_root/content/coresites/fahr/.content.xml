@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-25T14:43:58.436-07:00"
+        cq:lastModified="{Date}2018-04-26T12:31:57.923-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -14,7 +14,11 @@
         jcr:uuid="5834820d-6b57-4532-bc04-6077531c8f12"
         sling:resourceType="coresites/components/structure/page"
         extraClientLibs="fahr.main"
-        pageTitle="Drive with Lyft">
+        pageTitle="Drive with Lyft"
+        primaryBackgroundColor="#F012BE"
+        primaryTextColor="#F012BE"
+        secondaryBackgroundColor="#111111"
+        secondaryTextColor="#111111">
         <root
             jcr:lastModified="{Date}2018-03-28T14:36:01.576-07:00"
             jcr:lastModifiedBy="admin"
@@ -177,10 +181,10 @@
                             </cq:responsive>
                         </options_883058678>
                         <button
-                            cq:styleIds="[1523297489457]"
+                            cq:styleIds="[1523297489457,1524690530295]"
                             jcr:created="{Date}2018-04-09T07:40:59.861-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T17:14:34.171-07:00"
+                            jcr:lastModified="{Date}2018-04-26T08:50:12.479-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Sign Up"
@@ -328,8 +332,8 @@
                                     width="1"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"/>
+                                    offset="3"
+                                    width="6"/>
                             </cq:responsive>
                         </image_432728991>
                         <text_130494129
@@ -364,7 +368,8 @@
                                     width="1"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    width="12"/>
+                                    offset="3"
+                                    width="6"/>
                             </cq:responsive>
                         </image_175399392>
                         <text_670131074
@@ -399,7 +404,8 @@
                                     width="1"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    width="12"/>
+                                    offset="3"
+                                    width="6"/>
                             </cq:responsive>
                         </image>
                         <text_930726409
@@ -515,8 +521,8 @@
                                     width="4"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"/>
+                                    offset="4"
+                                    width="4"/>
                             </cq:responsive>
                         </image>
                         <text_1506270926
@@ -619,7 +625,7 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     offset="4"
-                                    width="5"/>
+                                    width="4"/>
                             </cq:responsive>
                         </image_780912>
                         <text_939199664
@@ -683,6 +689,11 @@
                         </slides>
                     </carousel_1747206158>
                 </grid>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        behavior="hide"/>
+                </cq:responsive>
             </coreblock_921197493>
             <coreblock_363927373
                 cq:styleIds="[1522775961706]"
@@ -728,7 +739,7 @@
                                     width="2"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    offset="4"
+                                    offset="3"
                                     width="6"/>
                             </cq:responsive>
                         </image>
@@ -781,8 +792,8 @@
                                     width="2"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    offset="4"
-                                    width="6"/>
+                                    offset="2"
+                                    width="8"/>
                             </cq:responsive>
                         </image_115068360>
                         <text_979717126
@@ -879,10 +890,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <button
-                        cq:styleIds="[1523297489457]"
+                        cq:styleIds="[1523297489457,1524690562937]"
                         jcr:created="{Date}2018-04-13T08:46:40.762-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:55:12.617-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:51:01.945-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/button"

@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="coresites/car/862014569.mp4"
-        jcr:lastModified="{Date}2018-04-20T12:58:36.904-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:17.073-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2018-04-20T12:58:36.630-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:15.613-07:00"
             dam:sha1="bf0bcfd4ec1685c4b177a18c6d7fed0128cd3d25"
             dam:size="{Long}5840972"
             dc:format="video/mp4"
+            dc:modified="{Date}2018-04-26T08:28:15.657-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:15.656-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             xmp:CreateDate="{Date}2017-10-31T10:12:46.000Z"

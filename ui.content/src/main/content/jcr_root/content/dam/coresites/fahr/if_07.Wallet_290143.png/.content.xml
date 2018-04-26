@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="3bf58628-6251-444c-89f6-6c0796b2c62e">
     <jcr:content
+        cq:name="if_07.Wallet_290143.png"
+        cq:parentPath="/content/dam/coresites/fahr"
         dam:assetState="processed"
         dam:relativePath="coresites/fahr/if_07.Wallet_290143.png"
-        jcr:lastModified="{Date}2018-04-19T17:25:44.854-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:41.771-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-04-19T17:25:44.699-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:21.699-07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.5551111698150635"
             dam:Progressive="no"
-            dam:sha1="4e602f193ccacc38fa4d795578537d7cd7dd015d"
+            dam:sha1="7102a29656bb6235dfd3c26421a74eb013176941"
             dam:size="{Long}3895"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-26T08:28:41.300-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:41.299-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}256"

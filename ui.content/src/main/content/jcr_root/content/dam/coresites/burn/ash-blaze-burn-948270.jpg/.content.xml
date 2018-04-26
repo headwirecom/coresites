@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="372c8aa8-2c25-44a9-9f08-c0bb395a9968">
     <jcr:content
+        cq:name="ash-blaze-burn-948270.jpg"
+        cq:parentPath="/content/dam/coresites/burn"
         dam:assetState="processed"
         dam:relativePath="coresites/burn/ash-blaze-burn-948270.jpg"
-        jcr:lastModified="{Date}2018-04-19T16:50:27.024-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:44.053-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-19T16:50:26.421-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:14.726-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}51.15277862548828"
             dam:Progressive="no"
-            dam:sha1="8252a869bf85397da975ba296aefc5043b2d88bc"
+            dam:sha1="1e4ce968ed1747a0a640d7489665bb4310698093"
             dam:size="{Long}2710322"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:43.343-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:43.343-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3036"

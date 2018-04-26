@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="03738d77-0601-4e25-83d7-6eb0e489e882">
     <jcr:content
+        cq:name="if_office-29_809608.png"
+        cq:parentPath="/content/dam/coresites/cms"
         dam:assetState="processed"
         dam:relativePath="coresites/cms/if_office-29_809608.png"
-        jcr:lastModified="{Date}2018-04-25T14:48:25.806-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:33.250-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-04-25T14:48:25.290-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:21.878-07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.5551111698150635"
             dam:Progressive="no"
-            dam:sha1="0c70185faa35c2e16769c825e69c6ef86ada889e"
+            dam:sha1="3e2fd2955428b9b3953ec84238dd246cddd29047"
             dam:size="{Long}7642"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-26T08:28:32.586-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:32.585-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}256"

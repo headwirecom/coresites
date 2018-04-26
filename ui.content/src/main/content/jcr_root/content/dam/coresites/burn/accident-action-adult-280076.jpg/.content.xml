@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="47e18e4e-14f1-4f93-a051-dcf9382b3462">
     <jcr:content
+        cq:name="accident-action-adult-280076.jpg"
+        cq:parentPath="/content/dam/coresites/burn"
         dam:assetState="processed"
         dam:relativePath="coresites/burn/accident-action-adult-280076.jpg"
-        jcr:lastModified="{Date}2018-04-19T16:53:14.422-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:48.045-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-19T16:53:14.164-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:36.448-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}26.66666603088379"
             dam:Progressive="no"
-            dam:sha1="029b8d8aa7339219acfbc046189f400a999832df"
+            dam:sha1="f9c6deda724b1a199b26239de54af4babdc333f2"
             dam:size="{Long}310269"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:47.844-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:47.464-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1002"

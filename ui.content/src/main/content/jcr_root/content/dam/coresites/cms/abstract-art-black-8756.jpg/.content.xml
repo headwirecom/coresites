@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="16873aa1-5fe7-41fb-b718-0cd003bc2490">
     <jcr:content
+        cq:name="abstract-art-black-8756.jpg"
+        cq:parentPath="/content/dam/coresites/cms"
         dam:assetState="processed"
         dam:relativePath="coresites/cms/abstract-art-black-8756.jpg"
-        jcr:lastModified="{Date}2018-04-20T16:41:11.049-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:47.353-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-20T16:41:09.832-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:25.612-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}72.0"
             dam:Progressive="no"
-            dam:sha1="831e771d12f481b2acae2ad3de51786bb736c067"
+            dam:sha1="e4e61a7e5b4c90dc21500718f469af3f3c3b6479"
             dam:size="{Long}1966820"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:46.880-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:46.880-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3456"

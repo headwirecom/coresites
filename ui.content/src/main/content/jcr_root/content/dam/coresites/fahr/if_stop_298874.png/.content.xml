@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="dc5b576e-a0a2-45d8-acda-2d68f3bef9b7">
     <jcr:content
+        cq:name="if_stop_298874.png"
+        cq:parentPath="/content/dam/coresites/fahr"
         dam:assetState="processed"
         dam:relativePath="coresites/fahr/if_stop_298874.png"
-        jcr:lastModified="{Date}2018-04-25T14:37:13.179-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:48.277-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-04-25T14:37:12.892-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:44.921-07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.5551111698150635"
             dam:Progressive="no"
-            dam:sha1="c708bcb7e2f331327934ad279fe773950334fb52"
+            dam:sha1="c4b8e7fe65d7da65f3878fc9db4ebcb3147ff339"
             dam:size="{Long}2603"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-26T08:28:48.094-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:48.093-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}256"

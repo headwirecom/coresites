@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="d287c1dc-4055-47fb-8bbf-c2481c18a13b">
     <jcr:content
+        cq:name="ash-boom-calamity-735647.jpg"
+        cq:parentPath="/content/dam/coresites/burn"
         dam:assetState="processed"
         dam:relativePath="coresites/burn/ash-boom-calamity-735647.jpg"
-        jcr:lastModified="{Date}2018-04-19T16:40:30.640-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:44.896-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-19T16:40:30.251-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:11.157-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}27.77777862548828"
             dam:Progressive="no"
-            dam:sha1="bafecb9f53d30a19059e4e14975d9a1657d133f4"
+            dam:sha1="cfe1782f2febfbeb5640ee1a44203ddabd40ed69"
             dam:size="{Long}221427"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:44.090-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:44.090-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1333"

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-25T15:45:46.135-07:00"
+        cq:lastModified="{Date}2018-04-26T10:17:28.397-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2018-04-20T12:56:16.715-07:00"
         cq:lastReplicatedBy="admin"
@@ -71,8 +71,8 @@
                                     width="2"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="12"/>
+                                    offset="3"
+                                    width="6"/>
                             </cq:responsive>
                         </image>
                     </responsivegrid>
@@ -150,10 +150,10 @@
                             </cq:responsive>
                         </text>
                         <button
-                            cq:styleIds="[1523297489457]"
+                            cq:styleIds="[1523297489457,1524690562937]"
                             jcr:created="{Date}2018-04-13T13:00:02.192-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:01:54.046-07:00"
+                            jcr:lastModified="{Date}2018-04-26T08:46:58.890-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/button"
@@ -172,10 +172,10 @@
                             </cq:responsive>
                         </button>
                         <button_copy
-                            cq:styleIds="[1523297490190]"
+                            cq:styleIds="[1523297490190,1524690562937]"
                             jcr:created="{Date}2018-04-13T13:00:02.192-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:01:57.634-07:00"
+                            jcr:lastModified="{Date}2018-04-26T08:47:04.080-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/button"
@@ -256,10 +256,10 @@
                             text="&lt;h1>Delivery Schedule Update&lt;/h1>&#xa;&lt;p>Model Z deliveries will take place in the United States based on your blood type, height, and whether you've ever been to a live taping of the Jerry Springer show. You will receive a telegram when your car is ready.&lt;/p>&#xa;"
                             textIsRich="true"/>
                         <button
-                            cq:styleIds="[1523297490190]"
+                            cq:styleIds="[1523297490190,1524690562937]"
                             jcr:created="{Date}2018-04-13T13:04:20.555-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:01:25.565-07:00"
+                            jcr:lastModified="{Date}2018-04-26T09:59:51.980-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/button"
@@ -452,10 +452,10 @@
                             </cq:responsive>
                         </text>
                         <button
-                            cq:styleIds="[1523297489457]"
+                            cq:styleIds="[1523297489457,1524690530295]"
                             jcr:created="{Date}2018-04-13T13:25:20.049-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:09:23.607-07:00"
+                            jcr:lastModified="{Date}2018-04-26T08:47:23.084-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="I'M IN!"
@@ -548,10 +548,10 @@
                         </cq:responsive>
                     </text>
                     <button
-                        cq:styleIds="[1523297489457]"
+                        cq:styleIds="[1523297489457,1524690562937]"
                         jcr:created="{Date}2018-04-13T13:14:04.624-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:15:58.468-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:47:31.147-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/button"
@@ -591,10 +591,10 @@
                         </cq:responsive>
                     </text_2105368155>
                     <button_798994760
-                        cq:styleIds="[1523297490190]"
+                        cq:styleIds="[1523297490190,1524690562937]"
                         jcr:created="{Date}2018-04-13T13:14:06.765-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:15:55.476-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:47:43.042-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/button"
@@ -751,10 +751,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <text
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:17:18.711-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:10.732-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -799,10 +799,10 @@
                         </cq:responsive>
                     </text_726919393>
                     <text_copy
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:19:32.693-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:18.635-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -847,10 +847,10 @@
                         </cq:responsive>
                     </text_726919393_copy>
                     <text_copy_copy
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:20:44.504-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:22.596-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -895,10 +895,10 @@
                         </cq:responsive>
                     </text_726919393_copy_>
                     <text_copy_copy_copy
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:21:48.525-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:25.843-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -943,10 +943,10 @@
                         </cq:responsive>
                     </text_726919393_copy__1766993404>
                     <text_copy_copy_copy_1489717536
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:23:22.410-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:31.476-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -991,10 +991,10 @@
                         </cq:responsive>
                     </text_726919393_copy__1385746417>
                     <text_copy_copy_copy_1898923504
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:24:33.152-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:34.934-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -1039,10 +1039,10 @@
                         </cq:responsive>
                     </text_726919393_copy__1496450401>
                     <text_copy_copy_copy_1576610150
-                        cq:styleIds="[1523661738813]"
+                        cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:27:13.855-07:00"
+                        jcr:lastModified="{Date}2018-04-26T08:48:38.480-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
@@ -1135,6 +1135,10 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="3"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="4"
+                                width="4"/>
                         </cq:responsive>
                     </image>
                     <text_665231219

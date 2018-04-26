@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="4a925ed4-a917-4b47-8c96-df59cab854ae">
     <jcr:content
+        cq:name="car-808372_1920.jpg"
+        cq:parentPath="/content/dam/coresites/fahr"
         dam:assetState="processed"
         dam:relativePath="coresites/fahr/car-808372_1920.jpg"
-        jcr:lastModified="{Date}2018-04-19T17:08:44.260-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:37.338-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-19T17:08:44.002-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:14.760-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="acc8e47318ebd0c69da09680faf91d2fc3ec54e7"
+            dam:sha1="61d97a073c4393d22c402a937d975a6c1cfee358"
             dam:size="{Long}310070"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:37.239-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:37.239-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1278"

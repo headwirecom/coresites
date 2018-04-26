@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="14c425ef-7159-4bfc-a00d-1009234e3836">
     <jcr:content
+        cq:name="if_Vector-icons_39_1041628.png"
+        cq:parentPath="/content/dam/coresites/fahr"
         dam:assetState="processed"
         dam:relativePath="coresites/fahr/if_Vector-icons_39_1041628.png"
-        jcr:lastModified="{Date}2018-04-25T14:37:13.172-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:48.545-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2018-04-25T14:37:12.778-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:46.293-07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}3.0829479694366455"
             dam:Progressive="no"
-            dam:sha1="44b5729d996dffae0882fdd43855301db9224749"
+            dam:sha1="1f103d0c7465bbff1d98d019ff916916991d55b3"
             dam:size="{Long}14614"
             dc:format="image/png"
+            dc:modified="{Date}2018-04-26T08:28:48.454-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:48.453-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}256"

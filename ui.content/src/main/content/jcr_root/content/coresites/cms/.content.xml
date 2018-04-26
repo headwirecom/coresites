@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-25T15:47:21.289-07:00"
+        cq:lastModified="{Date}2018-04-26T10:36:46.666-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -12,7 +12,7 @@
         jcr:uuid="ebe2ba90-01fb-4d30-a1a8-fef12885afb5"
         sling:resourceType="coresites/components/structure/page"
         primaryBackgroundColor="#2b9af3"
-        primaryTextColor="#000"
+        primaryTextColor="rgb(255,255,255)"
         secondaryBackgroundColor="#2b9af3"
         secondaryTextColor="#ffffff">
         <root
@@ -48,7 +48,12 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
                         <responsivegrid
                             jcr:created="{Date}2018-04-17T16:16:24.537-07:00"
                             jcr:createdBy="admin"
@@ -64,7 +69,11 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="12"/>
+                                    width="9"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="1"/>
                             </cq:responsive>
                             <image
                                 jcr:created="{Date}2018-04-17T16:17:16.117-07:00"
@@ -96,7 +105,12 @@
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
                                         jcr:primaryType="nt:unstructured"
-                                        width="10"/>
+                                        offset="2"
+                                        width="8"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="8"/>
                                 </cq:responsive>
                             </title>
                         </responsivegrid>
@@ -117,7 +131,11 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="12"/>
+                                    width="3"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="10"/>
                             </cq:responsive>
                         </navigation>
                     </responsivegrid_1005312242>
@@ -247,6 +265,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="12"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="8"
+                                    width="1"/>
                             </cq:responsive>
                         </button>
                     </responsivegrid>
@@ -341,6 +363,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="2"
                                 width="8"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                     </text>
                     <responsivegrid
@@ -356,6 +382,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="3"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <image
                             jcr:created="{Date}2018-04-20T09:12:24.171-07:00"
@@ -369,6 +399,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="4"/>
                             </cq:responsive>
                         </image>
                         <text
@@ -384,6 +418,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="8"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <button
@@ -401,6 +439,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </button>
                     </responsivegrid>
@@ -417,6 +459,10 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="3"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <image
                             jcr:created="{Date}2018-04-20T09:12:28.026-07:00"
@@ -430,6 +476,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="4"/>
                             </cq:responsive>
                         </image>
                         <text_copy
@@ -445,6 +495,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="9"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </text_copy>
                         <button_copy
@@ -461,6 +515,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </button_copy>
                     </responsivegrid_copy>
@@ -477,6 +535,14 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="3"
                                 width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="9"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <image
                             jcr:created="{Date}2018-04-20T09:12:30.139-07:00"
@@ -490,6 +556,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="3"/>
                             </cq:responsive>
                         </image>
                         <text_copy
@@ -505,6 +575,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="9"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
                             </cq:responsive>
                         </text_copy>
                         <button_copy
@@ -521,6 +595,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="11"/>
                             </cq:responsive>
                         </button_copy>
                     </responsivegrid_copy_2107230077>
@@ -537,6 +615,9 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="3"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <image
                             jcr:created="{Date}2018-04-20T09:12:31.904-07:00"
@@ -550,6 +631,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="3"/>
                             </cq:responsive>
                         </image>
                         <text_copy
@@ -565,6 +650,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="9"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </text_copy>
                         <button_copy
@@ -582,6 +670,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="11"/>
                             </cq:responsive>
                         </button_copy>
                     </responsivegrid_copy_796442742>
@@ -1415,8 +1507,8 @@
                                         width="4"/>
                                     <phone
                                         jcr:primaryType="nt:unstructured"
-                                        offset="0"
-                                        width="12"/>
+                                        offset="1"
+                                        width="10"/>
                                 </cq:responsive>
                             </button>
                         </responsivegrid>
@@ -1448,6 +1540,10 @@
                                         jcr:primaryType="nt:unstructured"
                                         offset="1"
                                         width="1"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="4"
+                                        width="3"/>
                                 </cq:responsive>
                             </image>
                             <text
@@ -1463,6 +1559,10 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="2"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="12"/>
                                 </cq:responsive>
                             </text>
                         </responsivegrid_481088674>

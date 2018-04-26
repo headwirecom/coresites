@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="32cfee6e-b7bb-47c5-91e1-9f3b93c33182">
     <jcr:content
+        cq:name="abstract-black-and-white-curves-1954.jpg"
+        cq:parentPath="/content/dam/coresites/cms"
         dam:assetState="processed"
         dam:relativePath="coresites/cms/abstract-black-and-white-curves-1954.jpg"
-        jcr:lastModified="{Date}2018-04-20T16:43:49.735-07:00"
+        jcr:lastModified="{Date}2018-04-26T08:28:22.316-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2018-04-20T16:43:48.591-07:00"
+            dam:extracted="{Date}2018-04-26T08:28:15.492-07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}78.0"
             dam:Progressive="no"
-            dam:sha1="80d56e2e6ef0282816ed7441032d5bdf0239a2e9"
-            dam:size="{Long}1765775"
+            dam:sha1="ee818f59ff71ec7ef0d117448b109eebc50bd69f"
+            dam:size="{Long}1768743"
             dc:format="image/jpeg"
+            dc:modified="{Date}2018-04-26T08:28:12.662-07:00"
+            jcr:lastModified="{Date}2018-04-26T08:28:12.662-07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}3744"
