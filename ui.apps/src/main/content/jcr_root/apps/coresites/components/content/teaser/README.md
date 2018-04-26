@@ -1,1 +1,0 @@
-<a href="https://github.com/headwirecom/coresites/wiki/Coresites-Components#teaser" target="blank">Teaser</a>
