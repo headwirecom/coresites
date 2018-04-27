@@ -13,8 +13,12 @@
 			.cmp-navigation__item-link
 			{
 				display: block;
-				padding: .5rem 1rem;
+				padding: .5rem 0 .5rem 0.5rem;
 				font-size: 18px;
+				@media (min-width: 992px)
+				{
+					padding: .5rem 1rem;
+				}
 			}
 		}
 	}
