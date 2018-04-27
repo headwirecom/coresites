@@ -1,4 +1,10 @@
 .carousel {
+
+  #carousel {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
   .carousel-indicators {
     position: relative;
   }
@@ -8,14 +14,13 @@
   }
 
   .carousel-item {
-    height: 700px;
     overflow: hidden;
   }
 
   img {
-    max-width: 100%;
     width: 100%;
     height: auto;
+    max-height: 100vh;
   }
 
 }
