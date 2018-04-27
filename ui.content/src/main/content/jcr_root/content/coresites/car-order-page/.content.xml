@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-26T10:17:28.397-07:00"
+        cq:lastModified="{Date}2018-04-27T12:51:35.866-07:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2018-04-20T12:56:16.715-07:00"
         cq:lastReplicatedBy="admin"
@@ -132,11 +132,11 @@
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-13T12:59:28.103-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T14:57:12.221-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:23:01.684-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h1 style=&quot;text-align: center;&quot;>Model Z&lt;/h1>&#xa;&lt;p style=&quot;text-align: center;&quot;>Designed to be the last car you'll ever buy, Model Z can drive 400 miles on a single gallon of milk while costing only 35 human souls before incentives.&lt;/p>&#xa;"
+                            text="&lt;h1 style=&quot;text-align: center;&quot;>Model Z&lt;/h1>&#xa;&lt;p style=&quot;text-align: center;&quot;>Designed to be efficient, safe, and affordable, Model Z can drive 400 miles on a single charge while costing only $40,000 before incentives.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -197,11 +197,11 @@
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-13T12:59:53.497-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T14:58:48.096-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:23:23.074-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Reserve your Model Z today for delivery sometime before the heat death of the universe.&lt;/p>&#xa;"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Reserve your Model Z today for delivery by 2039.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <phone
@@ -249,11 +249,11 @@
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-13T13:04:13.672-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:01:10.176-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:25:43.353-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h1>Delivery Schedule Update&lt;/h1>&#xa;&lt;p>Model Z deliveries will take place in the United States based on your blood type, height, and whether you've ever been to a live taping of the Jerry Springer show. You will receive a telegram when your car is ready.&lt;/p>&#xa;"
+                            text="&lt;h1>Delivery Schedule Update&lt;/h1>&#xa;&lt;p>Model Z deliveries will take place in the United States based on your order level and your spot in the reservation queue. You will receive an email notifying you when your car is ready.&lt;/p>&#xa;"
                             textIsRich="true"/>
                         <button
                             cq:styleIds="[1523297490190,1524690562937]"
@@ -309,11 +309,11 @@
                         cq:styleIds="[1522779812077]"
                         jcr:created="{Date}2018-04-13T13:07:15.128-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:02:19.421-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:24:21.222-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h1>Construction Schedule&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;"
+                        text="&lt;h1>Delivery Schedule&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
@@ -326,11 +326,11 @@
                         cq:styleIds="[1522779812077,1523299394140]"
                         jcr:created="{Date}2018-04-13T13:08:12.630-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:04:09.087-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:25:17.972-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>2036&lt;/h3>&#xa;&lt;p>Bone harvest for chassis creation&lt;/p>&#xa;&lt;p>First Model Z completed and sacrificed in volcano&lt;/p>&#xa;"
+                        text="&lt;h3>2036&lt;/h3>&#xa;&lt;p>Model Z production begins&lt;/p>&#xa;&lt;p>First Model Zs delivered to premium reservation holders&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -345,11 +345,11 @@
                         cq:styleIds="[1522779812077,1523299394140,1523650320530,1523650325822]"
                         jcr:created="{Date}2018-04-13T13:08:12.630-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:07:56.031-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:28:45.184-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>2037&lt;/h3>&#xa;&lt;p>Sheep shearing for interior upholstery begins&lt;/p>&#xa;&lt;p>First international deliveries begin to Antarctica&lt;/p>&#xa;&lt;p>AI assumes full control of production and reposession&lt;/p>&#xa;"
+                        text="&lt;h3>2037&lt;/h3>&#xa;&lt;p>Standard Model Z preorder deliveries begin in the US&lt;/p>&#xa;&lt;p>International Model Z production begins&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -364,11 +364,11 @@
                         cq:styleIds="[1522779812077,1523299394140]"
                         jcr:created="{Date}2018-04-13T13:08:12.630-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:08:06.251-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:28:34.003-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>2039&lt;/h3>&#xa;&lt;p>Submersible model production begins&lt;/p>&#xa;"
+                        text="&lt;h3>2039&lt;/h3>&#xa;&lt;p>All preorder deliveries complete&lt;/p>&#xa;&lt;p>General Model Z purchase orders available&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -409,11 +409,11 @@
                         <text_1700697854
                             jcr:created="{Date}2018-04-13T13:27:36.497-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:09:43.138-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:28:58.814-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h4 style=&quot;text-align: center;&quot;>Sign up to receive the exclusive &amp;quot;Executives of AUTO&amp;quot; pin-up calendar&lt;/h4>&#xa;&lt;h4>&amp;nbsp;&lt;/h4>&#xa;"
+                            text="&lt;h4 style=&quot;text-align: center;&quot;>Sign up to receive the exclusive AUTO and Model Z Information&lt;/h4>&#xa;&lt;h4>&amp;nbsp;&lt;/h4>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -455,10 +455,10 @@
                             cq:styleIds="[1523297489457,1524690530295]"
                             jcr:created="{Date}2018-04-13T13:25:20.049-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-26T08:47:23.084-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:29:12.877-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="I'M IN!"
+                            jcr:title="SIGN UP"
                             sling:resourceType="coresites/components/form/button"
                             name="signup"
                             type="submit"
@@ -495,11 +495,11 @@
                         cq:styleIds="[1522779812077]"
                         jcr:created="{Date}2018-04-13T13:30:00.622-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:15:22.383-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:32:26.118-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h1>Model Q &amp;amp; Model Z&lt;/h1>&#xa;&lt;p>The Model Q is our premium automobile. It can drive further, go faster, and costs way, way more money. It's the least unsafe form of transportation we've ever created. Unlike some other cars in its class, the constant tortured screaming from the speakers is barely audible.&lt;/p>&#xa;&lt;p>The Model Z is constructed much more shoddily. Just as Z comes after Q in the alphabet, our Model Z customers come after Model Q customers in terms of our service commitment to them. You get what you pay for.&lt;/p>&#xa;"
+                        text="&lt;h1>Model Q &amp;amp; Model Z&lt;/h1>&#xa;&lt;p>The Model Q is our premium automobile. It has the best safety and performance characteristics of any car on the market.&lt;/p>&#xa;&lt;p>The Model Z is our economy variant for drivers that want the authentic AUTO experience at an affordable price. It is not as advanced as the Model Q, but it is just as safe.&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -594,13 +594,13 @@
                         cq:styleIds="[1523297490190,1524690562937]"
                         jcr:created="{Date}2018-04-13T13:14:06.765-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-26T08:47:43.042-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:32:34.217-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/button"
                         color="btn-primary"
                         link="#"
-                        text="GET EVENTUALLY">
+                        text="PREORDER">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -671,11 +671,11 @@
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-13T13:33:24.288-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:16:23.495-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:32:55.741-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>6 Yards&lt;/p>&#xa;"
+                            text="&lt;p>180.0&amp;quot;&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -719,11 +719,11 @@
                             cq:styleIds="[1522779812077]"
                             jcr:created="{Date}2018-04-13T13:33:24.288-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-25T15:16:37.485-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:33:11.019-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>3 Fathoms&lt;/p>&#xa;"
+                            text="&lt;p>168.0&amp;quot;&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -763,11 +763,11 @@
                     <text_1737882774
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:18:50.780-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:34:21.159-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>30 Minutes&lt;/h2>&#xa;&lt;p>Your Model Q will be delivered hot and fresh to your door within 30 minutes of your order or it's free! (Restrictions and terms apply.)&lt;/p>&#xa;"
+                        text="&lt;h2>3 - 5 Weeks&lt;/h2>&#xa;&lt;p>New Model Q cars in inventory will be delivered in the US in no more than 5 weeks. Custom orders may take additional time.&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -781,11 +781,11 @@
                     <text_726919393
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:19:24.506-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:35:08.430-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>12 - 18 Years&lt;/h2>&#xa;&lt;p>To be honest, the production schedule seems to slip on an almost daily basis.&lt;/p>&#xa;"
+                        text="&lt;h2>2036 - 2039&lt;/h2>&#xa;&lt;p>See the delivery schedule above for more information on when you might receive your Model Z preorder.&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -811,11 +811,11 @@
                     <text_1737882774_copy
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:20:17.018-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:35:17.824-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>0.2 - 0.4 sec 0-60 mph&lt;/h2>&#xa;"
+                        text="&lt;h2>1.5 - 3.4 sec 0-60 mph&lt;/h2>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -829,11 +829,11 @@
                     <text_726919393_copy
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:20:36.265-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:35:31.321-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>5.1 - 5.6 min 0-60 mph&lt;/h2>&#xa;"
+                        text="&lt;h2>6.8 - 7.6 sec 0-60 mph&lt;/h2>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -859,11 +859,11 @@
                     <text_1737882774_copy_542599879
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:21:16.646-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:35:55.495-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>253 - 438 Light Year Range&lt;/h2>&#xa;"
+                        text="&lt;h2>438 - 645 Miles Range&lt;/h2>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -877,11 +877,11 @@
                     <text_726919393_copy_
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:21:39.642-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:36:12.192-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>123 - 456 Miles Range&lt;/h2>&#xa;"
+                        text="&lt;h2>389 - 540 Miles Range&lt;/h2>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -898,20 +898,20 @@
                         cq:styleIds="[1523650327255]"
                         jcr:created="{Date}2018-04-13T13:37:10.106-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-26T08:48:25.843-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:37:22.101-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Fuel&lt;/p>&#xa;"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Charging&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <text_1737882774_copy_314364980
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:22:37.737-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:36:33.475-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>Free Void Energy&lt;/h2>&#xa;&lt;p>(Harvested from the black hole at the center of the Milky Way)&lt;/p>&#xa;"
+                        text="&lt;h2>Free Charging Forever&lt;/h2>&#xa;&lt;p>(at qualifying AUTO charging stations)&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -925,11 +925,11 @@
                     <text_726919393_copy__1766993404
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:23:12.517-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:37:17.519-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>Pay Per Bottle Milk Power&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        text="&lt;h2>Montly Charging Fee&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -955,11 +955,11 @@
                     <text_1737882774_copy_1272994907
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:24:10.585-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:37:50.819-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Seating For&lt;/p>&#xa;&lt;h2>2 Adults + 7 Children&lt;/h2>&#xa;&lt;p>(with optional Roof Rack)&lt;/p>&#xa;"
+                        text="&lt;p>Seating For&lt;/p>&#xa;&lt;h2>5 Adults + 2 Children&lt;/h2>&#xa;&lt;p>(with optional seating expansion)&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -973,11 +973,11 @@
                     <text_726919393_copy__1385746417
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:24:24.134-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:38:13.535-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;p>Fusce ut lectus&lt;/p>&#xa;&lt;h2>3 Adults or 18 Clowns&lt;/h2>&#xa;"
+                        text="&lt;p>Seating For&lt;/p>&#xa;&lt;h2>4 Adults + 1 Child&lt;/h2>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1003,11 +1003,11 @@
                     <text_1737882774_copy_288206947
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:26:28.904-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:39:30.496-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>50 cu ft&lt;/h2>&#xa;&lt;p>Overhead compartments and &lt;b>Under-Seat Storage&lt;/b>&lt;/p>&#xa;"
+                        text="&lt;h2>50 cu ft&lt;/h2>&#xa;&lt;p>Trunk Cargo Space with&amp;nbsp;&lt;b>AUTOmatic Trunk Entry&lt;/b>&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1021,11 +1021,11 @@
                     <text_726919393_copy__1496450401
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:27:02.913-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:39:37.380-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>13 cu ft&lt;/h2>&#xa;&lt;p>Hang your cargo from sacks &lt;b>Under Rear-View Mirrors&lt;/b>&lt;/p>&#xa;"
+                        text="&lt;h2>25 cu ft&lt;/h2>&#xa;&lt;p>Trunk Cargo Space with&amp;nbsp;&lt;b>Manual Trunk&lt;/b>&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1051,11 +1051,11 @@
                     <text_1737882774_copy_978271685
                         jcr:created="{Date}2018-04-13T13:37:37.884-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:28:06.719-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:40:06.416-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>12 Digital Screens&lt;/h2>&#xa;&lt;p>All windows and mirrors are actually heads-up displays&lt;/p>&#xa;"
+                        text="&lt;h2>3 Digital Screens&lt;/h2>&#xa;&lt;p>Driver Display and Front and Rear Passenger Screens&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1069,11 +1069,11 @@
                     <text_726919393_copy__587618794
                         jcr:created="{Date}2018-04-13T13:37:40.391-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:28:36.134-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:40:26.470-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h2>3 Analog Dials&lt;/h2>&#xa;&lt;p>With optional lighting for night driving&lt;/p>&#xa;"
+                        text="&lt;h2>2 Digital Screens&lt;/h2>&#xa;&lt;p>Driver Display and Front Passenger Screen&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
@@ -1144,11 +1144,11 @@
                     <text_665231219
                         jcr:created="{Date}2018-04-13T13:48:00.098-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:45:19.074-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:51:35.849-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h4>Safety&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Automatic ejection seats&lt;/li>&#xa;&lt;li>Fire suppression system&lt;/li>&#xa;&lt;li>12-point immobilizer harnesses&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Convenience&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Stack of old National Geographic magazines in the glove compartment&lt;/li>&#xa;&lt;li>Signal lamps and semaphore flags&lt;/li>&#xa;&lt;li>Dual-key start (like a nuclear silo)&lt;/li>&#xa;&lt;li>Gesture-activated controls&lt;/li>&#xa;&lt;li>Water slide&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Standard Features&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Targeting computers&lt;/li>&#xa;&lt;li>Coal-burning fireplace &amp;amp; desk fan on dashboard&lt;/li>&#xa;&lt;li>Park bench seating&lt;/li>&#xa;&lt;li>Crank-powered AM radio&lt;/li>&#xa;&lt;li>Glass bottom&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Premium Options&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Doors&lt;/li>&#xa;&lt;li>Wheels&lt;/li>&#xa;&lt;li>Windows&lt;/li>&#xa;&lt;li>Roof&lt;/li>&#xa;&lt;li>Pedals&lt;/li>&#xa;&lt;li>Sharp edges sanded down&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Warranty&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>30 minute, 3,000 foot limited vehicle warranty&lt;/li>&#xa;&lt;li>10 year, 10,000,000 breath driver warranty (Standard)&lt;/li>&#xa;&lt;li>30 year, 30,000,000 breath driver warranty (Optional)&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        text="&lt;h4>Safety&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Sensor-controlled automatic braking and steering&lt;/li>&#xa;&lt;li>Surround Airbag System&lt;/li>&#xa;&lt;li>Traction control and electronic stability&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Convenience&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>GPS navigation through driver display&lt;/li>&#xa;&lt;li>4G wireless connection&lt;/li>&#xa;&lt;li>Push-button start&lt;/li>&#xa;&lt;li>Gesture-activated controls&lt;/li>&#xa;&lt;li>Tri-folding seats&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Standard Features&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Illuminated digital displays&lt;/li>&#xa;&lt;li>Adjustable heating and air conditioning&lt;/li>&#xa;&lt;li>5-way adjustable front seats&lt;/li>&#xa;&lt;li>AM/FM/Satellite Radio&lt;/li>&#xa;&lt;li>Phone charging station&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Premium Options&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>Heated seats and steering wheel&lt;/li>&#xa;&lt;li>Electronic Sun/Moon Roof&lt;/li>&#xa;&lt;li>Solar charging panels&lt;/li>&#xa;&lt;li>Upgraded surround-sound entertainment system&lt;/li>&#xa;&lt;li>All-leather interior upholstery&lt;/li>&#xa;&lt;li>Automatic windshield wiper/defroster system&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h4>Warranty&lt;/h4>&#xa;&lt;ul>&#xa;&lt;li>5 year, 60,000 mile limited vehicle warranty&lt;/li>&#xa;&lt;li>10 year, 100,000 mile power system warranty (Standard)&lt;/li>&#xa;&lt;li>15 year, 1,500,000 mile power system warranty (Optional)&lt;/li>&#xa;&lt;/ul>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default

@@ -5,6 +5,7 @@
         cq:lastModified="{Date}2018-04-20T16:58:14.222-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
+        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Sign In"
         sling:resourceType="coresites/components/structure/page">
