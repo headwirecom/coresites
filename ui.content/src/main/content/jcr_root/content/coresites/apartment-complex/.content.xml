@@ -46,16 +46,16 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
+                                offset="2"
+                                width="8"/>
                             <phone
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="12"/>
                             <tablet
                                 jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="8"/>
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <responsivegrid
                             cq:styleIds="[1524169764362]"
