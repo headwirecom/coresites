@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-26T12:31:57.923-07:00"
+        cq:lastModified="{Date}2018-04-27T12:21:08.015-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -204,11 +204,11 @@
                         <text_1123801798
                             jcr:created="{Date}2018-04-09T11:27:38.248-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T17:16:15.827-07:00"
+                            jcr:lastModified="{Date}2018-04-27T11:42:47.396-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Haven't gotten a response yet? &lt;a href=&quot;#&quot;>Send us a carrier pigeon to find out what happened.&lt;/a>&lt;/p>&#xa;"
+                            text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Haven't gotten a response yet? &lt;a href=&quot;#&quot;>Contact us to inquire about your application.&lt;/a>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <phone
@@ -374,7 +374,7 @@
                         </image_175399392>
                         <text_670131074
                             cq:styleIds="[1523299377333]"
-                            jcr:lastModified="{Date}2018-04-19T17:28:25.765-07:00"
+                            jcr:lastModified="{Date}2018-04-27T11:44:11.953-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
@@ -410,11 +410,11 @@
                         </image>
                         <text_930726409
                             cq:styleIds="[1523299377333]"
-                            jcr:lastModified="{Date}2018-04-19T17:29:11.278-07:00"
+                            jcr:lastModified="{Date}2018-04-27T11:44:47.167-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;p>&lt;b>No Liability&lt;/b>&lt;/p>&#xa;&lt;p>Any damage you do while learning is covered by a legal loophole&lt;/p>&#xa;"
+                            text="&lt;p>&lt;b>Insurance Included&lt;/b>&lt;/p>&#xa;&lt;p>We cover the costs of insurance and maintenance&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -465,11 +465,11 @@
                         cq:styleIds="[1522779812077]"
                         jcr:created="{Date}2018-04-05T12:56:15.487-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-19T17:32:03.625-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:21:07.992-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h3>How Fahr Will You Go?&lt;/h3>&#xa;&lt;p>Fahr is a mobile app that connects passengers to people we legally can't refer to as drivers.&lt;br>&#xa;&lt;br>&#xa;You won't get rich operating our vehicles, but you might be able to at least catch up on rent!&lt;/p>&#xa;"
+                        text="&lt;h3>How Fahr Will You Go?&lt;/h3>&#xa;&lt;p>Fahr is a mobile app that connects passengers to drivers. You earn money based on how Fahr and how often you drive.&lt;br>&#xa;&lt;br>&#xa;Plus, you get to keep 100% of any tips provided by passengers.&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
@@ -576,11 +576,11 @@
                         </image_107804>
                         <text_1588397428
                             cq:styleIds="[1522779812077]"
-                            jcr:lastModified="{Date}2018-04-19T17:38:09.622-07:00"
+                            jcr:lastModified="{Date}2018-04-27T11:49:19.098-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>No Rules&lt;/b>&lt;/h6>&#xa;&lt;p>You're truly your own boss when you drive Fahr. The company provides zero supervision.&lt;/p>&#xa;"
+                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Drive As Much As You Want&lt;/b>&lt;/h6>&#xa;&lt;p>You're truly your own boss when you drive Fahr. You can drive full-time or part-time.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -630,11 +630,11 @@
                         </image_780912>
                         <text_939199664
                             cq:styleIds="[1522779812077]"
-                            jcr:lastModified="{Date}2018-04-19T17:39:38.853-07:00"
+                            jcr:lastModified="{Date}2018-04-27T11:50:02.217-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Meet Interesting People&lt;/b>&lt;/h6>&#xa;&lt;p>It isn't like you have anyone else to talk to, is it?&lt;/p>&#xa;"
+                            text="&lt;h6>&amp;nbsp;&lt;/h6>&#xa;&lt;h6>&lt;b>Meet Interesting People&lt;/b>&lt;/h6>&#xa;&lt;p>Everybody needs to get around. You never know who you might meet!&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -747,11 +747,11 @@
                             cq:styleIds="[1523299394140]"
                             jcr:created="{Date}2018-04-13T08:29:32.046-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T17:48:52.064-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:11:56.298-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h3>Get Fahr Away&lt;/h3>&#xa;&lt;p>When you drive for Fahr, you won't have to worry about accidents or insurance. That's because our drivers are trained to wear disguises and flee the scene of any accident. That keeps our costs low and our employees out prison.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                            text="&lt;h3>Get Fahr Away&lt;/h3>&#xa;&lt;p>When you drive for Fahr, you won't have to worry about insurance costs. We always provide insurance for our drivers.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -800,11 +800,11 @@
                             cq:styleIds="[1523299394140]"
                             jcr:created="{Date}2018-04-13T08:29:38.063-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T17:46:58.280-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:15:17.050-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h3>Not a Popularity Contest&lt;/h3>&#xa;&lt;p>We don't care how much your passengers like you, or how much you like your passengers. Ratings don't matter here.&lt;/p>&#xa;"
+                            text="&lt;h3>Ratings&lt;/h3>&#xa;&lt;p>Ratings go both ways at Fahr. Drivers can see the ratings for passengers before agreeing to pick them up for a ride. Passengers and drivers are given the opportunity to rate each other after rides and leave comments about their experiences.&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -855,11 +855,11 @@
                         <text
                             jcr:created="{Date}2018-04-13T08:46:02.012-07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2018-04-19T17:54:58.196-07:00"
+                            jcr:lastModified="{Date}2018-04-27T12:20:31.275-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="coresites/components/content/text"
-                            text="&lt;h2>FA(hr)Q&lt;/h2>&#xa;&lt;ul>&#xa;&lt;li>&lt;p>What does Fahr mean?&lt;/p>&#xa;&lt;p>Nobody knows. We found the word inscribed on a golden tablet buried in the desert and decided to roll with it.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Where's my money?&lt;/p>&#xa;&lt;p>Due to ongoing legal challenges to our operations, we can only provide payment to our employees in the form of Fahrbux, a proprietary cryptocurrency accepted at our online company store.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Is Fahr a real company?&lt;/p>&#xa;&lt;p>Hmm?&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Can anyone drive for Fahr?&lt;/p>&#xa;&lt;p>If you're not sure whether you're qualified to drive for Fahr, see our &lt;a href=&quot;#&quot;>Driver Qualification Page&lt;/a>.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;a href=&quot;#&quot;>See our help page for more information.&lt;/a>&lt;/p>&#xa;"
+                            text="&lt;h2>FA(hr)Q&lt;/h2>&#xa;&lt;ul>&#xa;&lt;li>&lt;p>What does Fahr mean?&lt;/p>&#xa;&lt;p>Fahr is the German word for &amp;quot;driving&amp;quot;&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>How do drivers earn?&lt;/p>&#xa;&lt;p>Drivers earn a percentage of the amount charged for each trip, based on the distance, time, and amount of demand. In addition, drivers receive 100% of any tips left by passengers. Payments are made to drivers automatically by direct deposit.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Is Fahr for real?&lt;/p>&#xa;&lt;p>We are a real Fortune 500 example company.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Can anyone drive for Fahr?&lt;/p>&#xa;&lt;p>If you're not sure whether you're qualified to drive for Fahr, see our &lt;a href=&quot;#&quot;>Driver Qualification Page&lt;/a>.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;a href=&quot;#&quot;>See our help page for more information.&lt;/a>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <phone

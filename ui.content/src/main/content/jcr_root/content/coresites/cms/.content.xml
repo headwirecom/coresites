@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-04-26T10:36:46.666-07:00"
+        cq:lastModified="{Date}2018-04-27T12:21:50.065-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -187,10 +187,10 @@
                         cq:styleIds="[1522779776111]"
                         jcr:created="{Date}2018-04-17T16:47:30.311-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2018-04-25T15:47:21.271-07:00"
+                        jcr:lastModified="{Date}2018-04-27T12:21:50.039-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Make delivering okay digital experiences painful."
+                        jcr:title="Make delivering digital experiences great again."
                         sling:resourceType="coresites/components/content/title">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
