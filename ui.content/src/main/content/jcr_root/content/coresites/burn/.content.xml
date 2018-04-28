@@ -559,7 +559,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="coresites/components/content/text"
-                        text="&lt;h5>Flare International (USA)&lt;/h5>&#xa;&lt;p>8001 Irvine Center Drive&lt;br>&#xa;Suite #451&lt;br>&#xa;Irvine, CA 92618, USA&lt;/p>&#xa;"
+                        text="&lt;h5>Burn International (USA)&lt;/h5>&#xa;&lt;p>8001 Irvine Center Drive&lt;br>&#xa;Suite #451&lt;br>&#xa;Irvine, CA 92618, USA&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
