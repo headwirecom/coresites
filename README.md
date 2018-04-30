@@ -1,26 +1,39 @@
 # Coresites
 
-This a content package project generated using the AEM Multimodule Lazybones template.
+Coresites is a set of AEM components designed to allow rapid webpage creation without the need for custom development. Users can quickly create professional-looking pages using the Coresites template and components and the AEM grid & style systems.
 
-## Building
+## Requirements
 
-This project uses Maven for building. Common commands:
+Coresites is designed for Adobe AEM Version 6.4
 
-From the root directory, run ``mvn -PautoInstallPackage clean install`` to build the bundle and content package and install to a CQ instance.
+Apache Maven is required to build the project yourself (version 3.5+ recommended) 
 
-From the bundle directory, run ``mvn -PautoInstallBundle clean install`` to build *just* the bundle and install to a CQ instance.
+## Documentation
 
-## Using with AEM Developer Tools for Eclipse
+[View the coresites component documentation on the GitHub project wiki.](https://github.com/headwirecom/coresites/wiki/Coresites-Components)
 
-To use this project with the AEM Developer Tools for Eclipse, import the generated Maven projects via the Import:Maven:Existing Maven Projects wizard. Then enable the Content Package facet on the _content_ project by right-clicking on the project, then select Configure, then Convert to Content Package... In the resulting dialog, select _src/main/content_ as the Content Sync Root.
+## Installation
 
-## Using with VLT
+### Install from a package
 
-To use vlt with this project, first build and install the package to your local CQ instance as described above. Then cd to `content/src/main/content/jcr_root` and run
+Todo: Fill this in when the release packages are built
 
-    vlt --credentials admin:admin checkout -f ../META-INF/vault/filter.xml --force http://localhost:4502/crx
+### Install with Maven
 
-Once the working copy is created, you can use the normal ``vlt up`` and ``vlt ci`` commands.
+1. Clone this repository with Git:
+
+	```
+	git clone https://github.com/headwirecom/coresites.git
+	```
+2. From the root directory, run the following Maven commands:
+	* To install Coresites
+	```
+	mvn -PautoInstallPackage clean install
+	```
+	* To install the sample Coresites content
+	```
+	mvn -PautoInstallContentPackage clean install
+	```
 
 ## Specifying CRX Host/Port
 
