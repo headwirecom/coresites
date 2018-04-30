@@ -102,7 +102,7 @@
     </build>
     <profiles>
         <profile>
-            <id>autoInstallPackage</id>
+            <id>autoInstallContentPackage</id>
             <build>
                 <plugins>
                     <plugin>
@@ -122,7 +122,7 @@
             </build>
         </profile>
         <profile>
-            <id>autoInstallPackagePublish</id>
+            <id>autoInstallContentPackagePublish</id>
             <build>
                 <plugins>
                     <plugin>
