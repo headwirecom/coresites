@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-05-01T18:10:38.983-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/coresites/settings/wcm/templates/basic-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mercurial Brewer"
+        sling:resourceType="coresites/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2018-03-28T14:36:01.576-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <coreblock
+                cq:styleIds="[1524520949677]"
+                jcr:created="{Date}2018-04-25T15:48:09.836-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-05-01T18:06:11.918-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="coresites/components/content/coreblock"
+                backgroundType="transparent"
+                bottomPadding="10"
+                fullWidth="true"
+                gradientColor1="rgba(113,65,54,0.8)"
+                gradientColor2="rgb(86,45,58)"
+                topPadding="10">
+                <grid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <image
+                        jcr:created="{Date}2018-05-01T18:06:27.098-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-05-01T18:06:44.697-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/image"
+                        fileReference="/content/dam/coresites/space-coffee/spacecoffee.png">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="2"/>
+                        </cq:responsive>
+                    </image>
+                    <navigation
+                        jcr:created="{Date}2018-05-01T18:05:39.958-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-05-01T18:05:51.653-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/structure/navigation"
+                        collectAllPages="true"
+                        navigationRoot="/content/coresites/space-coffee"
+                        skipNavigationRoot="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="10"/>
+                        </cq:responsive>
+                    </navigation>
+                    <title
+                        cq:styleIds="[1522779776111]"
+                        jcr:created="{Date}2018-04-25T15:48:47.429-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-04-25T15:48:53.749-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/title"/>
+                    <text
+                        jcr:created="{Date}2018-04-25T15:48:56.872-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2018-05-01T18:07:31.827-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="coresites/components/content/text"
+                        text="&lt;h3 style=&quot;text-align: center;&quot;>This page intentionally left blank&lt;/h3>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;sub>Check out the &lt;b>&lt;a href=&quot;/content/coresites/space-coffee/space-coffee.html&quot;>Luna&lt;/a>&lt;/b> page for some demo content.&lt;/sub>&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </grid>
+            </coreblock>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>
