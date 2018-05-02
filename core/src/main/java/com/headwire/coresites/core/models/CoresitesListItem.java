@@ -1,6 +1,9 @@
 package com.headwire.coresites.core.models;
 
 import com.adobe.cq.wcm.core.components.models.ListItem;
+import com.day.cq.wcm.api.Page;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
@@ -9,6 +12,7 @@ import org.apache.sling.models.annotations.Model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 import java.util.Calendar;
@@ -19,12 +23,11 @@ import java.util.Calendar;
 
 @Model(adaptables = Resource.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class CarouselSlide implements ListItem{
+public class CoresitesListItem implements ListItem{
 
-    private static final Logger LOG = LoggerFactory.getLogger(CarouselSlide.class);
+    private static final Logger LOG = LoggerFactory.getLogger(CoresitesListItem.class);
 
-    @Inject
-    private String url;
+    private String URL;
 
     @Inject
     private String title;
@@ -34,19 +37,20 @@ public class CarouselSlide implements ListItem{
 
     private Calendar lastModified;
 
+    @Inject
     private String path;
 
     @Inject
     private String imageSrc;
 
-    public CarouselSlide()
+    public CoresitesListItem()
     {
 
     }
 
-    public CarouselSlide(ListItem listItem, ResourceResolver resourceResolver)
+    public CoresitesListItem(ListItem listItem, ResourceResolver resourceResolver)
     {
-        url = listItem.getURL();
+        URL = listItem.getURL();
         title = listItem.getTitle();
         description = listItem.getDescription();
         lastModified = listItem.getLastModified();
@@ -96,8 +100,37 @@ public class CarouselSlide implements ListItem{
         return null;
     }
 
-    public String getUrl() {
-        return url;
+    protected void updateURL(SlingHttpServletRequest request)
+    {
+        if(path == null || path.isEmpty())
+        {
+            return;
+        }
+
+        if(!path.startsWith("/"))
+        {
+            URL = path;
+            return;
+        }
+
+        ResourceResolver resourceResolver = request.getResourceResolver();
+        Resource resource = resourceResolver.getResource(path);
+        if(resource == null)
+        {
+            return;
+        }
+        Page page = resource.adaptTo(Page.class);
+        if(page == null)
+        {
+            return;
+        }
+        URL = getURL(request, page);
+    }
+
+    @Nullable
+    @Override
+    public String getURL() {
+        return URL;
     }
 
     @Nullable
@@ -126,5 +159,10 @@ public class CarouselSlide implements ListItem{
 
     public String getImageSrc() {
         return imageSrc;
+    }
+
+    private String getURL(@Nonnull SlingHttpServletRequest request, @Nonnull Page page) {
+        String vanityURL = page.getVanityUrl();
+        return StringUtils.isEmpty(vanityURL) ? request.getContextPath() + page.getPath() + ".html" : request.getContextPath() + vanityURL;
     }
 }

@@ -1,5 +1,8 @@
 package com.headwire.coresites.core.models;
 
+import com.adobe.cq.export.json.ComponentExporter;
+import com.adobe.cq.export.json.ExporterConstants;
+import com.adobe.cq.wcm.core.components.internal.models.v2.ListImpl;
 import com.adobe.cq.wcm.core.components.models.List;
 import com.adobe.cq.wcm.core.components.models.ListItem;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -7,6 +10,7 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.Via;
 import org.apache.sling.models.annotations.injectorspecific.ScriptVariable;
@@ -23,12 +27,15 @@ import java.util.Collection;
  * Created by headwire on 3/8/2018.
  */
 
-@Model(adaptables = SlingHttpServletRequest.class,
-        adapters = List.class,
-        resourceType = "coresites/components/content/carousel",
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Carousel implements List  {
-    private static final Logger LOG = LoggerFactory.getLogger(Carousel.class);
+@Model(adaptables = SlingHttpServletRequest.class, adapters = {List.class, ComponentExporter.class}, resourceType = CoresitesList.RESOURCE_TYPE, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
+public class CoresitesList implements List  {
+    private static final Logger LOG = LoggerFactory.getLogger(CoresitesList.class);
+
+    protected static final String RESOURCE_TYPE = "coresites/components/content/list";
+
+    @Self
+    private SlingHttpServletRequest request;
 
     @Self
     @Via(type = ResourceSuperType.class)
@@ -55,7 +62,9 @@ public class Carousel implements List  {
             {
                 for(Resource slide : slidesRoot.getChildren())
                 {
-                    listItems.add(slide.adaptTo(CarouselSlide.class));
+                    CoresitesListItem listItem = slide.adaptTo(CoresitesListItem.class);
+                    listItem.updateURL(request);
+                    listItems.add(listItem);
                 }
             }
         }
@@ -65,7 +74,7 @@ public class Carousel implements List  {
             {
                 if(listItem != null)
                 {
-                    listItems.add(new CarouselSlide(listItem, resourceResolver));
+                    listItems.add(new CoresitesListItem(listItem, resourceResolver));
                 }
             }
         }
