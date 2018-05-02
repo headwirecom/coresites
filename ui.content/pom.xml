@@ -96,6 +96,7 @@
                     <properties>
                         <acHandling>merge_preserve</acHandling>
                     </properties>
+                    <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
                 </configuration>
             </plugin>
         </plugins>
