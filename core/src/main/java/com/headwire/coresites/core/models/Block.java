@@ -65,6 +65,15 @@ public class Block {
                 }
             }
         }
+
+        if(topPadding == null || topPadding.isEmpty())
+        {
+            topPadding = "10";
+        }
+        if(bottomPadding == null || bottomPadding.isEmpty())
+        {
+            bottomPadding = "10";
+        }
     }
 
     public String getStyleString()
