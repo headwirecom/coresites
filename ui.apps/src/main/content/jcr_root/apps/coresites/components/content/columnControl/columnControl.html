@@ -1,0 +1,10 @@
+<div data-sly-use.columnControl="com.headwire.coresites.core.models.ColumnControl"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasColumns="${columnControl.columns}"
+     class="row"
+     data-sly-list="${columnControl.columns}">
+    <div class="${item.widthString}">
+         <sly data-sly-resource="${item.resourceName @ resourceType='wcm/foundation/components/responsivegrid'}"/>
+    </div>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty = !hasColumns}"/>
