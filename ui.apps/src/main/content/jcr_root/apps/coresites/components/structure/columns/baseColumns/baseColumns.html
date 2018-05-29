@@ -1,0 +1,10 @@
+<div data-sly-use.columnComponent="com.headwire.coresites.core.models.ColumnComponent"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasColumns="${columnComponent.columns}"
+     class="row"
+     data-sly-list="${columnComponent.columns}">
+    <div class="${item.widthString}">
+         <sly data-sly-resource="${item.resourceName @ resourceType='coresites/components/structure/unresponsivegrid'}"/>
+    </div>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty = !hasColumns}"/>

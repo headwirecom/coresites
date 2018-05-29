@@ -1,0 +1,54 @@
+@screen-xs: 0;
+@screen-sm: 576px;
+@screen-md: 768px;
+@screen-lg: 992px;
+@screen-xl: 1200px;
+
+@gridpath : "/libs/wcm/foundation/clientlibs/grid";
+@import "@{gridpath}/grid_base.less";
+ 
+/* maximum amount of grid cells to be provided */
+@max_col: 12;
+ 
+/* default breakpoint */
+.aem-Grid {
+    .generate-grid(default, @max_col);
+    width: auto;
+}
+
+/* phone breakpoint */
+@media (max-width: (@screen-sm - 1)) {
+    .aem-Grid {
+        .generate-grid(phone, @max_col);
+    }
+}
+
+/* tablet breakpoint */
+@media (min-width: @screen-sm) and (max-width: @screen-lg) {
+    .aem-Grid {
+        .generate-grid(tablet, @max_col);
+    }
+}
+
+.aem-GridColumn {
+    padding-bottom: 5px;
+}
+
+.aem-GridGutter--5 {
+    .aem-GridColumn {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+}
+.aem-GridGutter--10 {
+    .aem-GridColumn {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.aem-GridGutter--20 {
+    .aem-GridColumn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

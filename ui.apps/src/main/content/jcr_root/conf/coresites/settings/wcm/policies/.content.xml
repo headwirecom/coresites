@@ -8,12 +8,12 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1520289293027
-                        jcr:lastModified="{Date}2018-04-06T08:46:30.375-07:00"
+                        jcr:lastModified="{Date}2018-05-25T18:04:50.642-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Blox,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -22,13 +22,13 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1520289293027>
                     <policy_1568462218782546
-                        jcr:lastModified="{Date}2018-04-24T09:22:21.879-07:00"
+                        jcr:lastModified="{Date}2018-05-25T18:08:54.752-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
                         sling:resourceType="wcm/core/components/policy/policy"
                         columns="12"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -793,7 +793,7 @@
                 </coreblock>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1522779791882
-                        jcr:lastModified="{Date}2018-04-25T13:13:09.395-07:00"
+                        jcr:lastModified="{Date}2018-05-23T15:11:36.389-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Text Styles"
@@ -807,7 +807,7 @@
                         <rtePlugins jcr:primaryType="nt:unstructured">
                             <paraformat
                                 jcr:primaryType="nt:unstructured"
-                                features="-">
+                                features="*">
                                 <formats
                                     jcr:primaryType="nt:unstructured"
                                     override="true">
@@ -851,7 +851,7 @@
                             </paraformat>
                             <misctools
                                 jcr:primaryType="nt:unstructured"
-                                features="-">
+                                features="sourceedit,specialchars">
                                 <specialCharsConfig jcr:primaryType="nt:unstructured">
                                     <chars
                                         jcr:primaryType="nt:unstructured"
@@ -877,31 +877,31 @@
                             </misctools>
                             <edit
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="paste-plaintext,paste-wordhtml"/>
                             <findreplace
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <spellcheck
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <table
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <lists
                                 jcr:primaryType="nt:unstructured"
                                 features="*"/>
                             <justify
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                             <format
                                 jcr:primaryType="nt:unstructured"
-                                features="bold,italic"/>
+                                features="bold,italic,underline"/>
                             <links
                                 jcr:primaryType="nt:unstructured"
                                 features="modifylink,unlink"/>
                             <subsuperscript
                                 jcr:primaryType="nt:unstructured"
-                                features="-"/>
+                                features="*"/>
                         </rtePlugins>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -1112,11 +1112,12 @@
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1520449984995
-                        jcr:lastModified="{Date}2018-04-09T13:09:12.241-07:00"
+                        jcr:lastModified="{Date}2018-05-28T20:01:59.058-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Theme styles"
-                        sling:resourceType="wcm/core/components/policy/policy">
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="coresites.grid">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -1155,6 +1156,96 @@
                     </policy_1524600269956>
                 </inPageNavigation>
                 <navigation jcr:primaryType="nt:unstructured"/>
+                <unresponsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1527562871314
+                        jcr:lastModified="{Date}2018-05-28T20:01:23.013-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Gridless Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1527562871314>
+                    <policy_271938647914064
+                        jcr:lastModified="{Date}2018-05-28T20:23:20.170-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Gridless Layout"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Container"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="container"
+                                        cq:styleId="1527564122470"
+                                        cq:styleLabel="Center"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="container-fluid"
+                                        cq:styleId="1527564136432"
+                                        cq:styleLabel="Full-Width"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Row"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="row"
+                                        cq:styleId="1527564147848"
+                                        cq:styleLabel="Row"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2
+                                cq:styleGroupLabel="Column"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="col"
+                                        cq:styleId="1527564157160"
+                                        cq:styleLabel="Flexible"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="col-1"
+                                        cq:styleId="1527564161084"
+                                        cq:styleLabel="Width-1"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="col-2"
+                                        cq:styleId="1527564168570"
+                                        cq:styleLabel="Width-2"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="col-3"
+                                        cq:styleId="1527564169612"
+                                        cq:styleLabel="Width-3"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="col-4"
+                                        cq:styleId="1527564170248"
+                                        cq:styleLabel="Width-4"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="col-5"
+                                        cq:styleId="1527564170923"
+                                        cq:styleLabel="Width-5"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item6
+                                        cq:styleClasses="col-6"
+                                        cq:styleId="1527564172464"
+                                        cq:styleLabel="Width-6"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item2>
+                        </cq:styleGroups>
+                    </policy_271938647914064>
+                </unresponsivegrid>
             </structure>
             <form jcr:primaryType="nt:unstructured">
                 <container jcr:primaryType="nt:unstructured">
