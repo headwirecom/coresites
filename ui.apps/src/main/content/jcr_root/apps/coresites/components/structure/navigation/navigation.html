@@ -8,7 +8,9 @@
     </button>
 
     <!-- Collapsible Menu -->
-    <div class="text-right collapse navbar-collapse justify-content-end ${!wcmmode.disabled ? 'placeholder-width' : ''}"
+    <!--/*removed classes text-right and justify-content-end*/-->
+    <!--/*might need to put them back for mobile-size only?*/-->
+    <div class="collapse navbar-collapse ${!wcmmode.disabled ? 'placeholder-width' : ''}"
          id="nav-${cc.id}"
         data-sly-use.template="core/wcm/components/commons/v1/templates.html"
         data-sly-use.navigation="com.adobe.cq.wcm.core.components.models.Navigation"

@@ -1,16 +1,34 @@
-<div class="${wcmmode.disabled ? 'cq-dd-video' : ''}">
-    <div data-sly-use.video="com.headwire.coresites.core.models.Video"
-         data-sly-test.hasSource="${video.source}">
-        <!-- <div data-sly-test.external="${video.external}" class="embed-responsive embed-responsive-16by9">
-            <iframe  src="${video.source}" class="embed-responsive-item" frameborder="0" allowfullscren>
-            </iframe>
-        </div> -->
+<div class="${wcmmode.disabled ? 'cq-dd-video' : ''}"
+     data-sly-use.video="com.headwire.coresites.core.models.Video"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html">
+    <div data-sly-test.isYoutube="${video.youtubeId && video.videoType == 'youtube'}">
+        <iframe  src="https://www.youtube.com/embed/${video.youtubeId}"
+                 class="embed-responsive-item"
+                 frameborder="0"
+                 allowfullscreen>
+        </iframe>
+    </div>
+
+    <div data-sly-test.isVimeo="${video.vimeoId && video.videoType == 'vimeo'}">
+        <iframe  src="https://player.vimeo.com/video/${video.vimeoId}"
+                 class="embed-responsive-item"
+                 frameborder="0"
+                 allowfullscreen>
+        </iframe>
+    </div>
+
+    <div data-sly-test.isDam="${video.damPath && video.videoType == 'dam'}">
         <video class="embed-responsive embed-responsive-16by9" controls>
-            <source src="${video.source}"/>
+            <source src="${video.damPath}"/>
             Your browser does not support the video tag.
         </video>
     </div>
-    <div data-sly-test="${!hasSource}">
-        Configure a source for the video
+
+    <div data-sly-test.isExternal="${video.externalSource && video.videoType == 'external'}">
+        <video class="embed-responsive embed-responsive-16by9" controls>
+            <source src="${video.externalSource}"/>
+            Your browser does not support the video tag.
+        </video>
     </div>
+    <sly data-sly-call="${template.placeholder @ isEmpty = video.empty}"/>
 </div>

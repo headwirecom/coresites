@@ -6,6 +6,6 @@
             jcr:primaryType="cq:DropTargetConfig"
             accept="[video/.*]"
             groups="[media]"
-            propertyName="./source"/>
+            propertyName="./damSource"/>
     </cq:dropTargets>
 </jcr:root>

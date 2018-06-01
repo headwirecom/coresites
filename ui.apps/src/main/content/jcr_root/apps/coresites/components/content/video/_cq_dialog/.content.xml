@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
           jcr:primaryType="nt:unstructured"
           jcr:title="Video"
           sling:resourceType="cq/gui/components/authoring/dialog">
@@ -26,12 +26,171 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/container">
                                         <items jcr:primaryType="nt:unstructured">
-                                            <source
+                                            <videoType
                                                 jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                                fieldLabel="Video source"
-                                                name="./source"
-                                                rootPath="/content/dam"/>
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                granite:class="cq-dialog-dropdown-showhide"
+                                                fieldLabel="Video Type"
+                                                name="./videoType">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cq-dialog-dropdown-showhide-target=".list-option-videoType-showhide-target"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <youtube
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="YouTube"
+                                                        value="youtube"/>
+                                                    <vimeo
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Vimeo"
+                                                        value="vimeo"/>
+                                                    <dam
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="DAM Asset"
+                                                        value="dam"/>
+                                                    <external
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Externally Hosted File"
+                                                        value="external"/>
+                                                </items>
+                                            </videoType>
+                                            <setYoutube
+                                                granite:class="hide list-option-videoType-showhide-target foundation-layout-util-vmargin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="youtube"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <heading
+                                                        granite:class="coral-Heading coral-Heading--4"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                                        level="{Long}4"
+                                                        text="Youtube"/>
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <container
+                                                                granite:class="foundation-layout-util-maximized-alt coral-Form-fieldwrapper"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                <items jcr:primaryType="nt:unstructured">
+                                                                    <youtubeId
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                                        fieldLabel="YouTube Video ID"
+                                                                        name="./youtubeId"/>
+                                                                </items>
+                                                            </container>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </setYoutube>
+                                            <setVimeo
+                                                granite:class="hide list-option-videoType-showhide-target foundation-layout-util-vmargin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="vimeo"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <heading
+                                                        granite:class="coral-Heading coral-Heading--4"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                                        level="{Long}4"
+                                                        text="Vimeo"/>
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <container
+                                                                granite:class="foundation-layout-util-maximized-alt coral-Form-fieldwrapper"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                <items jcr:primaryType="nt:unstructured">
+                                                                    <vimeoId
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                                        fieldLabel="Vimeo Video ID"
+                                                                        name="./vimeoId"/>
+                                                                </items>
+                                                            </container>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </setVimeo>
+                                            <setDam
+                                                granite:class="hide list-option-videoType-showhide-target foundation-layout-util-vmargin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="dam"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <heading
+                                                        granite:class="coral-Heading coral-Heading--4"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                                        level="{Long}4"
+                                                        text="DAM Asset"/>
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <container
+                                                                granite:class="foundation-layout-util-maximized-alt coral-Form-fieldwrapper"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                <items jcr:primaryType="nt:unstructured">
+                                                                    <damPath
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                                        fieldLabel="Video source"
+                                                                        name="./damPath"
+                                                                        rootPath="/content/dam"/>
+                                                                </items>
+                                                            </container>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </setDam>
+                                            <setExternal
+                                                granite:class="hide list-option-videoType-showhide-target foundation-layout-util-vmargin"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="external"/>
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <heading
+                                                        granite:class="coral-Heading coral-Heading--4"
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/heading"
+                                                        level="{Long}4"
+                                                        text="External Video Source"/>
+                                                    <well
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/well">
+                                                        <items jcr:primaryType="nt:unstructured">
+                                                            <container
+                                                                granite:class="foundation-layout-util-maximized-alt coral-Form-fieldwrapper"
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                <items jcr:primaryType="nt:unstructured">
+                                                                    <externalSource
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                        fieldLabel="Video source"
+                                                                        name="./externalSource"/>
+                                                                </items>
+                                                            </container>
+                                                        </items>
+                                                    </well>
+                                                </items>
+                                            </setExternal>
                                         </items>
                                     </column>
                                 </items>

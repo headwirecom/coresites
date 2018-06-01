@@ -27,7 +27,6 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        columns="12"
                         components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"

@@ -20,32 +20,78 @@ public class Video {
     private static final Logger LOG = LoggerFactory.getLogger(Video.class);
 
     @Inject
-    private String source;
+    private String videoType;
 
-    private boolean external;
+    @Inject
+    private String youtubeId;
+
+    @Inject
+    private String vimeoId;
+
+    @Inject
+    private String damPath;
+
+    @Inject
+    private String externalSource;
+
+    private boolean empty;
 
     @PostConstruct
-    private void initModel()
+    protected void initEmpty()
     {
-        LOG.debug("Setting external");
-        if(source != null && !source.isEmpty() && !source.startsWith("/"))
-        {
-            external = true;
-            LOG.debug("Setting external to true: {}", external);
-        }
-        else
-        {
-            external = false;
-            LOG.debug("Setting external to false: {}", external);
-        }
+        empty = (vimeoId == null || vimeoId.isEmpty())
+                && (youtubeId == null || youtubeId.isEmpty())
+                && (damPath == null || damPath.isEmpty())
+                && (youtubeId == null || youtubeId.isEmpty())
+                && (externalSource == null || externalSource.isEmpty());
     }
 
-    public String getSource() {
-        return source;
+
+    public String getVideoType() {
+        return videoType;
     }
 
-    public boolean isExternal() {
-        LOG.debug("Returning external: {}", external);
-        return external;
+    public void setVideoType(String videoType) {
+        this.videoType = videoType;
+    }
+
+    public String getYoutubeId() {
+        return youtubeId;
+    }
+
+    public void setYoutubeId(String youtubeId) {
+        this.youtubeId = youtubeId;
+    }
+
+    public String getVimeoId() {
+        return vimeoId;
+    }
+
+    public void setVimeoId(String vimeoId) {
+        this.vimeoId = vimeoId;
+    }
+
+    public String getDamPath() {
+        return damPath;
+    }
+
+    public void setDamPath(String damPath) {
+        this.damPath = damPath;
+    }
+
+    public String getExternalSource() {
+        return externalSource;
+    }
+
+    public void setExternalSource(String externalSource) {
+        this.externalSource = externalSource;
+    }
+
+    public boolean isEmpty() {
+        return empty;
+    }
+
+    public void setEmpty(boolean empty) {
+        this.empty = empty;
     }
 }
