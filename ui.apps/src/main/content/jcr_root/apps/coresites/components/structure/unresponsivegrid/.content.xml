@@ -4,4 +4,4 @@
     jcr:description="Include components in a responsive grid."
     jcr:primaryType="cq:Component"
     jcr:title="Layout Container - Coresites"
-    componentGroup="Coresites.Structure"/>
+    componentGroup="Coresites.Columns"/>

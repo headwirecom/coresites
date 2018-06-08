@@ -13,7 +13,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -27,7 +27,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -1162,7 +1162,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Gridless Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1527562871314>
                     <policy_271938647914064
@@ -1171,7 +1171,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Gridless Layout"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
