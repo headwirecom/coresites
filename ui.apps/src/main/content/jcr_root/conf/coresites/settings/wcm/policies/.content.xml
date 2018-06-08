@@ -8,12 +8,12 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1520289293027
-                        jcr:lastModified="{Date}2018-05-25T18:04:50.642-07:00"
+                        jcr:lastModified="{Date}2018-06-04T21:59:24.533Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"
@@ -22,12 +22,12 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1520289293027>
                     <policy_1568462218782546
-                        jcr:lastModified="{Date}2018-05-25T18:08:54.752-07:00"
+                        jcr:lastModified="{Date}2018-06-04T21:58:41.985Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Coresites Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/reference,group:Coresites.Columns,group:Coresites.Content,group:Coresites.Form,group:Coresites.Structure]">
                         <jcr:content
                             cq:lastReplicated="{Date}2018-04-13T12:52:37.318-07:00"
                             cq:lastReplicatedBy="admin"

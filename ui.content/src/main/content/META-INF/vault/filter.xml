@@ -3,6 +3,6 @@
 
     <filter root="/content/coresites"/>
     <filter root="/content/dam/coresites"/>
-    <filter root="/apps/coresites-samples"/>
+    <filter root="/apps/aarp"/>
 
 </workspaceFilter>

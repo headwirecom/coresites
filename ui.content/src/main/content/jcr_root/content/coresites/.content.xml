@@ -3,15 +3,13 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="/conf/coresites/settings/wcm/templates/.*"
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:deviceGroups="[mobile/groups/responsive]"
         cq:lastModified="{Date}2018-04-26T14:08:24.219-07:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="Coresites Site"
-        sling:redirect="true"
-        sling:redirectStatus="{Long}302"
-        sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/coresites/en">
+        sling:resourceType="coresites/components/structure/page"
+        cq:redirectTarget="/content/coresites/en">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
