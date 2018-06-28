@@ -8,7 +8,7 @@
     <sly data-sly-call="${clientlib.all @ categories='coresites.dependencies'}"/>
     <sly data-sly-call="${clientlib.css @ categories='coresites.base'}"/>
     <sly data-sly-repeat="${inheritedPageProperties.extraClientLibs}"
-         data-sly-call="${clientlib.all @ categories=item}"/>
+         data-sly-call="${clientlib.css @ categories=item}"/>
 </sly>
 
 <style data-sly-test="${coresitesPage.variableStyleString}">
