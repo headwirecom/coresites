@@ -20,11 +20,18 @@ public class Button {
     @Inject
     private String link;
 
+    @Inject
+    private String id;
+
     public String getText() {
         return text;
     }
 
     public String getLink() {
         return link;
+    }
+
+    public String getId() {
+        return id;
     }
 }

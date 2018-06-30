@@ -1,6 +1,7 @@
 <a data-sly-use.button="com.headwire.coresites.core.models.Button"
    data-sly-use.template="core/wcm/components/commons/v1/templates.html"
-    class="btn ${button.size} w-100"
+    class="btn w-100"
+    data-sly-attribute.id="${button.id}"
     href="${!button.link ? '#' : button.link @ extension = 'html'}" role="button">
     ${button.text}
 </a>
