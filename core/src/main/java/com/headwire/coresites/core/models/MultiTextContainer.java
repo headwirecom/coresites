@@ -11,45 +11,14 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by headwire on 3/7/2018.
- */
+public interface MultiTextContainer {
 
-@Model(adaptables = Resource.class,
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class MultiTextContainer {
-
-    private static final Logger LOG = LoggerFactory.getLogger(MultiTextContainer.class);
-
-    private List<MultiTextItem> items;
-
-    private String id;
-
-    @SlingObject
-    private Resource resource;
-
-    @PostConstruct
-    private void initModel()
-    {
-        Resource itemResource = resource.getChild("items");
-        if(itemResource != null)
-        {
-            items = new ArrayList<>();
-            for(Resource itemChild : itemResource.getChildren())
-            {
-                items.add(itemChild.adaptTo(MultiTextItem.class));
-            }
-        }
-
-        id = resource.getName();
+    default List<MultiTextItem> getItems() {
+        throw new UnsupportedOperationException();
     }
 
-    public List<MultiTextItem> getItems() {
-        return items;
-    }
-
-    public String getId()
+    default String getId()
     {
-        return id;
+        throw new UnsupportedOperationException();
     }
 }

@@ -1,33 +1,15 @@
 package com.headwire.coresites.core.models;
 
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.models.annotations.DefaultInjectionStrategy;
-import org.apache.sling.models.annotations.Model;
+public interface Card {
 
-import javax.inject.Inject;
 
-/**
- * Created by headwire on 3/6/2018.
- */
-
-@Model(adaptables = Resource.class,
-        resourceType = "coresites/components/content/card",
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Card {
-
-    @Inject
-    private String buttonLinkTo;
-
-    @Inject
-    private String buttonLabel;
-
-    public String getButtonLinkTo() {
-        return buttonLinkTo;
+    default String getButtonLinkTo() {
+        throw new UnsupportedOperationException();
     }
 
 
-    public String getButtonLabel() {
-        return buttonLabel;
+    default String getButtonLabel() {
+        throw new UnsupportedOperationException();
     }
 
 }

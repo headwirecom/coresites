@@ -1,23 +1,21 @@
 package com.headwire.coresites.core.models;
 
-public class Column
+public interface Column
 {
-    String widthString;
-    String resourceName;
 
-    public String getWidthString() {
-        return widthString;
+    default String getWidthString() {
+        throw new UnsupportedOperationException();
     }
 
-    public void setWidthString(String widthString) {
-        this.widthString = widthString;
+    default void setWidthString(String widthString) {
+        throw new UnsupportedOperationException();
     }
 
-    public String getResourceName() {
-        return resourceName;
+    default String getResourceName() {
+        throw new UnsupportedOperationException();
     }
 
-    public void setResourceName(String resourceName) {
-        this.resourceName = resourceName;
+    default void setResourceName(String resourceName) {
+        throw new UnsupportedOperationException();
     }
 }

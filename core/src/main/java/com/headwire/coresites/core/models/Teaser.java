@@ -10,83 +10,41 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by headwire on 3/14/2018.
- */
+public interface Teaser {
 
-@Model(adaptables = Resource.class,
-        resourceType = "coresites/components/content/teaser",
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Teaser {
-
-    @Inject
-    private boolean hideTitle;
-    @Inject
-    private boolean hideSubtitle;
-    @Inject
-    private boolean hideText;
-    @Inject
-    private boolean hideButtons;
-
-    @Inject
-    private String alignContent;
-    @Inject
-    private String alignButtons;
-    @Inject
-    private String buttonSize;
-
-    private List<Button> buttons;
-
-    @SlingObject
-    private Resource resource;
-
-    @PostConstruct
-    private void initModel()
-    {
-        Resource buttonsResource = resource.getChild("buttons");
-        if(buttonsResource != null)
-        {
-            buttons = new ArrayList<>();
-            for(Resource buttonChild : buttonsResource.getChildren())
-            {
-                buttons.add(buttonChild.adaptTo(Button.class));
-            }
-        }
+    default boolean isHideTitle() {
+        throw new UnsupportedOperationException();
     }
 
-    public boolean isHideTitle() {
-        return hideTitle;
+    default boolean isHideSubtitle() {
+        throw new UnsupportedOperationException();
     }
 
-    public boolean isHideSubtitle() {
-        return hideSubtitle;
+    default boolean isHideText() {
+        throw new UnsupportedOperationException();
     }
 
-    public boolean isHideText() {
-        return hideText;
+    default boolean isHideButtons() {
+        throw new UnsupportedOperationException();
     }
 
-    public boolean isHideButtons() {
-        return hideButtons;
+    default String getAlignContent() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getAlignContent() {
-        return alignContent;
+    default String getAlignButtons() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getAlignButtons() {
-        return alignButtons;
+    default String getButtonSize() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getButtonSize() {
-        return buttonSize;
+    default List<Button> getButtons() {
+        throw new UnsupportedOperationException();
     }
 
-    public List<Button> getButtons() {
-        return buttons;
-    }
-
-    public Resource getResource() {
-        return resource;
+    default Resource getResource() {
+        throw new UnsupportedOperationException();
     }
 }

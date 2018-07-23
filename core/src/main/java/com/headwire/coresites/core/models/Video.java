@@ -9,89 +9,53 @@ import org.slf4j.LoggerFactory;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
-/**
- * Created by headwire on 3/8/2018.
- */
+public interface Video {
 
-@Model(adaptables = Resource.class,
-        resourceType = "coresites/components/content/video",
-        defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Video {
-    private static final Logger LOG = LoggerFactory.getLogger(Video.class);
-
-    @Inject
-    private String videoType;
-
-    @Inject
-    private String youtubeId;
-
-    @Inject
-    private String vimeoId;
-
-    @Inject
-    private String damPath;
-
-    @Inject
-    private String externalSource;
-
-    private boolean empty;
-
-    @PostConstruct
-    protected void initEmpty()
-    {
-        empty = (vimeoId == null || vimeoId.isEmpty())
-                && (youtubeId == null || youtubeId.isEmpty())
-                && (damPath == null || damPath.isEmpty())
-                && (youtubeId == null || youtubeId.isEmpty())
-                && (externalSource == null || externalSource.isEmpty());
+    default String getVideoType() {
+        throw new UnsupportedOperationException();
     }
 
-
-    public String getVideoType() {
-        return videoType;
+    default void setVideoType(String videoType) {
+        throw new UnsupportedOperationException();
     }
 
-    public void setVideoType(String videoType) {
-        this.videoType = videoType;
+    default String getYoutubeId() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getYoutubeId() {
-        return youtubeId;
+    default void setYoutubeId(String youtubeId) {
+        throw new UnsupportedOperationException();
     }
 
-    public void setYoutubeId(String youtubeId) {
-        this.youtubeId = youtubeId;
+    default String getVimeoId() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getVimeoId() {
-        return vimeoId;
+    default void setVimeoId(String vimeoId) {
+        throw new UnsupportedOperationException();
     }
 
-    public void setVimeoId(String vimeoId) {
-        this.vimeoId = vimeoId;
+    default String getDamPath() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getDamPath() {
-        return damPath;
+    default void setDamPath(String damPath) {
+        throw new UnsupportedOperationException();
     }
 
-    public void setDamPath(String damPath) {
-        this.damPath = damPath;
+    default String getExternalSource() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getExternalSource() {
-        return externalSource;
+    default void setExternalSource(String externalSource) {
+        throw new UnsupportedOperationException();
     }
 
-    public void setExternalSource(String externalSource) {
-        this.externalSource = externalSource;
+    default boolean isEmpty() {
+        throw new UnsupportedOperationException();
     }
 
-    public boolean isEmpty() {
-        return empty;
-    }
-
-    public void setEmpty(boolean empty) {
-        this.empty = empty;
+    default void setEmpty(boolean empty) {
+        throw new UnsupportedOperationException();
     }
 }

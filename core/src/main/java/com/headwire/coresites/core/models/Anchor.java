@@ -4,23 +4,15 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 
-import javax.inject.Inject;
-
 @Model(adaptables = Resource.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class Anchor {
+public interface Anchor {
 
-    @Inject
-    private String text;
-
-    @Inject
-    private String href;
-
-    public String getText() {
-        return text;
+    default String getText() {
+        throw new UnsupportedOperationException();
     }
 
-    public String getHref() {
-        return href;
+    default String getHref() {
+        throw new UnsupportedOperationException();
     }
 }
