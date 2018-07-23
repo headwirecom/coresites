@@ -14,6 +14,10 @@
 <style data-sly-test="${coresitesPage.variableStyleString}">
     ${coresitesPage.variableStyleString @ context = 'unsafe'}
 </style>
-     
+
+
 <!--/* Load authoring related client libraries */-->
 <sly data-sly-test="${wcmmode.preview || wcmmode.edit}" data-sly-call="${clientLib.all @ categories='coresites.author'}"/>
+
+<!--/* Include Context Hub */-->
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
